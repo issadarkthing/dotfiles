@@ -1,0 +1,35 @@
+[General]
+screenCount=1
+
+[LegacySession: saved at previous logout]
+clientMachine1=localhost
+command1=mainwindow.py
+count=1
+
+[Session: saved at previous logout]
+clientId1=1014510614d143000158442404200000015780001
+clientId2=1014510614d143000158470932000000020550004
+clientId3=1014510614d143000158442405700000015780010
+clientId4=1014510614d143000158470932400000020550007
+count=4
+discardCommand1[$e]=rm,$HOME/.config/session/kwin_1014510614d143000158442404200000015780001_1584710812_402804
+program1=kwin_x11
+program2=/usr/lib/x86_64-linux-gnu/libexec/kdeconnectd
+program3=/usr/lib/x86_64-linux-gnu/libexec/org_kde_powerdevil
+program4=pulseaudio
+restartCommand1=kwin_x11,-session,1014510614d143000158442404200000015780001_1584710812_402804
+restartCommand2=/usr/lib/x86_64-linux-gnu/libexec/kdeconnectd,-session,1014510614d143000158470932000000020550004_1584710812_400526
+restartCommand3=/usr/lib/x86_64-linux-gnu/libexec/org_kde_powerdevil,-session,1014510614d143000158442405700000015780010_1584710812_400574
+restartCommand4=
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+restartStyleHint4=0
+userId1=terra
+userId2=terra
+userId3=terra
+userId4=terra
+wasWm1=true
+wasWm2=false
+wasWm3=false
+wasWm4=false

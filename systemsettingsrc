@@ -1,0 +1,18 @@
+[DownloadDialog Settings]
+Height 1080=522
+Width 1920=700
+
+[KFileDialog Settings]
+Recent Files[$e]=i3-sensible-terminal,file:$HOME/Pictures/background/small-memory-lp-1920x1080.jpg,file:///usr/bin/i3-sensible-terminal
+Recent URLs[$e]=file:///usr/bin/,file:$HOME/Pictures/background/
+
+[MainWindow]
+Height 1080=952
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABAAAAAO4AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=872
+
+[Open-with settings]
+CompletionMode=1
+History=/usr/bin/i3-sensible-terminal

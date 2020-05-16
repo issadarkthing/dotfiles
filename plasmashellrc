@@ -1,0 +1,20 @@
+[KFileDialog Settings]
+Recent Files[$e]=small-memory-lp-1920x1080.jpg,file:$HOME/Pictures/background/small-memory-lp-1920x1080.jpg
+Recent URLs[$e]=file:$HOME/Pictures/background/
+
+[PlasmaRunnerManager]
+LaunchCounts=1 services_discord.desktop,1 services_debian-xterm.desktop,1 services_netpref.desktop,1 services_PlayOnLinux.desktop,1 services_org.kde.konsole.desktop,5 recentdocuments_file:///usr/bin/i3-sensible-terminal,1 services_firefox.desktop,2 services_systemsettings.desktop,1 services_kcm_kscreen.desktop,1 desktopsessions_2,2 services_nic.desktop
+pluginWhiteList=services,places,desktopsessions,PowerDevil,shell,bookmarks,recentdocuments,locations,baloosearch
+
+[PlasmaViews][Panel 2]
+alignment=2
+panelVisibility=0
+
+[PlasmaViews][Panel 2][Horizontal1920]
+thickness=36
+
+[ScreenConnectors]
+0=eDP-1-1
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js

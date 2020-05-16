@@ -1,0 +1,16 @@
+# GIMP action-history
+
+(history-item "file-quit" 1)
+(history-item "file-open" 1)
+(history-item "image-new" 0)
+(history-item "file-open-as-layers" 0)
+(history-item "windows-tab-position" 0)
+(history-item "view-zoom-in" 1)
+(history-item "edit-fill-fg" 0)
+(history-item "layers-new" 0)
+(history-item "file-save-as" 0)
+(history-item "file-export-as" 0)
+(history-item "layers-edit-attributes" 0)
+(history-item "file-open-location" 1)
+
+# end of action-history

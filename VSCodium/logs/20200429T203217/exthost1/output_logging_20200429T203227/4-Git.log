@@ -1,0 +1,1704 @@
+Looking for git in: git
+Using git 2.20.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/terra/Documents/system33/typescript/ChaosRPG
+> git status -z -u
+> git show :main/src/utils.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/src/utils.ts
+> git cat-file -s 4302377d0491845f474517ba7755a3ba9728dfc0
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git show :main/local/items.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/local/items.ts
+> git cat-file -s 18f3ad557c2bad41cf5a2f98fcd5b21f01fda3c7
+> git check-ignore -v -z --stdin
+> git show :main/src/utils.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/src/utils.ts
+> git cat-file -s 4302377d0491845f474517ba7755a3ba9728dfc0
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :main/src/discoinHandler.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/src/discoinHandler.ts
+> git cat-file -s e80de165063350f4ebed566209eb657555ce3e3f
+> git show :main/local/storage.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/local/storage.ts
+> git cat-file -s 28ee469f5a3d937f31edd75ea49ba262dca71135
+> git show :main/src/discoinHandler.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/src/discoinHandler.ts
+> git cat-file -s e80de165063350f4ebed566209eb657555ce3e3f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git show :main/local/storage.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/local/storage.ts
+> git cat-file -s 28ee469f5a3d937f31edd75ea49ba262dca71135
+> git show :main/src/discoinHandler.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/src/discoinHandler.ts
+> git cat-file -s e80de165063350f4ebed566209eb657555ce3e3f
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :main/commands/rpg/arena.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/arena.ts
+> git cat-file -s ddf45138d21ed2deb5c7105bfae6892031c7082d
+> git show :main/commands/rpg/armory.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/armory.ts
+> git cat-file -s 58b1f543e409ca0b92404291edeae11dcde42eb5
+> git show :main/commands/rpg/afk.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/afk.ts
+> git cat-file -s 95ab6b6500035b2a90a83ea35103a635823e9a10
+> git check-ignore -v -z --stdin
+> git show :main/commands/rpg/arena.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/arena.ts
+> git cat-file -s ddf45138d21ed2deb5c7105bfae6892031c7082d
+> git show :main/commands/rpg/armory.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/armory.ts
+> git cat-file -s 58b1f543e409ca0b92404291edeae11dcde42eb5
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git show :main/commands/rpg/afk.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/afk.ts
+> git cat-file -s 95ab6b6500035b2a90a83ea35103a635823e9a10
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git show :main/commands/rpg/armory.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/armory.ts
+> git cat-file -s 58b1f543e409ca0b92404291edeae11dcde42eb5
+> git show :main/commands/rpg/blackmarket.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/blackmarket.ts
+> git cat-file -s b76bd106d1376732150d3762b150233314bc2e05
+> git show :main/commands/rpg/battle.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/battle.ts
+> git cat-file -s 2915ccb855f14b18878b60afd511283402b46028
+> git check-ignore -v -z --stdin
+> git show :main/index.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/index.ts
+> git cat-file -s 523cc2f0a1b06ea8f5be39cdbc5b9ccac4e23b88
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git show :main/src/bot_detector.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/src/bot_detector.ts
+> git cat-file -s 3bf55d124dd9a66998a6d9cd3ca700592073c806
+> git show :main/index.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/index.ts
+> git cat-file -s 523cc2f0a1b06ea8f5be39cdbc5b9ccac4e23b88
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/index.ts
+> git cat-file -s 7952c0061ead5dde17d0e8e0a3d9ed040977dc46
+> git show :main/index.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/index.ts
+> git cat-file -s 7952c0061ead5dde17d0e8e0a3d9ed040977dc46
+> git show :main/index.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git show :main/index.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/index.ts
+> git cat-file -s 7952c0061ead5dde17d0e8e0a3d9ed040977dc46
+> git show :main/src/info.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/src/info.ts
+> git cat-file -s 6c2daa6774dace97e477168994e7920f6a87fff5
+> git show :main/src/discoinHandler.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/src/discoinHandler.ts
+> git cat-file -s 03c76bc6f7b1e062fea20ab36bbac583bb398f25
+> git show :main/src/bot_detector.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/src/bot_detector.ts
+> git cat-file -s 3bf55d124dd9a66998a6d9cd3ca700592073c806
+> git show :main/src/clan.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/src/clan.ts
+> git cat-file -s b28b04f643122b019e912540f228c8ed20be9eeb
+> git show :main/index.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/index.ts
+> git cat-file -s 7952c0061ead5dde17d0e8e0a3d9ed040977dc46
+> git show :main/commands/rpg/afk.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/afk.ts
+> git cat-file -s 404a9b4cda48ced88554f3393f814d2bab446e47
+> git show :main/commands/rpg/arena.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/arena.ts
+> git cat-file -s ddf45138d21ed2deb5c7105bfae6892031c7082d
+> git show :main/commands/rpg/armory.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/armory.ts
+> git cat-file -s 5a0535a5003ca78180eaa17906ed373e85e0969a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git show :main/commands/rpg/blackmarket.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/blackmarket.ts
+> git cat-file -s b76bd106d1376732150d3762b150233314bc2e05
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git show :main/commands/rpg/convert.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/convert.ts
+> git cat-file -s 21ae1d875450c5a90d5717c52a5a6b83011bb81d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git show :main/commands/rpg/give.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/give.ts
+> git cat-file -s 3822c358960f0a95c8c81fcd2cf1cab26665002e
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git show :main/commands/rpg/reset.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/reset.ts
+> git cat-file -s 44eb78bf7d9b86ee492eabc965844c1a4ada6a91
+> git show :main/commands/rpg/talent.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/talent.ts
+> git cat-file -s 3a631846d678f8f76945d88945afc1ea20546be8
+> git show :main/commands/mgive.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/mgive.ts
+> git cat-file -s a0bd49d78e13af747161ce008dda2f8da4fcc9e9
+> git show :main/commands/ban.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/ban.ts
+> git cat-file -s 01011ebb37f241196b507935608d9536f6b9055b
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/ban.ts
+> git cat-file -s 01011ebb37f241196b507935608d9536f6b9055b
+> git show :main/commands/ban.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/ban.ts
+> git cat-file -s 01011ebb37f241196b507935608d9536f6b9055b
+> git show :main/commands/ban.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git show :main/commands/rpg/convert.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/convert.ts
+> git cat-file -s 98f3bc8d7d4a0b46c2dd719bd8bffb0849941127
+> git show :main/src/discoinHandler.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/src/discoinHandler.ts
+> git cat-file -s 03c76bc6f7b1e062fea20ab36bbac583bb398f25
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/src/discoinHandler.ts
+> git cat-file -s 49dca18da0ca3ba71a7e027ca53e7f728d7dc882
+> git show :main/src/discoinHandler.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git show :main/commands/rpg/blackmarket.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/blackmarket.ts
+> git cat-file -s 87b5f8043a81d2559f1bbae6d8fc5bd9225d9b7d
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :dist/commands/rpg/blackmarket.js
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/dist/commands/rpg/blackmarket.js
+> git cat-file -s 1b0e6f679eb9b845c97f4987655b53f2cd5c37b6
+> git show :main/commands/rpg/blackmarket.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/blackmarket.ts
+> git cat-file -s 87b5f8043a81d2559f1bbae6d8fc5bd9225d9b7d
+> git show :main/src/info.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/src/info.ts
+> git cat-file -s 6c2daa6774dace97e477168994e7920f6a87fff5
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git show :main/index.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/index.ts
+> git cat-file -s 7952c0061ead5dde17d0e8e0a3d9ed040977dc46
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/index.ts
+> git cat-file -s 3dd227e3feb8914238b3ca4bb50bd4403651d332
+> git show :main/index.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git show :main/commands/rpg/convert.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/convert.ts
+> git cat-file -s 98f3bc8d7d4a0b46c2dd719bd8bffb0849941127
+> git show :main/src/discoinHandler.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/src/discoinHandler.ts
+> git cat-file -s 49dca18da0ca3ba71a7e027ca53e7f728d7dc882
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git show :main/commands/rpg/blackmarket.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/blackmarket.ts
+> git cat-file -s 87b5f8043a81d2559f1bbae6d8fc5bd9225d9b7d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show HEAD:main/src/discoinHandler.ts
+> git ls-tree -l HEAD -- /home/terra/Documents/system33/typescript/ChaosRPG/main/src/discoinHandler.ts
+> git show :main/commands/rpg/blackmarket.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/blackmarket.ts
+> git cat-file -s 87b5f8043a81d2559f1bbae6d8fc5bd9225d9b7d
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/blackmarket.ts
+> git show :main/commands/rpg/give.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/give.ts
+> git cat-file -s d756f5d167d89c72919bd90fe956f8b839fbb95c
+> git show :main/src/PlayerStats.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/src/PlayerStats.ts
+> git cat-file -s d31d3678ef9a32123766a26d8953771c2a9cdd5e
+> git show :main/commands/rpg/blackmarket.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/blackmarket.ts
+> git cat-file -s 87b5f8043a81d2559f1bbae6d8fc5bd9225d9b7d
+> git show :main/commands/rpg/give.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/give.ts
+> git cat-file -s d756f5d167d89c72919bd90fe956f8b839fbb95c
+> git show :main/src/discoinHandler.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/src/discoinHandler.ts
+> git cat-file -s 49dca18da0ca3ba71a7e027ca53e7f728d7dc882
+> git show :main/index.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/index.ts
+> git cat-file -s 3dd227e3feb8914238b3ca4bb50bd4403651d332
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/index.ts
+> git cat-file -s 6630bc12f7cbf38f7e9441336f9ceb1cc85f235c
+> git show :main/index.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/index.ts
+> git cat-file -s 6630bc12f7cbf38f7e9441336f9ceb1cc85f235c
+> git show :main/index.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git show :main/src/info.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/src/info.ts
+> git cat-file -s 3015233c946892f956787180ca2b3d21550b42b2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/src/info.ts
+> git cat-file -s 5c928d387c45009cc6370e1bbcdd0c9c5accf8f0
+> git show :main/src/info.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/src/info.ts
+> git cat-file -s 5c928d387c45009cc6370e1bbcdd0c9c5accf8f0
+> git show :main/src/info.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git show :main/index.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/index.ts
+> git cat-file -s 6f9a28a4fac7da7fa91ecd11612ec1e95801d905
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/index.ts
+> git cat-file -s d9b2c5346d8803f0a1d56a691d5e3610cd0afc43
+> git show :main/index.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git show :main/src/info.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/src/info.ts
+> git cat-file -s 5c928d387c45009cc6370e1bbcdd0c9c5accf8f0
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git show :main/index.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/index.ts
+> git cat-file -s d9b2c5346d8803f0a1d56a691d5e3610cd0afc43
+> git show :main/src/bot_detector.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/src/bot_detector.ts
+> git cat-file -s 3bf55d124dd9a66998a6d9cd3ca700592073c806
+> git show :main/index.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/index.ts
+> git cat-file -s d9b2c5346d8803f0a1d56a691d5e3610cd0afc43
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/index.ts
+> git cat-file -s 3f421b989732a3898b3cef6e37c0046601526b37
+> git show :main/index.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git show :main/src/info.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/src/info.ts
+> git cat-file -s 5c928d387c45009cc6370e1bbcdd0c9c5accf8f0
+> git show :main/index.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/index.ts
+> git cat-file -s 3f421b989732a3898b3cef6e37c0046601526b37
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/index.ts
+> git cat-file -s 73b9718745f493d5fea7fd5677c85d2fbc05f2af
+> git show :main/index.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/index.ts
+> git cat-file -s 40cd2175e946bef9c29ff7f0d96e1a72b2f596b8
+> git show :main/index.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/index.ts
+> git cat-file -s 4eefc5801bea26498d096d7fff2787762383099d
+> git show :main/index.ts
+> git show :main/commands/rpg/arena.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/arena.ts
+> git cat-file -s ddf45138d21ed2deb5c7105bfae6892031c7082d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/arena.ts
+> git cat-file -s 3c2fba420578fdb9c15caa486374513144148ba5
+> git show :main/commands/rpg/arena.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git show :main/src/discoinHandler.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/src/discoinHandler.ts
+> git cat-file -s 8696c0678bf5e98015ddf1fcfcedb6ae935bd1e2
+> git show :main/index.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/index.ts
+> git cat-file -s 4eefc5801bea26498d096d7fff2787762383099d
+> git show :main/src/info.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/src/info.ts
+> git cat-file -s 5c928d387c45009cc6370e1bbcdd0c9c5accf8f0
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git show :main/index.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/index.ts
+> git cat-file -s 4eefc5801bea26498d096d7fff2787762383099d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/index.ts
+> git cat-file -s e384d88efb21a1e37ae722c214e3c37f5371ac59
+> git show :main/index.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git show :main/commands/rpg/afk.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/afk.ts
+> git cat-file -s 404a9b4cda48ced88554f3393f814d2bab446e47
+> git show :main/commands/rpg/arena.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/arena.ts
+> git cat-file -s 3c2fba420578fdb9c15caa486374513144148ba5
+> git show :main/commands/rpg/armory.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/armory.ts
+> git cat-file -s c342ee5dc633076bc66acdafe0793573b7fb0006
+> git show :main/tags
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/tags
+> git cat-file -s 9642de81ed4dd95dbebd28bd8897336c2ae5da6e
+> git show :main/index.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/index.ts
+> git cat-file -s e384d88efb21a1e37ae722c214e3c37f5371ac59
+> git show :.env
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/.env
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git show :main/src/info.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/src/info.ts
+> git cat-file -s 90efb3c2d5ace61377251a140c25fc6f2b9d4cf9
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git show :main/index.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/index.ts
+> git cat-file -s e384d88efb21a1e37ae722c214e3c37f5371ac59
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/index.ts
+> git cat-file -s a46a50f495f38a38aa5f858f32b97a833ab76973
+> git show :main/index.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/terra/Documents/system33/typescript/ChaosRPG/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:598268)
+	at T.updateTransientWatchers (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:83870)
+	at e.fire (/usr/share/codium/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:517)
+	at e.updateModelState (/usr/share/codium/resources/app/extensions/git/dist/main.js:1:102740)
+> git config --get commit.template

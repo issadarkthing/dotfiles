@@ -1,0 +1,33 @@
+[Added Associations]
+video/mp4=vlc_vlc.desktop;
+application/x-ms-dos-executable=wine-extension-compositefont.desktop;
+video/x-matroska=vlc_vlc.desktop;
+x-scheme-handler/http=userapp-Nightly-TP9JH0.desktop;firefox.desktop;
+x-scheme-handler/https=userapp-Nightly-TP9JH0.desktop;firefox.desktop;
+x-scheme-handler/ftp=userapp-Nightly-TP9JH0.desktop;firefox.desktop;
+x-scheme-handler/chrome=userapp-Nightly-TP9JH0.desktop;firefox.desktop;
+text/html=userapp-Nightly-TP9JH0.desktop;firefox.desktop;
+application/x-extension-htm=userapp-Nightly-TP9JH0.desktop;firefox.desktop;
+application/x-extension-html=userapp-Nightly-TP9JH0.desktop;firefox.desktop;
+application/x-extension-shtml=userapp-Nightly-TP9JH0.desktop;firefox.desktop;
+application/xhtml+xml=userapp-Nightly-TP9JH0.desktop;firefox.desktop;
+application/x-extension-xhtml=userapp-Nightly-TP9JH0.desktop;firefox.desktop;
+application/x-extension-xht=userapp-Nightly-TP9JH0.desktop;firefox.desktop;
+font/ttf=org.gnome.FontManager.desktop;
+application/x-font-pcf=org.gnome.FontManager.desktop;org.gnome.font-viewer.desktop;
+application/octet-stream=org.gnome.FontManager.desktop;
+
+[Default Applications]
+x-scheme-handler/tg=telegramdesktop.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/ftp=firefox.desktop
+x-scheme-handler/chrome=firefox.desktop
+text/html=firefox.desktop
+application/x-extension-htm=firefox.desktop
+application/x-extension-html=firefox.desktop
+application/x-extension-shtml=firefox.desktop
+application/xhtml+xml=firefox.desktop
+application/x-extension-xhtml=firefox.desktop
+application/x-extension-xht=firefox.desktop
+x-scheme-handler/msteams=teams.desktop

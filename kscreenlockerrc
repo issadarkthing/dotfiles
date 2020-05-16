@@ -1,0 +1,11 @@
+[$Version]
+update_info=kscreenlocker.upd:0.1-autolock
+
+[Daemon]
+Autolock=false
+
+[Greeter]
+Theme=org.kde.breezedark.desktop
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=file:///home/terra/Pictures/background/small-memory-lp-1920x1080.jpg

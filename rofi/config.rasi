@@ -1,0 +1,14 @@
+
+configuration {
+  show-icons:			   true;
+  location:					  5;
+  yoffset:					-50;
+  xoffset:					-20;
+  matching:			   "normal";
+  font:	  "Ubuntu Condensed 14";
+  kb-row-up:				"K";
+  kb-row-down:				"J";
+  kb-row-left:				"H";
+  kb-row-right:				"L";
+}
+@import "~/.config/rofi/themes/Monokai.rasi"

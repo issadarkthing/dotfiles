@@ -1,0 +1,8 @@
+{
+    "window.zoomLevel": 1,
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "workbench.colorTheme": "Gotham",
+    "editor.renderIndentGuides": false,
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.value": 4
+}

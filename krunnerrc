@@ -1,0 +1,5 @@
+[General]
+history=,i3-sen,term,system
+
+[PlasmaRunnerManager]
+LaunchCounts=1 services_debian-uxterm.desktop,4 recentdocuments_file:///usr/bin/i3-sensible-terminal,1 services_systemsettings.desktop

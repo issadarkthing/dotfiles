@@ -1,0 +1,32 @@
+sw_volume: 100
+audio_device_state:1:pulse
+state: pause
+current: 13
+time: 163.285000
+random: 1
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Chief Keef-Love Sosa.mp3
+1:DripReport - Skechers (Lyrics).mp3
+2:Ellie Goulding, Juice WRLD - Hate Me.mp3
+3:Juice WRLD - All Girls Are The Same.mp3
+4:Juice WRLD - Bandit ft. NBA Youngboy (Dir. by @_ColeBennett_).mp3
+5:Juice WRLD - Lucid Dreams.mp3
+6:Lil Baby - Woah.mp3
+7:Lil Mosey - Blueberry Faygo.mp3
+8:Lil Skies - Creeping (feat. Rich the Kid).mp3
+9:Powfu - death bed (coffee for your head).mp3
+10:Rich Brian - Dat $tick (Official Video).mp3
+11:Roddy Ricch - The Box.mp3
+12:Ski Mask the Slump God-Catch Me Outside.mp3
+13:Travis Scott - goosebumps.mp3
+14:Trippie Redd - The Grinch.mp3
+15:Y2K, bbno$ - Lalala (Official Video)-N2Y2vQ-1m7M.mp3
+16:YNW Melly - Mama Cry.mp3
+17:YNW Melly - Suicidal.mp3
+playlist_end

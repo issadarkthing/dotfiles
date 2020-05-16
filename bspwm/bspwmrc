@@ -1,0 +1,35 @@
+#! /bin/sh
+
+bspc rule -r "*"
+
+sxhkd &
+
+bspc monitor -d I II III IV V VI VII VIII IX X
+
+feh --bg-scale ~/Pictures/abandoned/airplane.jpg &
+compton &
+
+# polybar
+~/.config/polybar/launch.sh &
+
+bspc config border_width         4
+bspc config window_gap          12
+
+bspc config split_ratio          0.58
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+bspc rule -a Gimp desktop='^8' state=floating follow=on
+bspc rule -a "Microsoft Teams - Preview" desktop='^8'
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=off
+
+# color
+bspc config normal_border_color "#74737c"
+bspc config focused_border_color "#093748"
+bspc config urgent_border_color "#c33027"
+
+
+
+# startup applications (executed once)
+~/Documents/scripts/startup.sh &

@@ -1,0 +1,17 @@
+[DecryptVerifyFilesDialog]
+geometry=\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02z\x00\x00\x01$\x00\x00\x05\x01\x00\x00\x03\x0b\x00\x00\x02~\x00\x00\x01(\x00\x00\x04\xfd\x00\x00\x03\x07\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x02~\x00\x00\x01(\x00\x00\x04\xfd\x00\x00\x03\x07
+
+[Import Certificate]
+last-open-file-directory[$e]=$HOME/Documents/backup
+
+[LookupCertificatesDialog]
+Size=600,400
+
+[MainWindow]
+Height 1080=1004
+State=AAAA/wAAAAD9AAAAAAAAB1IAAAOaAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=1874
+
+[Self-Test]
+run-at-startup=true

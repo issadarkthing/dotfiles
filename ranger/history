@@ -1,0 +1,50 @@
+open
+extract
+unrar
+reload_cwd
+rename dchbg
+search .transmission
+search .config
+linemode
+linemode sizemtime
+linemode mtime
+linemode filename
+filter plcl
+grep casting
+mark
+mark plc
+unmark
+mark ^em110$
+mark ^plc$
+run
+mkdir nanatsu-no-taizai
+search lib
+search transmission
+linemode dir_size
+my_edit vim
+my_edit commands.py
+reload
+reload_cwd 
+open_with sxiv
+rename front-cover.pdf
+open_with mws
+open_with m
+search rmws
+chmod 755
+shell rmws
+rmws
+z blaq
+z Videos
+rename [Seto_Otaku]_Princess_Lover!_-_06_[Blu-ray][1920x1080_H264_FLAC][DBA31AB7].mkv
+open_with 
+open_with zaread
+q
+[<0;24;16m[<64;33;19M[<64;33;19M[<64;33;19M[<65;33;19M[<65;33;19M[<65;33;19M[<65;33;19M[<64;33;19M[<64;33;19M[<64;33;19M[<64;33;19M[<65;33;19M[<65;33;19M[<65;33;19M[<65;33;19M[<65;33;19M
+search *.deb
+search *.lua
+search
+search mpv
+
+z Downloads
+delete
+cd

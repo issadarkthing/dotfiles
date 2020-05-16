@@ -1,0 +1,113 @@
+May 14 21:47 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 21:47 : exception: Failed to open '/home/terra/.config/mpd/mpdstate': No such file or directory
+May 14 21:47 : update: added /Y2K, bbno$ - Lalala (Official Video)-N2Y2vQ-1m7M.mp3
+May 14 21:47 : update: added /Rich Brian - Dat $tick (Official Video).mp3
+May 14 21:47 : update: added /DripReport - Skechers (Lyrics).mp3
+May 14 21:47 : update: added /Juice WRLD - Bandit ft. NBA Youngboy (Dir. by @_ColeBennett_).mp3
+May 14 21:47 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 14 21:47 : exception: Failed to read mixer for 'default detected output': no such mixer control: PCM
+May 14 21:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 21:53 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+May 14 21:55 : player: played "DripReport - Skechers (Lyrics).mp3"
+May 14 21:58 : player: played "Juice WRLD - Bandit ft. NBA Youngboy (Dir. by @_ColeBennett_).mp3"
+May 14 22:01 : player: played "Rich Brian - Dat $tick (Official Video).mp3"
+May 14 22:01 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+May 14 22:04 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 14 22:04 : player: played "Y2K, bbno$ - Lalala (Official Video)-N2Y2vQ-1m7M.mp3"
+May 14 22:04 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+May 14 22:09 : player: played "Juice WRLD - Bandit ft. NBA Youngboy (Dir. by @_ColeBennett_).mp3"
+May 14 22:09 : update: added /%(track)s.webm
+May 14 22:09 : update: added /%(track)s.mp3
+May 14 22:09 : update: updating /%(track)s.mp3
+May 14 22:09 : update: removing %(track)s.webm
+May 14 22:10 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+May 14 22:11 : update: removing %(track)s.mp3
+May 14 22:11 : update: added /Chief Keef-Love Sosa.mp3
+May 14 22:11 : update: added /Chief Keef-Love Sosa.webm
+May 14 22:11 : update: removing Chief Keef-Love Sosa.webm
+May 14 22:11 : update: updating /Chief Keef-Love Sosa.mp3
+May 14 22:13 : player: played "Y2K, bbno$ - Lalala (Official Video)-N2Y2vQ-1m7M.mp3"
+May 14 22:19 : exception: No such directory
+May 14 22:19 : exception: Failed to open '/home/terra/.config/mpd/playlists/sosa.m3u': No such file or directory
+May 14 22:19 : exception: No such playlist
+May 14 22:20 : exception: No such directory
+May 14 22:20 : exception: Failed to open '/home/terra/.config/mpd/playlists/Sosa.m3u': No such file or directory
+May 14 22:20 : exception: No such playlist
+May 14 22:21 : exception: No such directory
+May 14 22:21 : exception: Failed to open '/home/terra/.config/mpd/playlists/jd.m3u': No such file or directory
+May 14 22:21 : exception: No such playlist
+May 14 22:38 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+May 14 22:39 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+May 14 22:43 : alsa_output: Decoder is too slow; playing silence to avoid xrun
+May 14 22:43 : player: played "Chief Keef-Love Sosa.mp3"
+May 14 22:44 : update: added /Ski Mask the Slump God-Catch Me Outside.mp3
+May 14 22:44 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+May 14 22:46 : player: played "Ski Mask the Slump God-Catch Me Outside.mp3"
+May 14 22:47 : update: added /Lil Baby - Woah.mp3
+May 14 22:48 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+May 14 22:49 : exception: Bad playlist name
+May 14 22:49 : update: updating /DripReport - Skechers (Lyrics).mp3
+May 14 22:50 : update: updating /Juice WRLD - Bandit ft. NBA Youngboy (Dir. by @_ColeBennett_).mp3
+May 14 22:53 : update: added /Powfu - death bed (coffee for your head).mp3
+May 14 22:53 : update: added /Travis Scott - goosebumps.mp3
+May 14 22:54 : update: added /Roddy Ricch - The Box.mp3
+May 14 22:54 : update: added /Lil Mosey - Blueberry Faygo.mp3
+May 14 22:55 : update: added /Lil Skies - Creeping (feat. Rich the Kid).mp3
+May 14 22:58 : update: added /Ellie Goulding, Juice WRLD - Hate Me.mp3
+May 14 22:58 : update: added /Trippie Redd - The Grinch.mp3
+May 14 22:58 : player: played "Lil Baby - Woah.mp3"
+May 14 22:59 : exception: Failed to open mixer for 'default detected output': no such mixer control: PCM
+May 14 23:00 : player: played "Ellie Goulding, Juice WRLD - Hate Me.mp3"
+May 14 23:01 : update: added /YNW Melly - Suicidal.mp3
+May 14 23:04 : update: added /YNW Melly - Mama Cry.mp3
+May 14 23:04 : update: added /YNW Melly - Mama Cry.webm
+May 14 23:05 : update: removing YNW Melly - Mama Cry.webm
+May 14 23:05 : update: updating /YNW Melly - Mama Cry.mp3
+May 14 23:05 : update: added /Juice WRLD - All Girls Are The Same.mp3
+May 14 23:08 : update: added /Juice WRLD - Lucid Dreams.mp3
+May 14 23:14 : player: played "Juice WRLD - Bandit ft. NBA Youngboy (Dir. by @_ColeBennett_).mp3"
+May 14 23:16 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 23:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 14 23:16 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 15 00:35 : player: played "Juice WRLD - Bandit ft. NBA Youngboy (Dir. by @_ColeBennett_).mp3"
+May 15 02:39 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 02:39 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 15 02:43 : avahi: Client Disconnected, will reconnect shortly
+May 15 11:27 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 11:27 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 15 15:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 15:26 : player: played "Chief Keef-Love Sosa.mp3"
+May 15 15:31 : player: played "YNW Melly - Mama Cry.mp3"
+May 15 15:34 : player: played "Lil Skies - Creeping (feat. Rich the Kid).mp3"
+May 15 15:37 : player: played "Juice WRLD - All Girls Are The Same.mp3"
+May 15 15:39 : player: played "Lil Mosey - Blueberry Faygo.mp3"
+May 15 15:42 : player: played "Ski Mask the Slump God-Catch Me Outside.mp3"
+May 15 15:45 : player: played "Powfu - death bed (coffee for your head).mp3"
+May 15 15:48 : player: played "Roddy Ricch - The Box.mp3"
+May 15 15:50 : player: played "Rich Brian - Dat $tick (Official Video).mp3"
+May 15 15:53 : player: played "Lil Baby - Woah.mp3"
+May 15 15:55 : player: played "DripReport - Skechers (Lyrics).mp3"
+May 15 15:57 : player: played "Ellie Goulding, Juice WRLD - Hate Me.mp3"
+May 15 21:02 : player: played "Travis Scott - goosebumps.mp3"
+May 15 21:02 : exception: Failed to pause "pulse" (pulse): failed to connect the stream: Connection terminated
+May 15 21:05 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 21:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 21:05 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 15 21:59 : player: played "Travis Scott - goosebumps.mp3"
+May 15 22:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 22:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 15 22:01 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 16 02:15 : avahi: Client Disconnected, will reconnect shortly
+May 16 02:15 : player: played "Travis Scott - goosebumps.mp3"
+May 16 10:21 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 10:21 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 10:21 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 16 10:40 : avahi: Client Disconnected, will reconnect shortly
+May 16 10:40 : player: played "Travis Scott - goosebumps.mp3"
+May 16 10:42 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 10:42 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 10:42 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 16 11:17 : player: played "Travis Scott - goosebumps.mp3"
+May 16 11:23 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 11:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 16 11:23 : avahi: Service 'Music Player @ terra-laptop' successfully established.

@@ -1,0 +1,43 @@
+[General]
+DisableAutoSelection=false
+PreviewDPI=100
+SetPreviewDPI=false
+
+[Image Saving]
+ImgFormat=png
+ImgQuality=90
+Location=/home/terra
+NamePrefix=Image-
+NumberStartsFrom=1
+SaveMode=0
+SetQuality=false
+ShowBeforeSave=true
+
+[Options For Hewlett-Packard:Ink_Tank_Wireless_410_series]
+KSane::InvertColors=false
+br-x=215.900009
+br-y=297.010681
+brightness=1000
+compression=JPEG
+contrast=1000
+mode=Color
+resolution=1,200 DPI
+source=Flatbed
+tl-x=0.000000
+tl-y=0.000000
+
+[Options For Hewlett-Packard:ink_tank_wireless_410_series]
+KSane::InvertColors=false
+br-x=167.093719
+br-y=65.024002
+brightness=1000
+compression=JPEG
+contrast=1000
+mode=Color
+resolution=1,200 DPI
+source=Flatbed
+tl-x=27.114594
+tl-y=15.917328
+
+[Window]
+Geometry=740,400

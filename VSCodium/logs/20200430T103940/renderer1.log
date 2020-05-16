@@ -1,0 +1,2 @@
+[2020-04-30 10:40:23.951] [renderer1] [warning] UNRESPONSIVE extension host, 'vscodevim.vim' took 100% of 5333.175ms, saved PROFILE here: '/tmp/exthost-90cbb1.cpuprofile' [{"id":"gc","total":127,"percentage":0},{"id":"vscodevim.vim","total":5332816,"percentage":100}]
+[2020-04-30 10:57:15.675] [renderer1] [warning] SettingsEditor2: Settings not included in settingsLayout.ts: notebook.displayOrder

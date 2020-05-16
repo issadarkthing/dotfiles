@@ -1,0 +1,17 @@
+[$Version]
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js
+
+[Compositing]
+OpenGLIsUnsafe=false
+
+[Desktops]
+Number=1
+
+[TabBox]
+DesktopLayout=org.kde.breeze.desktop
+DesktopListLayout=org.kde.breeze.desktop
+LayoutName=org.kde.breeze.desktop
+
+[org.kde.kdecoration2]
+library=org.kde.breeze
+theme=
