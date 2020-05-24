@@ -1,4 +1,3 @@
-open
 extract
 unrar
 reload_cwd
@@ -36,7 +35,6 @@ rmws
 z blaq
 z Videos
 rename [Seto_Otaku]_Princess_Lover!_-_06_[Blu-ray][1920x1080_H264_FLAC][DBA31AB7].mkv
-open_with 
 open_with zaread
 q
 [<0;24;16m[<64;33;19M[<64;33;19M[<64;33;19M[<65;33;19M[<65;33;19M[<65;33;19M[<65;33;19M[<64;33;19M[<64;33;19M[<64;33;19M[<64;33;19M[<65;33;19M[<65;33;19M[<65;33;19M[<65;33;19M[<65;33;19M
@@ -46,5 +44,7 @@ search
 search mpv
 
 z Downloads
-delete
 cd
+find .giti
+open_with 
+delete

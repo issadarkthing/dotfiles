@@ -12,8 +12,8 @@ compton &
 # polybar
 ~/.config/polybar/launch.sh &
 
-bspc config border_width         4
-bspc config window_gap          12
+bspc config border_width         2
+bspc config window_gap           0
 
 bspc config split_ratio          0.58
 bspc config borderless_monocle   true
@@ -33,3 +33,4 @@ bspc config urgent_border_color "#c33027"
 
 # startup applications (executed once)
 ~/Documents/scripts/startup.sh &
+

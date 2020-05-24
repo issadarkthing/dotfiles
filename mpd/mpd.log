@@ -111,3 +111,74 @@ May 16 11:17 : player: played "Travis Scott - goosebumps.mp3"
 May 16 11:23 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 May 16 11:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 May 16 11:23 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 16 22:39 : avahi: Client Disconnected, will reconnect shortly
+May 16 22:39 : player: played "Travis Scott - goosebumps.mp3"
+May 17 11:23 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 17 11:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 17 11:23 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 17 13:46 : player: played "Travis Scott - goosebumps.mp3"
+May 17 13:49 : player: played "DripReport - Skechers (Lyrics).mp3"
+May 17 13:51 : player: played "Trippie Redd - The Grinch.mp3"
+May 17 13:55 : player: played "Chief Keef-Love Sosa.mp3"
+May 17 13:59 : player: played "YNW Melly - Suicidal.mp3"
+May 17 14:01 : player: played "Rich Brian - Dat $tick (Official Video).mp3"
+May 17 20:20 : player: played "YNW Melly - Suicidal.mp3"
+May 17 20:24 : player: played "Juice WRLD - Lucid Dreams.mp3"
+May 17 20:27 : player: played "Powfu - death bed (coffee for your head).mp3"
+May 17 20:29 : player: played "Lil Mosey - Blueberry Faygo.mp3"
+May 17 20:33 : player: played "Roddy Ricch - The Box.mp3"
+May 18 00:00 : player: played "Y2K, bbno$ - Lalala (Official Video)-N2Y2vQ-1m7M.mp3"
+May 18 12:33 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 18 12:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 18 12:33 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 18 22:41 : avahi: Client Disconnected, will reconnect shortly
+May 18 22:41 : player: played "Y2K, bbno$ - Lalala (Official Video)-N2Y2vQ-1m7M.mp3"
+May 19 07:24 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 19 07:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 19 07:24 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 19 23:29 : player: played "Y2K, bbno$ - Lalala (Official Video)-N2Y2vQ-1m7M.mp3"
+May 20 11:06 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 20 11:06 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 20 11:06 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 20 15:09 : update: added /YNW Melly - Mixed Personalities (ft. Kanye West).mp3
+May 20 15:33 : update: added /DaBaby - JUMP.mp3
+May 20 15:47 : update: added /Quality Control, Lil Baby, DaBaby - Baby.mp3
+May 20 15:52 : update: added /Rich Brian - Chaos.mp3
+May 21 02:06 : avahi: Client Disconnected, will reconnect shortly
+May 21 02:07 : player: played "Chief Keef-Love Sosa.mp3"
+May 21 12:05 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 21 12:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 21 12:05 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 21 16:18 : player: played "Chief Keef-Love Sosa.mp3"
+May 21 16:19 : player: played "DripReport - Skechers (Lyrics).mp3"
+May 21 16:22 : player: played "Y2K, bbno$ - Lalala (Official Video)-N2Y2vQ-1m7M.mp3"
+May 21 16:24 : player: played "YNW Melly - Mama Cry.mp3"
+May 21 16:25 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 21 16:25 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 21 16:25 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 21 16:25 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 21 16:30 : player: played "Lil Baby - Woah.mp3"
+May 21 16:30 : player: played "Travis Scott - goosebumps.mp3"
+May 21 16:34 : player: played "Rich Brian - Dat $tick (Official Video).mp3"
+May 21 16:35 : player: played "Chief Keef-Love Sosa.mp3"
+May 21 16:42 : player: played "DaBaby - JUMP.mp3"
+May 21 16:45 : player: played "Juice WRLD - Bandit ft. NBA Youngboy (Dir. by @_ColeBennett_).mp3"
+May 21 16:47 : player: played "Rich Brian - Dat $tick (Official Video).mp3"
+May 21 16:51 : player: played "YNW Melly - Suicidal.mp3"
+May 21 16:54 : player: played "Lil Skies - Creeping (feat. Rich the Kid).mp3"
+May 21 16:56 : player: played "Rich Brian - Chaos.mp3"
+May 22 01:59 : player: played "DaBaby - JUMP.mp3"
+May 22 12:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 22 12:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 22 12:01 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 22 15:04 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 22 15:04 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 22 15:04 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 22 22:41 : player: played "DaBaby - JUMP.mp3"
+May 23 11:49 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 23 11:49 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 23 11:49 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 24 00:11 : player: played "DaBaby - JUMP.mp3"
+May 24 15:22 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 24 15:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 24 15:22 : avahi: Service 'Music Player @ terra-laptop' successfully established.

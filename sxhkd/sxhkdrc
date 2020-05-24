@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	kitty -d ~
+	urxvt
 
 # program launcher
 super + d
@@ -84,8 +84,8 @@ super + shift + r
 	bspc wm -r
 
 # close and kill
-super + {_,shift + }q
-	bspc node -{c,k}
+super + shift + q
+	bspc node -c
 
 # alternate between the tiled and monocle layout
 super + m
@@ -131,11 +131,13 @@ super + {_,shift + }c
 
 # focus the next/previous desktop in the current monitor
 super + bracket{left,right}
-	bspc desktop -f {prev,next}.local
+	bspc desktop -f {prev,next}.local; \
+	~/Documents/scripts/hide_if_fullscreen.sh
 
 # focus the last desktop
 alt + Tab
-	bspc desktop -f last
+	bspc desktop -f last; \
+	~/Documents/scripts/hide_if_fullscreen.sh
 
 # focus the older or newer node in the focus history
 super + {o,i}
@@ -147,7 +149,8 @@ super + {o,i}
 #super + {_,shift + }{1-9,0}
 #	bspc {desktop -f,node -d} '^{1-9,10}'
 super + {1-9,0}
-	~/Documents/scripts/hide_if_fullscreen.sh '^{1-9,10}'
+	bspc desktop -f '^{1-9,10}'; \
+	~/Documents/scripts/hide_if_fullscreen.sh
 
 super + shift + {1-9,0}
 	bspc node -d '^{1-9,10}'

@@ -2,13 +2,11 @@
 FullScreen=false
 
 [MainWindow]
-Height 1080=934
-State=AAAA/wAAAAD9AAAAAAAAAYwAAANvAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Height 1080=1018
+State=AAAA/wAAAAD9AAAAAAAAAw4AAAO+AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1920=396
+Width 1920=782
 
 [Recent Files]
-File1[$e]=$HOME/Downloads/nerd-fonts/patched-fonts/Iosevka/Regular/readme.md
-File2[$e]=$HOME/Downloads/nerd-fonts/patched-fonts/Iosevka/readme.md
-Name1[$e]=readme.md
-Name2[$e]=readme.md
+File1[$e]=$HOME/Downloads/1-Questions of Online QUIZ MEC333 May 2020.pdf
+Name1[$e]=1-Questions of Online QUIZ MEC333 May 2020.pdf

@@ -16,6 +16,7 @@ application/x-extension-xht=userapp-Nightly-TP9JH0.desktop;firefox.desktop;
 font/ttf=org.gnome.FontManager.desktop;
 application/x-font-pcf=org.gnome.FontManager.desktop;org.gnome.font-viewer.desktop;
 application/octet-stream=org.gnome.FontManager.desktop;
+application/pdf=org.pwmt.zathura-pdf-poppler.desktop;
 
 [Default Applications]
 x-scheme-handler/tg=telegramdesktop.desktop
