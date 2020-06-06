@@ -1,8 +1,3 @@
-extract
-unrar
-reload_cwd
-rename dchbg
-search .transmission
 search .config
 linemode
 linemode sizemtime
@@ -42,9 +37,14 @@ search *.deb
 search *.lua
 search
 search mpv
-
 z Downloads
 cd
 find .giti
+find 
+
+d
 open_with 
+rename 
+rename distribution_board.jpeg
+rename tnb-meter.jpeg
 delete

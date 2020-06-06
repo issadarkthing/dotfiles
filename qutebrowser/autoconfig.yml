@@ -5,6 +5,8 @@ config_version: 2
 settings:
   content.cookies.accept:
     global: all
+  content.headers.user_agent:
+    global: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:77.0) Gecko/20190101 Firefox/77.0
   fonts.completion.category:
     global: bold 10pt MesloLGS NF
   fonts.completion.entry:
@@ -39,7 +41,7 @@ settings:
     global: false
   url.searchengines:
     global:
-      DEFAULT: https://google.com.ar/search?q={}
+      DEFAULT: https://duckduckgo.com/?q={}
   url.start_pages:
     global: https://start.duckduckgo.com
   url.yank_ignored_parameters:

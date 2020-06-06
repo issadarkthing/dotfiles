@@ -4,6 +4,9 @@
 
 # terminal emulator
 super + Return
+	kitty
+
+super + shift + return
 	urxvt
 
 # program launcher
@@ -49,7 +52,8 @@ super + alt + {equal,minus}
 @Print
 	~/Documents/scripts/snap.sh
 
-Shift + Print
+# fullscreen screenshot
+Insert
 	~/Documents/scripts/snap.sh a
 
 

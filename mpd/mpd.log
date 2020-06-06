@@ -182,3 +182,967 @@ May 24 00:11 : player: played "DaBaby - JUMP.mp3"
 May 24 15:22 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 May 24 15:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 May 24 15:22 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 25 01:41 : avahi: Client Disconnected, will reconnect shortly
+May 25 01:41 : player: played "DaBaby - JUMP.mp3"
+May 25 11:03 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 25 11:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 25 11:03 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 25 22:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 25 22:35 : player: played "Quality Control, Lil Baby, DaBaby - Baby.mp3"
+May 25 22:39 : player: played "DaBaby - JUMP.mp3"
+May 25 22:40 : player: played "Ellie Goulding, Juice WRLD - Hate Me.mp3"
+May 25 22:43 : player: played "Lil Baby - Woah.mp3"
+May 25 22:45 : player: played "Rich Brian - Dat $tick (Official Video).mp3"
+May 25 22:49 : player: played "Juice WRLD - Lucid Dreams.mp3"
+May 25 22:52 : player: played "Y2K, bbno$ - Lalala (Official Video)-N2Y2vQ-1m7M.mp3"
+May 25 22:55 : player: played "Lil Mosey - Blueberry Faygo.mp3"
+May 25 22:57 : player: played "Ski Mask the Slump God-Catch Me Outside.mp3"
+May 25 23:00 : player: played "Juice WRLD - All Girls Are The Same.mp3"
+May 25 23:02 : player: played "DripReport - Skechers (Lyrics).mp3"
+May 25 23:06 : player: played "Chief Keef-Love Sosa.mp3"
+May 26 00:53 : avahi: Client Disconnected, will reconnect shortly
+May 26 00:53 : player: played "Rich Brian - Chaos.mp3"
+May 26 13:03 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 26 13:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 26 13:03 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 26 21:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 26 21:41 : player: played "Rich Brian - Chaos.mp3"
+May 26 21:45 : player: played "YNW Melly - Suicidal.mp3"
+May 26 21:48 : player: played "Juice WRLD - All Girls Are The Same.mp3"
+May 26 21:50 : player: played "Quality Control, Lil Baby, DaBaby - Baby.mp3"
+May 26 21:53 : player: played "Y2K, bbno$ - Lalala (Official Video)-N2Y2vQ-1m7M.mp3"
+May 26 21:56 : player: played "Powfu - death bed (coffee for your head).mp3"
+May 26 21:58 : player: played "Rich Brian - Dat $tick (Official Video).mp3"
+May 26 22:00 : player: played "DripReport - Skechers (Lyrics).mp3"
+May 26 22:03 : player: played "Lil Baby - Woah.mp3"
+May 26 22:26 : player: played "Lil Mosey - Blueberry Faygo.mp3"
+May 26 22:30 : player: played "DaBaby - JUMP.mp3"
+May 26 22:33 : player: played "Chief Keef-Love Sosa.mp3"
+May 26 22:36 : player: played "Juice WRLD - Bandit ft. NBA Youngboy (Dir. by @_ColeBennett_).mp3"
+May 26 22:40 : player: played "Lil Skies - Creeping (feat. Rich the Kid).mp3"
+May 26 22:42 : player: played "Ski Mask the Slump God-Catch Me Outside.mp3"
+May 26 22:46 : player: played "Juice WRLD - Lucid Dreams.mp3"
+May 27 00:04 : player: played "YNW Melly - Mama Cry.mp3"
+May 27 00:08 : player: played "Travis Scott - goosebumps.mp3"
+May 27 00:12 : player: played "Quality Control, Lil Baby, DaBaby - Baby.mp3"
+May 27 00:13 : player: played "Ellie Goulding, Juice WRLD - Hate Me.mp3"
+May 27 00:16 : player: played "Roddy Ricch - The Box.mp3"
+May 27 00:19 : player: played "Trippie Redd - The Grinch.mp3"
+May 27 00:26 : player: played "DaBaby - JUMP.mp3"
+May 27 00:28 : player: played "Rich Brian - Dat $tick (Official Video).mp3"
+May 27 00:30 : player: played "DripReport - Skechers (Lyrics).mp3"
+May 27 00:34 : player: played "Lil Baby - Woah.mp3"
+May 27 00:36 : player: played "Rich Brian - Chaos.mp3"
+May 27 00:37 : player: played "Quality Control, Lil Baby, DaBaby - Baby.mp3"
+May 27 10:54 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 27 10:54 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 27 10:54 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 27 20:20 : update: added /DaBaby - JUMP.webm
+May 27 20:20 : update: updating /DaBaby - JUMP.mp3
+May 27 20:21 : update: removing DaBaby - JUMP.webm
+May 27 20:21 : update: added /Lil Baby - Sum 2 Prove.mp3
+May 27 20:21 : update: added /NA - NA.mp3
+May 27 20:21 : update: added /Moneybagg Yo, Blac Youngsta - 1 2 3.mp3
+May 27 20:21 : update: added /YoungBoy Never Broke Again - Lil Top.mp3
+May 27 20:21 : update: added /StaySolidRocky - Party Girl.mp3
+May 27 20:21 : update: added /Future - Life Is Good.mp3
+May 27 20:21 : update: added /DaBaby, Roddy Ricch - ROCKSTAR.mp3
+May 27 20:21 : update: updating /Quality Control, Lil Baby, DaBaby - Baby.mp3
+May 27 20:21 : update: added /Blueface, DaBaby - Obama.mp3
+May 27 20:21 : update: added /Future - Life Is Good.webm
+May 27 20:21 : update: added /NLE Choppa - Walk Em Down (feat. Roddy Ricch).mp3
+May 27 20:21 : update: added /YoungBoy Never Broke Again - Bad Bad.mp3
+May 27 20:21 : update: updating /DaBaby - JUMP.mp3
+May 27 20:22 : update: removing Future - Life Is Good.webm
+May 27 20:22 : update: added /YoungBoy Never Broke Again - Make No Sense.mp3
+May 27 20:22 : update: updating /Lil Mosey - Blueberry Faygo.mp3
+May 27 20:22 : update: added /Travis Scott - SICKO MODE.webm
+May 27 20:22 : update: updating /Future - Life Is Good.mp3
+May 27 20:22 : update: added /Migos - Taco Tuesday.mp3
+May 27 20:22 : update: added /Jackboy - Pressure.mp3
+May 27 20:22 : update: added /Travis Scott - SICKO MODE.mp3
+May 27 20:22 : update: added /Polo G, Stunna 4 Vegas, NLE Choppa - Go Stupid.mp3
+May 27 20:22 : update: removing Travis Scott - SICKO MODE.webm
+May 27 20:22 : update: added /Lil Tjay, Fivio Foreign, Pop Smoke - Zoo York.mp3
+May 27 20:22 : update: added /YoungBoy Never Broke Again - Ten Talk.mp3
+May 27 20:22 : update: updating /Travis Scott - SICKO MODE.mp3
+May 27 20:23 : update: added /50 Cent - Patiently Waiting (Album Version (Edited)).webm
+May 27 20:23 : update: added /50 Cent - Patiently Waiting (Album Version (Edited)).mp3
+May 27 20:23 : update: removing 50 Cent - Patiently Waiting (Album Version (Edited)).webm
+May 27 20:23 : update: added /DaBaby - BOP.mp3
+May 27 20:23 : update: updating /50 Cent - Patiently Waiting (Album Version (Edited)).mp3
+May 27 20:23 : update: added /JayDaYoungan - 38K.mp3
+May 27 20:23 : update: updating /NA - NA.mp3
+May 27 20:23 : update: added /NA - NA.webm
+May 27 20:25 : update: removing NA - NA.webm
+May 27 20:25 : update: added /Lil Baby - All In.mp3
+May 27 20:25 : update: added /NLE Choppa - Shotta Flow (feat. Blueface) [Remix].mp3
+May 27 20:25 : update: updating /NA - NA.mp3
+May 27 20:25 : update: added /Lil Baby - Emotionally Scarred.mp3
+May 27 20:25 : update: added /Lil Baby, Moneybagg Yo - No Sucker.mp3
+May 27 20:25 : update: added /DaBaby - VIBEZ.mp3
+May 27 20:25 : update: added /Stunna 4 Vegas, DaBaby - Ashley.mp3
+May 27 20:25 : update: added /Jack Harlow - WHATS POPPIN.mp3
+May 27 20:25 : update: added /Megan Thee Stallion - Captain Hook.mp3
+May 27 20:25 : update: added /Offset - Clout.mp3
+May 27 20:25 : update: added /DaBaby - Suge.mp3
+May 27 20:25 : update: added /Stunna 4 Vegas - WET.mp3
+May 27 20:25 : update: added /Migos - Need It.mp3
+May 27 20:25 : update: added /Pop Smoke - Dior.mp3
+May 27 20:25 : update: updating /Roddy Ricch - The Box.mp3
+May 27 20:25 : update: added /Lil Baby, 42 Dugg - Grace.mp3
+May 27 20:25 : update: added /King Von - Crazy Story (Remix).mp3
+May 27 20:25 : update: added /6ix9ine - GOOBA.mp3
+May 27 20:25 : update: added /Lil Baby, 42 Dugg - We Paid.mp3
+May 27 20:25 : update: added /DaBaby - FIND MY WAY.mp3
+May 27 20:25 : update: added /Stunna 4 Vegas, DaBaby - Ashley.webm
+May 27 20:26 : update: removing Stunna 4 Vegas, DaBaby - Ashley.webm
+May 27 20:26 : update: added /Rich Dunk - Highschool.mp3
+May 27 20:26 : update: updating /Stunna 4 Vegas, DaBaby - Ashley.mp3
+May 27 20:26 : update: added /Megan Thee Stallion - Savage (Remix) (ft. Beyoncé).mp3
+May 27 20:26 : update: added /YoungBoy Never Broke Again - Self Control 2.mp3
+May 27 20:26 : update: added /Travis Scott - HIGHEST IN THE ROOM.mp3
+May 27 20:26 : update: added /Blueface - Daddy.mp3
+May 27 20:26 : update: added /Eminem - Encore.webm
+May 27 20:26 : update: added /Eminem - Encore.mp3
+May 27 20:27 : update: removing Eminem - Encore.webm
+May 27 20:27 : update: added /YNW Melly - 223 (feat. 9lokknine).mp3
+May 27 20:27 : update: updating /NA - NA.mp3
+May 27 20:27 : update: added /DaBaby - PICK UP.mp3
+May 27 20:27 : update: added /Aitch, AJ Tracey - Rain.mp3
+May 27 20:27 : update: added /KSI - Houdini (feat. Swarmz & Tion Wayne).mp3
+May 27 20:27 : update: updating /Eminem - Encore.mp3
+May 27 20:27 : update: added /Young Thug, Gunna - Hot (feat. Gunna).mp3
+May 27 20:27 : update: added /Migos - Bad & Boujee feat Lil Uzi Vert.mp3
+May 27 20:27 : update: added /Migos - Bad & Boujee feat Lil Uzi Vert.webm
+May 27 20:27 : update: removing Migos - Bad & Boujee feat Lil Uzi Vert.webm
+May 27 20:27 : update: added /YG, DaBaby - Stop Snitchin (Remix).mp3
+May 27 20:27 : update: updating /Migos - Bad & Boujee feat Lil Uzi Vert.mp3
+May 27 20:27 : update: added /Blueface - Blueface - Thotiana Remix ft. Cardi B.webm
+May 27 20:27 : update: added /Blueface - Blueface - Thotiana Remix ft. Cardi B.mp3
+May 27 20:28 : update: removing Blueface - Blueface - Thotiana Remix ft. Cardi B.webm
+May 27 20:28 : update: added /KSI - Poppin (feat. Lil Pump & Smokepurpp).webm
+May 27 20:28 : update: added /KSI - Poppin (feat. Lil Pump & Smokepurpp).mp3
+May 27 20:28 : update: updating /Blueface - Blueface - Thotiana Remix ft. Cardi B.mp3
+May 27 20:28 : update: removing KSI - Poppin (feat. Lil Pump & Smokepurpp).webm
+May 27 20:28 : update: updating /KSI - Poppin (feat. Lil Pump & Smokepurpp).mp3
+May 27 20:28 : update: added /Eminem, 50 Cent, Cashis, Lloyd Banks - You Don't Know.webm
+May 27 20:28 : update: added /Eminem, 50 Cent, Cashis, Lloyd Banks - You Don't Know.mp3
+May 27 20:29 : update: removing Eminem, 50 Cent, Cashis, Lloyd Banks - You Don't Know.webm
+May 27 20:29 : update: added /NBA Meechy Baby, Youngboy Never Broke Again - Talk My Shit (feat. YoungBoy Never Broke Again).mp3
+May 27 20:29 : update: added /DaBaby - OFF THE RIP.mp3
+May 27 20:29 : update: added /Tyga - Taste.mp3
+May 27 20:29 : update: added /DaBaby - SHUT UP.webm
+May 27 20:29 : update: added /Young Dolph - Sunshine.mp3
+May 27 20:29 : update: added /DaBaby - SHUT UP.mp3
+May 27 20:29 : update: added /Moneybagg Yo - Me Vs Me.mp3
+May 27 20:29 : update: updating /Eminem, 50 Cent, Cashis, Lloyd Banks - You Don't Know.mp3
+May 27 20:29 : update: removing DaBaby - SHUT UP.webm
+May 27 20:29 : update: added /DaBaby - Walker Texas Ranger.mp3
+May 27 20:29 : update: updating /DaBaby - SHUT UP.mp3
+May 27 20:29 : update: added /YoungBoy Never Broke Again - Slime Mentality.mp3
+May 27 20:29 : update: added /M Huncho - Indulge.mp3
+May 27 20:29 : update: added /M Huncho - Indulge.webm
+May 27 20:30 : update: removing M Huncho - Indulge.webm
+May 27 20:30 : update: added /DaBaby, Offset - Baby Sitter.mp3
+May 27 20:30 : update: added /Eminem - Godzilla.mp3
+May 27 20:30 : update: updating /NA - NA.mp3
+May 27 20:30 : update: added /NA - NBA Youngboy   Bring 'Em Out.mp3
+May 27 20:30 : update: added /DaBaby - 4x.mp3
+May 27 20:30 : update: added /Nipsey Hussle - Racks in the Middle (feat. Roddy Ricch and Hit-Boy).webm
+May 27 20:30 : update: updating /M Huncho - Indulge.mp3
+May 27 20:30 : update: added /NA - YBxSlimeBeliefxFinalVid.mp3
+May 27 20:30 : update: added /Nipsey Hussle - Racks in the Middle (feat. Roddy Ricch and Hit-Boy).mp3
+May 27 20:30 : update: removing Nipsey Hussle - Racks in the Middle (feat. Roddy Ricch and Hit-Boy).webm
+May 27 20:30 : update: added /Drake - Toosie Slide.webm
+May 27 20:30 : update: added /Drake - Toosie Slide.mp3
+May 27 20:30 : update: added /Blueface - Holy Moly.mp3
+May 27 20:30 : update: added /Lil Yachty, DaBaby, Drake - Oprah's Bank Account.mp3
+May 27 20:30 : update: updating /Nipsey Hussle - Racks in the Middle (feat. Roddy Ricch and Hit-Boy).mp3
+May 27 20:30 : update: added /DaBaby - No Tears.mp3
+May 27 20:31 : update: removing Drake - Toosie Slide.webm
+May 27 20:31 : update: updating /Drake - Toosie Slide.mp3
+May 27 20:31 : update: added /Blueface - Tour.mp3
+May 27 20:31 : update: added /Blueface - Tour.webm
+May 27 20:31 : update: added /OMB Peezy - Big Homie.mp3
+May 27 20:31 : update: removing Blueface - Tour.webm
+May 27 20:31 : update: updating /Blueface - Tour.mp3
+May 27 20:31 : update: added /Yella Beezy, Quavo & Gucci Mane - Bacc At It Again.mp3
+May 27 20:31 : update: added /Yungeen Ace - Step Harder.mp3
+May 27 20:31 : update: added /Yungeen Ace - Step Harder.webm
+May 27 20:32 : update: removing Yungeen Ace - Step Harder.webm
+May 27 20:32 : update: added /Plies, DaBaby - Boss Friends (feat. DaBaby).mp3
+May 27 20:32 : update: added /DaBaby - 21.mp3
+May 27 20:32 : update: added /Stunna 4 Vegas - Animal.mp3
+May 27 20:32 : update: added /DaBaby - Today.mp3
+May 27 20:32 : update: added /Doja Cat - Like That.mp3
+May 27 20:32 : update: added /Pop Smoke - Welcome To The Party.mp3
+May 27 20:32 : update: updating /Yungeen Ace - Step Harder.mp3
+May 27 20:32 : update: added /ZK Caston - House Arrest Tingz (Freestyle).mp3
+May 27 20:32 : update: added /Calboy - Envy Me.mp3
+May 27 20:32 : update: added /Lil Tecca - Ransom.mp3
+May 27 20:32 : update: added /DaBaby - CAN'T STOP.mp3
+May 27 20:32 : update: added /Lil Tjay - Brothers (Remix).mp3
+May 27 20:32 : update: added /Flipp Dinero - Leave Me Alone.mp3
+May 27 20:32 : update: added /DaBaby - Above The Rim.mp3
+May 27 20:33 : update: added /DripReport - Skechers.mp3
+May 27 20:33 : update: added /JACKBOYS, Travis Scott - OUT WEST.mp3
+May 27 20:33 : update: added /DaBaby - TOES.mp3
+May 27 20:33 : update: updating /YNW Melly - Mixed Personalities (ft. Kanye West).mp3
+May 27 20:34 : update: updating /NA - NA.mp3
+May 27 20:34 : update: added /Polo G - Flex.mp3
+May 27 20:34 : update: added /King Von - 3 A.M..mp3
+May 27 20:34 : update: added /Sheck Wes - Mo Bamba.mp3
+May 27 20:34 : update: added /YoungBoy Never Broke Again - Outside Today.mp3
+May 27 20:34 : update: added /DaBaby - BLAME IT ON BABY.mp3
+May 27 20:34 : update: added /JayDaYoungan - 23 Island.mp3
+May 27 20:35 : update: added /2KBABY - Old Streets.mp3
+May 27 20:35 : update: added /DJ Khaled, Cardi B, 21 Savage - Wish Wish.mp3
+May 27 20:35 : update: updating /NA - NA.mp3
+May 27 20:35 : update: added /A Boogie Wit da Hoodie - Swervin (feat. 6ix9ine).mp3
+May 27 20:36 : update: updating /NA - NA.mp3
+May 27 20:36 : update: added /DaBaby - SAD SH_T.mp3
+May 27 20:36 : update: added /Lil Baby, Gunna - Drip Too Hard.mp3
+May 27 20:36 : update: added /Juice WRLD - Righteous.mp3
+May 27 20:37 : update: added /YoungBoy Never Broke Again - Thug Of Spades (feat. DaBaby).mp3
+May 27 20:37 : update: added /Flipp Dinero - How I Move.mp3
+May 27 20:37 : update: added /DaBaby - MOVIE_GORILLA GLUE.mp3
+May 27 20:37 : update: added /YoungBoy Never Broke Again - Unchartered Love.mp3
+May 27 20:37 : update: added /DaniLeigh, DaBaby - Levi High.mp3
+May 27 20:37 : update: added /DaBaby - INTRO_REALLY_BOP (Medley_Live From The Tonight Show Starring Jimmy Fallon_2019).mp3
+May 27 20:38 : update: added /Mustard, Migos - Pure Water.mp3
+May 27 20:38 : update: updating /NA - NA.mp3
+May 27 20:38 : update: added /Yo Gotti, Lil Baby - Put a Date On It.mp3
+May 27 20:38 : update: added /DaBaby - LIGHTSKIN SH_T.mp3
+May 27 20:38 : update: added /RODDY RICCH - DOWN BELOW.mp3
+May 27 20:38 : update: added /Rod Wave - The Greatest.mp3
+May 27 20:38 : update: added /DDG - OD.mp3
+May 27 20:38 : update: updating /NA - NA.mp3
+May 27 20:38 : update: added /Lil Durk - 3 Headed Goat.mp3
+May 27 20:38 : update: added /YoungBoy Never Broke Again - No Mentions.mp3
+May 27 20:38 : update: added /YoungBoy Never Broke Again - Valuable Pain.mp3
+May 27 20:39 : update: updating /NA - NA.mp3
+May 27 20:39 : update: added /Mustard, Roddy Ricch - Ballin’.mp3
+May 27 20:39 : update: added /Rod Wave - Heart On Ice.mp3
+May 27 20:39 : update: added /YBNBA - ICAMETHRU FINAL.mp3
+May 27 20:40 : update: added /Roddy Ricch - High Fashion (feat. Mustard).mp3
+May 27 20:40 : update: updating /NA - NA.mp3
+May 27 20:40 : update: updating /Flipp Dinero - Leave Me Alone.mp3
+May 27 20:40 : update: added /NoCap - Blind Nights.mp3
+May 27 20:40 : update: added /NoCap - Blind Nights.webm
+May 27 20:40 : update: removing NoCap - Blind Nights.webm
+May 27 20:40 : update: updating /NoCap - Blind Nights.mp3
+May 27 20:41 : update: added /Chris Brown - No Guidance.webm
+May 27 20:41 : update: added /Chris Brown - No Guidance.mp3
+May 27 20:41 : update: removing Chris Brown - No Guidance.webm
+May 27 20:41 : update: updating /Chris Brown - No Guidance.mp3
+May 27 20:41 : update: added /DaBaby - Carpet Burn.mp3
+May 27 20:41 : update: added /Polo G - Pop Out.mp3
+May 27 20:41 : update: added /YoungBoy Never Broke Again - Drawing Symbols.mp3
+May 27 20:41 : update: added /YoungBoy Never Broke Again - Drawing Symbols.webm
+May 27 20:41 : update: removing YoungBoy Never Broke Again - Drawing Symbols.webm
+May 27 20:41 : update: updating /YoungBoy Never Broke Again - Drawing Symbols.mp3
+May 27 20:42 : update: added /Lil Moose - Noticed.mp3
+May 27 20:42 : update: added /Rich The Kid, YoungBoy Never Broke Again - Money Talk.mp3
+May 27 20:42 : update: added /DaBaby - Goin Baby.mp3
+May 27 20:42 : update: added /Polo G - Be Something.mp3
+May 27 20:42 : update: added /NLE Choppa - Famous Hoes.mp3
+May 27 20:43 : update: added /Roddy Ricch - Every Season.mp3
+May 27 20:43 : update: added /Gucci Mane, Bruno Mars, Kodak Black - Wake Up in the Sky.mp3
+May 27 20:43 : update: updating /NA - NA.mp3
+May 27 20:43 : update: added /YoungBoy Never Broke Again - Lost Motives.mp3
+May 27 20:43 : update: added /Lil Tecca - Did It Again.mp3
+May 27 20:44 : update: updating /NA - NA.mp3
+May 27 20:44 : update: added /Rich the Kid - Plug Walk.mp3
+May 27 20:44 : update: added /DaBaby - Beeper.mp3
+May 27 20:44 : update: added /DaBaby - Next Song.mp3
+May 27 20:44 : update: added /Young Thug - The London (feat. J. Cole & Travis Scott).mp3
+May 27 20:44 : update: added /Jackboy - Cleaning Crew.mp3
+May 27 20:44 : update: added /Stunna 4 Vegas - Freestyle.mp3
+May 27 20:44 : update: added /Lil Baby - Forever.mp3
+May 27 20:44 : update: added /NBA YoungBoy - Kick Yo Door.mp3
+May 27 20:45 : update: added /Megan Thee Stallion - Cash Shit (feat. Da Baby).mp3
+May 27 20:45 : update: added /YoungBoy Never Broke Again - Drop'Em.mp3
+May 27 20:45 : update: added /Lil Baby - Freestyle.mp3
+May 27 20:45 : update: added /Arizona Zervas - ROXANNE.mp3
+May 27 20:45 : update: added /Lil Baby - Woah.webm
+May 27 20:45 : update: updating /Lil Baby - Woah.mp3
+May 27 20:46 : update: removing Lil Baby - Woah.webm
+May 27 20:46 : update: updating /Lil Baby - Woah.mp3
+May 27 20:46 : update: added /Lil Skies - Fidget.mp3
+May 27 20:46 : update: added /YoungBoy Never Broke Again - Long RD.mp3
+May 27 20:46 : update: added /Doja Cat - Say So (Original Version).webm
+May 27 20:46 : update: added /Doja Cat - Say So (Original Version).mp3
+May 27 20:46 : update: removing Doja Cat - Say So (Original Version).webm
+May 27 20:46 : update: updating /Doja Cat - Say So (Original Version).mp3
+May 27 20:46 : update: added /Fredo Bang - Get Even.mp3
+May 27 20:47 : update: added /Lil Baby - Close Friends.mp3
+May 27 20:47 : update: added /DaBaby, Nicki Minaj - iPHONE.mp3
+May 27 20:47 : update: added /YoungBoy Never Broke Again - Graffiti.mp3
+May 27 20:47 : update: added /Polo G - DND.mp3
+May 27 20:47 : update: added /YoungBoy Never Broke Again - Time I'm On.mp3
+May 27 20:47 : update: added /NLE Choppa - Shotta Flow 3.mp3
+May 27 20:47 : update: added /The Motion - 4 Sons Of A King.mp3
+May 27 20:47 : update: added /Rich Brian - Dat $tick.mp3
+May 27 20:47 : update: added /Moneybagg Yo, Megan Thee Stallion - All Dat.mp3
+May 27 20:47 : update: added /Polo G - Effortless.mp3
+May 27 20:48 : update: added /Gucci Mane - Richer Than Errybody (feat. YoungBoy Never Broke Again & DaBaby).mp3
+May 27 20:49 : update: added /Roddy Ricch - Tip Toe (feat. A Boogie Wit da Hoodie).mp3
+May 27 20:49 : update: added /YoungBoy Never Broke Again - Ranada.mp3
+May 27 20:49 : update: added /YoungBoy Never Broke Again - Untouchable.mp3
+May 27 20:49 : update: added /YoungBoy Never Broke Again - Genie.mp3
+May 27 20:49 : update: added /YoungBoy Never Broke Again - Fine By Time.mp3
+May 27 20:50 : update: added /YoungBoy Never Broke Again - No Smoke.mp3
+May 27 20:50 : update: added /BENEE - Supalonely.mp3
+May 27 20:50 : update: added /Stunna 4 Vegas, Offset - UP THE SMOKE.mp3
+May 27 20:51 : update: added /YoungBoy Never Broke Again - Bout My Business (feat. Sherhonda Gaulden).mp3
+May 27 20:51 : update: updating /NA - NA.mp3
+May 27 20:51 : update: added /YoungBoy Never Broke Again - Through The Storm.mp3
+May 27 20:51 : update: added /Lil Baby - Social Distancing.mp3
+May 27 20:51 : update: added /YoungBoy Never Broke Again - Lonely Child.mp3
+May 27 20:51 : update: added /G Herbo - PTSD.mp3
+May 27 20:51 : update: updating /NA - NA.mp3
+May 27 20:51 : update: added /Surfaces - Sunday Best.mp3
+May 27 20:51 : update: added /DaBaby - TALK ABOUT IT.mp3
+May 27 20:51 : update: added /Justin Bieber - Intentions.mp3
+May 27 20:51 : update: added /Justin Bieber - Intentions.webm
+May 27 20:52 : update: removing Justin Bieber - Intentions.webm
+May 27 20:52 : update: added /Rod Wave - Cuban Links (feat. Kevin Gates).mp3
+May 27 20:52 : update: added /Quando Rondo - Imperfect Flower.mp3
+May 27 20:52 : update: updating /Justin Bieber - Intentions.mp3
+May 27 20:52 : update: added /YoungBoy Never Broke Again - Pick From Pain.mp3
+May 27 20:52 : update: added /Justin Bieber - Yummy.mp3
+May 27 20:52 : update: added /Roddy Ricch - Die Young.mp3
+May 27 20:52 : update: added /Polo G - Finer Things.mp3
+May 27 20:52 : update: added /Lil Durk - Viral Moment.mp3
+May 27 20:52 : update: added /Toosii - 5 Stars.mp3
+May 27 20:53 : update: added /Juice WRLD - Robbery.mp3
+May 27 20:53 : update: added /DaBaby - DROP.mp3
+May 27 20:53 : update: added /Lauv - I Like Me Better.mp3
+May 27 20:53 : update: added /YoungBoy Never Broke Again - Diamonds.mp3
+May 27 20:53 : update: updating /NA - NA.mp3
+May 27 20:53 : update: added /NA - NA.webm
+May 27 20:53 : update: removing NA - NA.webm
+May 27 20:53 : update: updating /NA - NA.mp3
+May 27 20:54 : update: added /Ed Sheeran, Camila Cabello, Cardi B - South of the Border (feat. Camila Cabello & Cardi B).mp3
+May 27 20:54 : update: added /88rising, Rich Brian - History.mp3
+May 27 20:54 : update: added /Rod Wave - Green Light.mp3
+May 27 20:54 : update: added /NLE Choppa - Shotta Flow 2.mp3
+May 27 20:54 : update: added /DaBaby - THERE HE GO.mp3
+May 27 20:54 : update: updating /NA - NA.mp3
+May 27 20:54 : update: added /Rod Wave - Thief In The Night.mp3
+May 27 20:54 : update: added /Joyner Lucas - Will.webm
+May 27 20:54 : update: added /Dreamville, J. Cole, Lute - Under The Sun.mp3
+May 27 20:54 : update: added /Joyner Lucas - Will.mp3
+May 27 20:54 : update: removing Joyner Lucas - Will.webm
+May 27 20:54 : update: added /NA - YNW Melly 'Dangerously In Love (772 Love Pt. 2)' (Official Audio).webm
+May 27 20:54 : update: added /NA - YNW Melly 'Dangerously In Love (772 Love Pt. 2)' (Official Audio).mp3
+May 27 20:54 : update: updating /Joyner Lucas - Will.mp3
+May 27 20:55 : update: removing NA - YNW Melly 'Dangerously In Love (772 Love Pt. 2)' (Official Audio).webm
+May 27 20:55 : update: updating /NA - YNW Melly 'Dangerously In Love (772 Love Pt. 2)' (Official Audio).mp3
+May 27 20:55 : update: added /88rising, Joji, Rich Brian - Midsummer Madness.mp3
+May 27 20:55 : update: added /88rising, Joji, Rich Brian - Midsummer Madness.webm
+May 27 20:55 : update: removing 88rising, Joji, Rich Brian - Midsummer Madness.webm
+May 27 20:55 : update: updating /88rising, Joji, Rich Brian - Midsummer Madness.mp3
+May 27 20:55 : update: added /YoungBoy Never Broke Again - I Choose You.mp3
+May 27 20:55 : update: added /Rich Brian - Glow Like Dat.mp3
+May 27 20:55 : update: added /DaBaby - CHAMPION.mp3
+May 27 20:55 : update: added /DaBaby - REALLY.mp3
+May 27 20:55 : update: added /DaBaby - AMAZING GRACE.mp3
+May 27 20:55 : update: updating /NA - NA.mp3
+May 27 20:56 : update: added /Camila Cabello - My Oh My.mp3
+May 27 20:56 : update: added /YoungBoy Never Broke Again - Ain't Easy.mp3
+May 27 20:56 : update: added /Imagine Dragons - Bad Liar.mp3
+May 27 20:56 : update: added /YoungBoy Never Broke Again - Treat You Better.mp3
+May 27 20:56 : update: added /Imagine Dragons - Bad Liar.webm
+May 27 20:56 : update: added /Quando Rondo - Scarred From Love.mp3
+May 27 20:56 : update: added /Rod Wave - The Last Sad Song.mp3
+May 27 20:56 : update: added /DaBaby - POP STAR.mp3
+May 27 20:57 : update: removing Imagine Dragons - Bad Liar.webm
+May 27 20:57 : update: updating /Imagine Dragons - Bad Liar.mp3
+May 27 20:57 : update: added /Sik-K (식케이) - YeLowS Gang (Feat. 허내인 Herr Nayne, Woodie Gochild) (Prod. GroovyRoom).mp3
+May 27 20:57 : update: added /DaBaby - GOSPEL.mp3
+May 27 20:57 : update: added /Sik-K (식케이) - YeLowS Gang (Feat. 허내인 Herr Nayne, Woodie Gochild) (Prod. GroovyRoom).webm
+May 27 20:57 : update: removing Sik-K (식케이) - YeLowS Gang (Feat. 허내인 Herr Nayne, Woodie Gochild) (Prod. GroovyRoom).webm
+May 27 20:57 : update: added /Ed Sheeran - Beautiful People (feat. Khalid).mp3
+May 27 20:57 : update: added /YoungBoy Never Broke Again - Okay.mp3
+May 27 20:57 : update: updating /Sik-K (식케이) - YeLowS Gang (Feat. 허내인 Herr Nayne, Woodie Gochild) (Prod. GroovyRoom).mp3
+May 27 20:57 : update: added /Ed Sheeran - Beautiful People (feat. Khalid).webm
+May 27 20:57 : update: removing Ed Sheeran - Beautiful People (feat. Khalid).webm
+May 27 20:57 : update: updating /Ed Sheeran - Beautiful People (feat. Khalid).mp3
+May 27 20:57 : update: updating /NA - NA.mp3
+May 27 20:57 : update: added /NA - NA.webm
+May 27 20:57 : update: updating /NA - NA.mp3
+May 27 20:57 : update: added /Rod Wave - Dark Clouds.mp3
+May 27 20:57 : update: updating /NA - NA.webm
+May 27 20:58 : update: removing NA - NA.webm
+May 27 20:58 : update: updating /NA - NA.mp3
+May 27 20:58 : update: added /BLACKPINK - Kill This Love.mp3
+May 27 20:58 : update: added /ZICO - Any song.mp3
+May 27 20:58 : update: added /Maroon 5 - Memories.mp3
+May 27 20:58 : update: added /YoungBoy Never Broke Again - Shadows.mp3
+May 27 20:58 : update: added /K-Clique - Mimpi (feat. Alif).webm
+May 27 20:58 : update: added /K-Clique - Mimpi (feat. Alif).mp3
+May 27 20:58 : update: removing K-Clique - Mimpi (feat. Alif).webm
+May 27 20:58 : update: added /Soulstice - L.D.R..webm
+May 27 20:58 : update: added /Soulstice - L.D.R..mp3
+May 27 20:58 : update: updating /K-Clique - Mimpi (feat. Alif).mp3
+May 27 20:58 : update: removing Soulstice - L.D.R..webm
+May 27 20:58 : update: updating /NA - NA.mp3
+May 27 20:58 : update: added /NA - NA.webm
+May 27 20:58 : update: updating /Soulstice - L.D.R..mp3
+May 27 20:58 : update: removing NA - NA.webm
+May 27 20:58 : update: updating /NA - NA.mp3
+May 27 20:59 : update: updating /NA - NA.mp3
+May 27 20:59 : update: added /NA - NA.webm
+May 27 20:59 : update: removing NA - NA.webm
+May 27 20:59 : update: updating /NA - NA.mp3
+May 27 20:59 : update: added /ALLMO$T feat. L.A. GOON$ & Peso Mercado - Miracle Nights.webm
+May 27 20:59 : update: added /ALLMO$T feat. L.A. GOON$ & Peso Mercado - Miracle Nights.mp3
+May 27 21:00 : update: removing ALLMO$T feat. L.A. GOON$ & Peso Mercado - Miracle Nights.webm
+May 27 21:00 : update: updating /NA - NA.mp3
+May 27 21:00 : update: added /Rod Wave - Popular Loner.mp3
+May 27 21:00 : update: added /YoungBoy Never Broke Again - Win Your Love.mp3
+May 27 21:00 : update: added /DaBaby - XXL.mp3
+May 27 21:00 : update: updating /ALLMO$T feat. L.A. GOON$ & Peso Mercado - Miracle Nights.mp3
+May 27 21:00 : update: added /Gloc-9 - Halik (feat. Flow G).mp3
+May 27 21:00 : update: updating /NA - NA.mp3
+May 27 21:00 : update: added /NA - NA.webm
+May 27 21:00 : update: removing NA - NA.webm
+May 27 21:00 : update: updating /NA - NA.mp3
+May 27 21:00 : update: added /Zizi Kirana - Eh.mp3
+May 27 21:00 : update: added /Justin Bieber - Forever.mp3
+May 27 21:00 : update: updating /NA - NA.mp3
+May 27 21:00 : update: added /NA - NA.webm
+May 27 21:00 : update: removing NA - NA.webm
+May 27 21:00 : update: updating /NA - NA.mp3
+May 27 21:00 : update: added /K-Clique - Mimpi (feat. Alif).webm
+May 27 21:00 : update: updating /K-Clique - Mimpi (feat. Alif).mp3
+May 27 21:01 : update: removing K-Clique - Mimpi (feat. Alif).webm
+May 27 21:01 : update: added /Daddy Lil Playa - Takut.webm
+May 27 21:01 : update: updating /K-Clique - Mimpi (feat. Alif).mp3
+May 27 21:01 : update: added /Daddy Lil Playa - Takut.mp3
+May 27 21:01 : update: removing Daddy Lil Playa - Takut.webm
+May 27 21:01 : update: updating /NA - NA.mp3
+May 27 21:01 : update: added /DaBaby - Pony.mp3
+May 27 21:01 : update: added /DaBaby - Pony.webm
+May 27 21:01 : update: updating /Daddy Lil Playa - Takut.mp3
+May 27 21:01 : update: removing DaBaby - Pony.webm
+May 27 21:01 : update: updating /NA - NA.mp3
+May 27 21:01 : update: updating /DaBaby - Pony.mp3
+May 27 21:01 : update: added /BLACKPINK - 뚜두뚜두(DDU-DU DDU-DU).mp3
+May 27 21:01 : update: added /Khalid - Talk.mp3
+May 27 21:01 : update: added /Rocketfuel Network - Zizan Razak - Kau Takkan Tahu [Official Music Video].webm
+May 27 21:01 : update: added /Rocketfuel Network - Zizan Razak - Kau Takkan Tahu [Official Music Video].mp3
+May 27 21:02 : update: removing Rocketfuel Network - Zizan Razak - Kau Takkan Tahu [Official Music Video].webm
+May 27 21:02 : update: added /YoungBoy Never Broke Again - In Control.mp3
+May 27 21:02 : update: added /Jeremy Zucker - comethru.mp3
+May 27 21:02 : update: updating /Rocketfuel Network - Zizan Razak - Kau Takkan Tahu [Official Music Video].mp3
+May 27 21:02 : update: added /Daddy Lil Playa - Takut.webm
+May 27 21:02 : update: updating /Daddy Lil Playa - Takut.mp3
+May 27 21:03 : update: removing Daddy Lil Playa - Takut.webm
+May 27 21:03 : update: added /Stunna 4 Vegas, Blac Youngsta - CHANGE MY LIFE.mp3
+May 27 21:03 : update: added /Maggie Lindemann - Pretty Girl.mp3
+May 27 21:03 : update: updating /NA - NA.mp3
+May 27 21:03 : update: added /DaBaby - PROLLY HEARD.mp3
+May 27 21:03 : update: updating /Daddy Lil Playa - Takut.mp3
+May 27 21:03 : update: added /IU - 너랑 나.mp3
+May 27 21:03 : update: added /IU - 너랑 나.webm
+May 27 21:04 : update: removing IU - 너랑 나.webm
+May 27 21:04 : update: updating /IU - 너랑 나.mp3
+May 27 21:04 : update: added /TWICE - KNOCK KNOCK.mp3
+May 27 21:04 : update: added /Itzy - WANNABE.mp3
+May 27 21:04 : update: added /Nukilan - Aduh Neng.mp3
+May 27 21:04 : update: added /BTS(방탄소년단) - spring day MVID RANK.webm
+May 27 21:04 : update: added /TWICE - SIGNAL.mp3
+May 27 21:04 : update: added /BTS(방탄소년단) - spring day MVID RANK.mp3
+May 27 21:04 : update: added /TWICE - What is Love.mp3
+May 27 21:04 : update: added /TWICE - LIKEY.mp3
+May 27 21:04 : update: added /LANY - Malibu Nights.mp3
+May 27 21:04 : update: added /TWICE - Dance The Night Away.mp3
+May 27 21:05 : update: removing BTS(방탄소년단) - spring day MVID RANK.webm
+May 27 21:05 : update: updating /NA - NA.mp3
+May 27 21:05 : update: added /TWICE - YES or YES.mp3
+May 27 21:05 : update: added /TWICE - FANCY.mp3
+May 27 21:05 : update: added /ITZY - 달라달라(DALLA DALLA).mp3
+May 27 21:05 : update: updating /BTS(방탄소년단) - spring day MVID RANK.mp3
+May 27 21:05 : update: added /Zynakal - Sakit (feat. Yonnyboii).mp3
+May 27 21:05 : update: added /NA - NA.webm
+May 27 21:05 : update: added /TWICE - Like OOH-AHH.mp3
+May 27 21:05 : update: removing NA - NA.webm
+May 27 21:05 : update: added /TWICE - Feel Special.mp3
+May 27 21:05 : update: updating /NA - NA.mp3
+May 27 21:05 : update: added /Harris Baba - Katakan.mp3
+May 27 21:05 : update: added /BTS - Boy With Luv (Feat. Halsey).mp3
+May 27 21:05 : update: added /Harris Baba - Katakan.webm
+May 27 21:05 : update: added /IU(아이유) - Palette(팔레트) (Feat. G-DRAGON).mp3
+May 27 21:05 : update: added /IU - Blueming.mp3
+May 27 21:06 : update: removing Harris Baba - Katakan.webm
+May 27 21:06 : update: updating /NA - NA.mp3
+May 27 21:06 : update: updating /Harris Baba - Katakan.mp3
+May 27 21:06 : update: added /Eric Chou - The Chaos After You.webm
+May 27 21:06 : update: added /Red Velvet 레드벨벳 - Red Velvet 레드벨벳 'Psycho' MV.mp3
+May 27 21:06 : update: added /Eric Chou - The Chaos After You.mp3
+May 27 21:06 : update: added /TWICE - CHEER UP.mp3
+May 27 21:07 : update: removing Eric Chou - The Chaos After You.webm
+May 27 21:07 : update: added /Stephanie Poetri - I Love You 3000 (No II).mp3
+May 27 21:07 : update: added /Naomi Scott - Speechless (Full) (From 'Aladdin'_Soundtrack Version).mp3
+May 27 21:07 : update: updating /Eric Chou - The Chaos After You.mp3
+May 27 21:07 : update: added /BLACKPINK - 마지막처럼(As If It's Your Last).mp3
+May 27 21:07 : update: added /BLACKPINK - 휘파람(Whistle).mp3
+May 27 21:07 : update: added /BTS - Run.mp3
+May 27 21:07 : update: added /BTS - Run.webm
+May 27 21:08 : update: removing BTS - Run.webm
+May 27 21:08 : update: added /Wany Hasrita - Canggung.mp3
+May 27 21:08 : update: updating /BTS - Run.mp3
+May 27 21:08 : update: added /Dayangku Intan - Senandung Hari Raya Untukmu.mp3
+May 27 21:08 : update: added /Little Mix feat. Jason Derulo - Secret Love Song.mp3
+May 27 21:08 : update: added /ZAYN, Zhavia Ward - A Whole New World (End Title) (From 'Aladdin'_Soundtrack Version).mp3
+May 27 21:08 : update: added /Sufian Suhaimi - Janji Official Music Video.mp3
+May 27 21:08 : update: added /Jimmy Palikat feat. One Nation Emcees - Anak Kampung.mp3
+May 27 21:08 : update: added /Sufian Suhaimi - Janji Official Music Video.webm
+May 27 21:08 : update: added /Jaz - Katakan.mp3
+May 27 21:08 : update: removing Sufian Suhaimi - Janji Official Music Video.webm
+May 27 21:08 : update: updating /Sufian Suhaimi - Janji Official Music Video.mp3
+May 27 21:08 : update: updating /NA - NA.mp3
+May 27 21:08 : update: added /NA - NA.webm
+May 27 21:08 : update: updating /NA - NA.mp3
+May 27 21:08 : update: updating /NA - NA.webm
+May 27 21:08 : update: removing NA - NA.webm
+May 27 21:08 : update: updating /NA - NA.mp3
+May 27 21:08 : update: added /Insomniacks - Pulang.mp3
+May 27 21:08 : update: added /Insomniacks - Pulang.webm
+May 27 21:08 : update: added /Anang Hermansyah & Ashanty - Langit Cinta.mp3
+May 27 21:09 : update: removing Insomniacks - Pulang.webm
+May 27 21:09 : update: updating /Insomniacks - Pulang.mp3
+May 27 21:09 : update: added /hafiz & adira - takdir tercipta mv.webm
+May 27 21:09 : update: added /hafiz & adira - takdir tercipta mv.mp3
+May 27 21:09 : update: removing hafiz & adira - takdir tercipta mv.webm
+May 27 21:09 : update: added /Andmesh - Andmesh - Kumau Dia (Official Music Video).mp3
+May 27 21:09 : update: added /Andmesh - Andmesh - Kumau Dia (Official Music Video).webm
+May 27 21:09 : update: updating /hafiz & adira - takdir tercipta mv.mp3
+May 27 21:09 : update: removing Andmesh - Andmesh - Kumau Dia (Official Music Video).webm
+May 27 21:09 : update: added /Mahen - Pura Pura Lupa.webm
+May 27 21:09 : update: added /Mahen - Pura Pura Lupa.mp3
+May 27 21:09 : update: updating /Andmesh - Andmesh - Kumau Dia (Official Music Video).mp3
+May 27 21:10 : update: removing Mahen - Pura Pura Lupa.webm
+May 27 21:10 : update: updating /NA - NA.mp3
+May 27 21:10 : update: added /Hael Husaini - Bersyukur Seadanya [Official Music Video].webm
+May 27 21:10 : update: updating /Mahen - Pura Pura Lupa.mp3
+May 27 21:10 : update: added /Cakra Khan - Kekasih Bayangan.mp3
+May 27 21:10 : update: added /Hael Husaini - Bersyukur Seadanya [Official Music Video].mp3
+May 27 21:10 : update: added /M. Nasir - Satu Hari Di Hari Raya.mp3
+May 27 21:10 : update: added /Wany Hasrita & Dato` Jamal Abdillah - Belenggu Rindu.mp3
+May 27 21:10 : update: removing Hael Husaini - Bersyukur Seadanya [Official Music Video].webm
+May 27 21:10 : update: added /Harris Baba - Harris Baba - Bagai Selalu (Official Music Video).webm
+May 27 21:10 : update: updating /Hael Husaini - Bersyukur Seadanya [Official Music Video].mp3
+May 27 21:10 : update: added /Harris Baba - Harris Baba - Bagai Selalu (Official Music Video).mp3
+May 27 21:10 : update: removing Harris Baba - Harris Baba - Bagai Selalu (Official Music Video).webm
+May 27 21:10 : update: added /Bunga Citra Lestari, Ariel NOAH - Menghapus Jejakmu.mp3
+May 27 21:10 : update: added /Judika - Cinta Karena Cinta.mp3
+May 27 21:10 : update: added /NA - mimi manan lv final.mp3
+May 27 21:10 : update: added /Floor 88,Baby Shima - Tak Dapat Raya.mp3
+May 27 21:10 : update: added /Judika - Jikalau Kau Cinta.mp3
+May 27 21:10 : update: added /Floor 88,Baby Shima - Tak Dapat Raya.webm
+May 27 21:10 : update: updating /Harris Baba - Harris Baba - Bagai Selalu (Official Music Video).mp3
+May 27 21:11 : update: removing Floor 88,Baby Shima - Tak Dapat Raya.webm
+May 27 21:11 : update: updating /Floor 88,Baby Shima - Tak Dapat Raya.mp3
+May 27 21:11 : update: added /Ariff Bahran, Sarah Suhairi - Bicara Rasa.mp3
+May 27 21:11 : update: added /Ariff Bahran, Sarah Suhairi - Bicara Rasa.webm
+May 27 21:11 : update: removing Ariff Bahran, Sarah Suhairi - Bicara Rasa.webm
+May 27 21:11 : update: added /Ukays - Terpaksa ku lepaskan.mp3
+May 27 21:11 : update: updating /Ariff Bahran, Sarah Suhairi - Bicara Rasa.mp3
+May 27 21:11 : update: added /Ukays - Terpaksa ku lepaskan.webm
+May 27 21:11 : update: removing Ukays - Terpaksa ku lepaskan.webm
+May 27 21:11 : update: updating /Ukays - Terpaksa ku lepaskan.mp3
+May 27 21:11 : update: added /Nabila Razali - Peluang Kedua.mp3
+May 27 21:11 : update: added /Bunga Citra Lestari - Cinta Sejati.mp3
+May 27 21:11 : update: added /Nyanyian Ramai - Warna Warni Aidilfitri.webm
+May 27 21:11 : update: added /Nyanyian Ramai - Warna Warni Aidilfitri.mp3
+May 27 21:12 : update: removing Nyanyian Ramai - Warna Warni Aidilfitri.webm
+May 27 21:12 : update: added /Siti Nurhaliza - Nazam Lebaran.mp3
+May 27 21:12 : update: added /Siti Nurhaliza - Nazam Lebaran.webm
+May 27 21:12 : update: updating /Nyanyian Ramai - Warna Warni Aidilfitri.mp3
+May 27 21:12 : update: removing Siti Nurhaliza - Nazam Lebaran.webm
+May 27 21:12 : update: updating /Siti Nurhaliza - Nazam Lebaran.mp3
+May 27 21:12 : update: added /Siti Nurhaliza - Joget Pahang.mp3
+May 27 21:12 : update: added /Siti Nurhaliza - Air Mata Syawal.mp3
+May 27 21:12 : update: added /Siti Nurhaliza - Air Mata Syawal.webm
+May 27 21:12 : update: removing Siti Nurhaliza - Air Mata Syawal.webm
+May 27 21:12 : update: updating /NA - NA.mp3
+May 27 21:12 : update: updating /Siti Nurhaliza - Air Mata Syawal.mp3
+May 27 21:12 : update: added /NA - NA.webm
+May 27 21:12 : update: removing NA - NA.webm
+May 27 21:12 : update: updating /NA - NA.mp3
+May 27 21:12 : update: added /Ernie Zakri - Gundah.mp3
+May 27 21:12 : update: added /Ernie Zakri - Gundah.webm
+May 27 21:12 : update: removing Ernie Zakri - Gundah.webm
+May 27 21:12 : update: updating /Ernie Zakri - Gundah.mp3
+May 27 21:12 : update: added /Achey - Sakit.webm
+May 27 21:12 : update: added /Achey - Sakit.mp3
+May 27 21:13 : update: removing Achey - Sakit.webm
+May 27 21:13 : update: updating /Achey - Sakit.mp3
+May 27 21:13 : update: added /NA - KAMU YANG KUTUNGGU.webm
+May 27 21:13 : update: added /NA - KAMU YANG KUTUNGGU.mp3
+May 27 21:13 : update: removing NA - KAMU YANG KUTUNGGU.webm
+May 27 21:13 : update: added /Siti Nurhaliza - Bila Hari Raya Menjelma.webm
+May 27 21:13 : update: added /Siti Nurhaliza, Noraniza Idris, Liza Hanim, Anis Suraya - Aidilfitri Di Alaf Baru.mp3
+May 27 21:13 : update: added /Anuar & Ellina - Suasana Di Hari Raya.mp3
+May 27 21:13 : update: added /Andmesh - Cinta Luar Biasa.mp3
+May 27 21:13 : update: added /Siti Nurhaliza - Bila Hari Raya Menjelma.mp3
+May 27 21:13 : update: updating /NA - KAMU YANG KUTUNGGU.mp3
+May 27 21:14 : update: removing Siti Nurhaliza - Bila Hari Raya Menjelma.webm
+May 27 21:14 : update: added /Anji - Menunggu Kamu.mp3
+May 27 21:14 : update: updating /NA - NA.mp3
+May 27 21:14 : update: added /Siti Nurhaliza - Sesuci Lebaran.mp3
+May 27 21:14 : update: updating /Siti Nurhaliza - Bila Hari Raya Menjelma.mp3
+May 27 21:14 : update: updating /NA - NA.mp3
+May 27 21:14 : update: added /NA - NA.webm
+May 27 21:14 : update: removing NA - NA.webm
+May 27 21:14 : update: updating /NA - NA.mp3
+May 28 01:34 : player: played "Quality Control, Lil Baby, DaBaby - Baby.mp3"
+May 28 11:26 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 28 11:26 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 28 11:26 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 29 00:10 : player: played "Quality Control, Lil Baby, DaBaby - Baby.mp3"
+May 29 09:47 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 29 09:47 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 29 09:47 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 29 09:56 : avahi: Client Disconnected, will reconnect shortly
+May 29 09:56 : player: played "Quality Control, Lil Baby, DaBaby - Baby.mp3"
+May 29 09:58 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 29 09:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 29 09:58 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 29 10:51 : avahi: Client Disconnected, will reconnect shortly
+May 29 10:51 : player: played "Quality Control, Lil Baby, DaBaby - Baby.mp3"
+May 29 10:52 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 29 10:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 29 10:53 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 29 18:44 : player: played "Quality Control, Lil Baby, DaBaby - Baby.mp3"
+May 29 18:52 : update: removing Achey - Sakit.mp3
+May 29 18:52 : update: removing Ariff Bahran, Sarah Suhairi - Bicara Rasa.mp3
+May 29 18:52 : update: removing Anuar & Ellina - Suasana Di Hari Raya.mp3
+May 29 18:52 : update: removing Anji - Menunggu Kamu.mp3
+May 29 18:52 : update: removing Andmesh - Cinta Luar Biasa.mp3
+May 29 18:52 : update: removing Andmesh - Andmesh - Kumau Dia (Official Music Video).mp3
+May 29 18:52 : update: removing Anang Hermansyah & Ashanty - Langit Cinta.mp3
+May 29 18:52 : update: removing Daddy Lil Playa - Takut.mp3
+May 29 18:52 : update: removing Chris Brown - No Guidance.mp3
+May 29 18:52 : update: removing Calboy - Envy Me.mp3
+May 29 18:52 : update: removing Cakra Khan - Kekasih Bayangan.mp3
+May 29 18:52 : update: removing Bunga Citra Lestari, Ariel NOAH - Menghapus Jejakmu.mp3
+May 29 18:52 : update: removing Bunga Citra Lestari - Cinta Sejati.mp3
+May 29 18:52 : update: removing BTS(방탄소년단) - spring day MVID RANK.mp3
+May 29 18:52 : update: removing BTS - Run.mp3
+May 29 18:52 : update: removing BTS - Boy With Luv (Feat. Halsey).mp3
+May 29 18:52 : update: removing JayDaYoungan - 23 Island.mp3
+May 29 18:52 : update: removing Jackboy - Cleaning Crew.mp3
+May 29 18:52 : update: removing Jack Harlow - WHATS POPPIN.mp3
+May 29 18:52 : update: removing IU(아이유) - Palette(팔레트) (Feat. G-DRAGON).mp3
+May 29 18:52 : update: removing IU - 너랑 나.mp3
+May 29 18:52 : update: removing IU - Blueming.mp3
+May 29 18:52 : update: removing ITZY - 달라달라(DALLA DALLA).mp3
+May 29 18:52 : update: removing Imagine Dragons - Bad Liar.mp3
+May 29 18:52 : update: removing Harris Baba - Katakan.mp3
+May 29 18:52 : update: removing Harris Baba - Harris Baba - Bagai Selalu (Official Music Video).mp3
+May 29 18:52 : update: removing hafiz & adira - takdir tercipta mv.mp3
+May 29 18:52 : update: removing Hael Husaini - Bersyukur Seadanya [Official Music Video].mp3
+May 29 18:52 : update: removing Gloc-9 - Halik (feat. Flow G).mp3
+May 29 18:52 : update: removing Floor 88,Baby Shima - Tak Dapat Raya.mp3
+May 29 18:52 : update: removing Ernie Zakri - Gundah.mp3
+May 29 18:52 : update: removing DDG - OD.mp3
+May 29 18:52 : update: removing Dayangku Intan - Senandung Hari Raya Untukmu.mp3
+May 29 18:52 : update: removing Nyanyian Ramai - Warna Warni Aidilfitri.mp3
+May 29 18:52 : update: removing Nukilan - Aduh Neng.mp3
+May 29 18:52 : update: removing Naomi Scott - Speechless (Full) (From 'Aladdin'_Soundtrack Version).mp3
+May 29 18:52 : update: removing Nabila Razali - Peluang Kedua.mp3
+May 29 18:52 : update: removing Megan Thee Stallion - Cash Shit (feat. Da Baby).mp3
+May 29 18:52 : update: removing Megan Thee Stallion - Captain Hook.mp3
+May 29 18:52 : update: removing Maroon 5 - Memories.mp3
+May 29 18:52 : update: removing Mahen - Pura Pura Lupa.mp3
+May 29 18:52 : update: removing Maggie Lindemann - Pretty Girl.mp3
+May 29 18:52 : update: removing M. Nasir - Satu Hari Di Hari Raya.mp3
+May 29 18:52 : update: removing Lil Baby - All In.mp3
+May 29 18:52 : update: removing Lauv - I Like Me Better.mp3
+May 29 18:52 : update: removing LANY - Malibu Nights.mp3
+May 29 18:52 : update: removing KSI - Poppin (feat. Lil Pump & Smokepurpp).mp3
+May 29 18:52 : update: removing KSI - Houdini (feat. Swarmz & Tion Wayne).mp3
+May 29 18:52 : update: removing King Von - Crazy Story (Remix).mp3
+May 29 18:52 : update: removing King Von - 3 A.M..mp3
+May 29 18:52 : update: removing Khalid - Talk.mp3
+May 29 18:52 : update: removing K-Clique - Mimpi (feat. Alif).mp3
+May 29 18:52 : update: removing Justin Bieber - Yummy.mp3
+May 29 18:52 : update: removing Jaz - Katakan.mp3
+May 29 18:52 : update: removing JayDaYoungan - 38K.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Fine By Time.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Drop'Em.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Drawing Symbols.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Diamonds.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Bout My Business (feat. Sherhonda Gaulden).mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Bad Bad.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Ain't Easy.mp3
+May 29 18:52 : update: removing YBNBA - ICAMETHRU FINAL.mp3
+May 29 18:52 : update: removing Wany Hasrita & Dato` Jamal Abdillah - Belenggu Rindu.mp3
+May 29 18:52 : update: removing Wany Hasrita - Canggung.mp3
+May 29 18:52 : update: removing Ukays - Terpaksa ku lepaskan.mp3
+May 29 18:52 : update: removing TWICE - YES or YES.mp3
+May 29 18:52 : update: removing TWICE - What is Love.mp3
+May 29 18:52 : update: removing TWICE - SIGNAL.mp3
+May 29 18:52 : update: removing TWICE - LIKEY.mp3
+May 29 18:52 : update: removing TWICE - Like OOH-AHH.mp3
+May 29 18:52 : update: removing TWICE - KNOCK KNOCK.mp3
+May 29 18:52 : update: removing TWICE - Feel Special.mp3
+May 29 18:52 : update: removing TWICE - FANCY.mp3
+May 29 18:52 : update: removing TWICE - Dance The Night Away.mp3
+May 29 18:52 : update: removing TWICE - CHEER UP.mp3
+May 29 18:52 : update: removing Toosii - 5 Stars.mp3
+May 29 18:52 : update: removing The Motion - 4 Sons Of A King.mp3
+May 29 18:52 : update: removing Surfaces - Sunday Best.mp3
+May 29 18:52 : update: removing Sufian Suhaimi - Janji Official Music Video.mp3
+May 29 18:52 : update: removing Stunna 4 Vegas, Offset - UP THE SMOKE.mp3
+May 29 18:52 : update: removing Stunna 4 Vegas, DaBaby - Ashley.mp3
+May 29 18:52 : update: removing Stunna 4 Vegas, Blac Youngsta - CHANGE MY LIFE.mp3
+May 29 18:52 : update: removing Stunna 4 Vegas - WET.mp3
+May 29 18:52 : update: removing Stunna 4 Vegas - Freestyle.mp3
+May 29 18:52 : update: removing Stunna 4 Vegas - Animal.mp3
+May 29 18:52 : update: removing Stephanie Poetri - I Love You 3000 (No II).mp3
+May 29 18:52 : update: removing StaySolidRocky - Party Girl.mp3
+May 29 18:52 : update: removing Soulstice - L.D.R..mp3
+May 29 18:52 : update: removing Siti Nurhaliza, Noraniza Idris, Liza Hanim, Anis Suraya - Aidilfitri Di Alaf Baru.mp3
+May 29 18:52 : update: removing Siti Nurhaliza - Sesuci Lebaran.mp3
+May 29 18:52 : update: removing Siti Nurhaliza - Nazam Lebaran.mp3
+May 29 18:52 : update: removing Siti Nurhaliza - Joget Pahang.mp3
+May 29 18:52 : update: removing Siti Nurhaliza - Bila Hari Raya Menjelma.mp3
+May 29 18:52 : update: removing Siti Nurhaliza - Air Mata Syawal.mp3
+May 29 18:52 : update: removing Sik-K (식케이) - YeLowS Gang (Feat. 허내인 Herr Nayne, Woodie Gochild) (Prod. GroovyRoom).mp3
+May 29 18:52 : update: removing Sheck Wes - Mo Bamba.mp3
+May 29 18:52 : update: removing Rich Brian - Dat $tick.mp3
+May 29 18:52 : update: removing Rich Brian - Dat $tick (Official Video).mp3
+May 29 18:52 : update: removing Zynakal - Sakit (feat. Yonnyboii).mp3
+May 29 18:52 : update: removing ZK Caston - House Arrest Tingz (Freestyle).mp3
+May 29 18:52 : update: removing Zizi Kirana - Eh.mp3
+May 29 18:52 : update: removing ZICO - Any song.mp3
+May 29 18:52 : update: removing ZAYN, Zhavia Ward - A Whole New World (End Title) (From 'Aladdin'_Soundtrack Version).mp3
+May 29 18:52 : update: removing Yungeen Ace - Step Harder.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Win Your Love.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Valuable Pain.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Untouchable.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Unchartered Love.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Treat You Better.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Time I'm On.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Thug Of Spades (feat. DaBaby).mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Through The Storm.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Ten Talk.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Slime Mentality.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Shadows.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Self Control 2.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Ranada.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Pick From Pain.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Outside Today.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Okay.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - No Smoke.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - No Mentions.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Make No Sense.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Lost Motives.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Long RD.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Lonely Child.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Lil Top.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - In Control.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - I Choose You.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Graffiti.mp3
+May 29 18:52 : update: removing YoungBoy Never Broke Again - Genie.mp3
+May 30 00:34 : avahi: Client Disconnected, will reconnect shortly
+May 30 10:31 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 30 10:31 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+May 31 11:30 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+May 31 11:30 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jun 01 12:42 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jun 01 12:42 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jun 02 11:39 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jun 02 11:39 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jun 02 14:55 : update: removing 2KBABY - Old Streets.mp3
+Jun 02 14:55 : update: removing ALLMO$T feat. L.A. GOON$ & Peso Mercado - Miracle Nights.mp3
+Jun 02 14:55 : update: removing Aitch, AJ Tracey - Rain.mp3
+Jun 02 14:55 : update: removing A Boogie Wit da Hoodie - Swervin (feat. 6ix9ine).mp3
+Jun 02 14:55 : update: removing 50 Cent - Patiently Waiting (Album Version (Edited)).mp3
+Jun 02 14:55 : update: removing Blueface - Holy Moly.mp3
+Jun 02 14:55 : update: removing Blueface - Daddy.mp3
+Jun 02 14:55 : update: removing Blueface - Blueface - Thotiana Remix ft. Cardi B.mp3
+Jun 02 14:55 : update: removing BENEE - Supalonely.mp3
+Jun 02 14:55 : update: removing Arizona Zervas - ROXANNE.mp3
+Jun 02 14:55 : update: removing DaBaby - Above The Rim.mp3
+Jun 02 14:55 : update: removing DaBaby - 4x.mp3
+Jun 02 14:55 : update: removing DaBaby - 21.mp3
+Jun 02 14:55 : update: removing Camila Cabello - My Oh My.mp3
+Jun 02 14:55 : update: removing Blueface, DaBaby - Obama.mp3
+Jun 02 14:55 : update: removing Blueface - Tour.mp3
+Jun 02 14:55 : update: removing DaBaby - Goin Baby.mp3
+Jun 02 14:55 : update: removing DaBaby - FIND MY WAY.mp3
+Jun 02 14:55 : update: removing DaBaby - DROP.mp3
+Jun 02 14:55 : update: removing DaBaby - CHAMPION.mp3
+Jun 02 14:55 : update: removing DaBaby - Carpet Burn.mp3
+Jun 02 14:55 : update: removing DaBaby - CAN'T STOP.mp3
+Jun 02 14:55 : update: removing DaBaby - BOP.mp3
+Jun 02 14:55 : update: removing DaBaby - BLAME IT ON BABY.mp3
+Jun 02 14:55 : update: removing DaBaby - Beeper.mp3
+Jun 02 14:55 : update: removing DaBaby - AMAZING GRACE.mp3
+Jun 02 14:55 : update: removing DaBaby - PROLLY HEARD.mp3
+Jun 02 14:55 : update: removing DaBaby - POP STAR.mp3
+Jun 02 14:55 : update: removing DaBaby - Pony.mp3
+Jun 02 14:55 : update: removing DaBaby - PICK UP.mp3
+Jun 02 14:55 : update: removing DaBaby - OFF THE RIP.mp3
+Jun 02 14:55 : update: removing DaBaby - No Tears.mp3
+Jun 02 14:55 : update: removing DaBaby - Next Song.mp3
+Jun 02 14:55 : update: removing DaBaby - MOVIE_GORILLA GLUE.mp3
+Jun 02 14:55 : update: removing DaBaby - LIGHTSKIN SH_T.mp3
+Jun 02 14:55 : update: removing DaBaby - INTRO_REALLY_BOP (Medley_Live From The Tonight Show Starring Jimmy Fallon_2019).mp3
+Jun 02 14:55 : update: removing DaBaby - GOSPEL.mp3
+Jun 02 14:55 : update: removing DaBaby, Offset - Baby Sitter.mp3
+Jun 02 14:55 : update: removing DaBaby, Nicki Minaj - iPHONE.mp3
+Jun 02 14:55 : update: removing DaBaby - XXL.mp3
+Jun 02 14:55 : update: removing DaBaby - Walker Texas Ranger.mp3
+Jun 02 14:55 : update: removing DaBaby - VIBEZ.mp3
+Jun 02 14:55 : update: removing DaBaby - TOES.mp3
+Jun 02 14:55 : update: removing DaBaby - Today.mp3
+Jun 02 14:55 : update: removing DaBaby - THERE HE GO.mp3
+Jun 02 14:55 : update: removing DaBaby - TALK ABOUT IT.mp3
+Jun 02 14:55 : update: removing DaBaby - Suge.mp3
+Jun 02 14:55 : update: removing DaBaby - SHUT UP.mp3
+Jun 02 14:55 : update: removing DaBaby - SAD SH_T.mp3
+Jun 02 14:55 : update: removing DaBaby - REALLY.mp3
+Jun 02 14:55 : update: removing Flipp Dinero - How I Move.mp3
+Jun 02 14:55 : update: removing Eric Chou - The Chaos After You.mp3
+Jun 02 14:55 : update: removing Eminem, 50 Cent, Cashis, Lloyd Banks - You Don't Know.mp3
+Jun 02 14:55 : update: removing Eminem - Encore.mp3
+Jun 02 14:55 : update: removing Ellie Goulding, Juice WRLD - Hate Me.mp3
+Jun 02 14:55 : update: removing Ed Sheeran, Camila Cabello, Cardi B - South of the Border (feat. Camila Cabello & Cardi B).mp3
+Jun 02 14:55 : update: removing Ed Sheeran - Beautiful People (feat. Khalid).mp3
+Jun 02 14:55 : update: removing DripReport - Skechers.mp3
+Jun 02 14:55 : update: removing Dreamville, J. Cole, Lute - Under The Sun.mp3
+Jun 02 14:55 : update: removing Doja Cat - Like That.mp3
+Jun 02 14:55 : update: removing DJ Khaled, Cardi B, 21 Savage - Wish Wish.mp3
+Jun 02 14:55 : update: removing DaniLeigh, DaBaby - Levi High.mp3
+Jun 02 14:55 : update: removing DaBaby, Roddy Ricch - ROCKSTAR.mp3
+Jun 02 14:55 : update: removing Judika - Cinta Karena Cinta.mp3
+Jun 02 14:55 : update: removing Joyner Lucas - Will.mp3
+Jun 02 14:55 : update: removing Jimmy Palikat feat. One Nation Emcees - Anak Kampung.mp3
+Jun 02 14:55 : update: removing Jeremy Zucker - comethru.mp3
+Jun 02 14:55 : update: removing JACKBOYS, Travis Scott - OUT WEST.mp3
+Jun 02 14:55 : update: removing Jackboy - Pressure.mp3
+Jun 02 14:55 : update: removing Itzy - WANNABE.mp3
+Jun 02 14:55 : update: removing Insomniacks - Pulang.mp3
+Jun 02 14:55 : update: removing Gucci Mane, Bruno Mars, Kodak Black - Wake Up in the Sky.mp3
+Jun 02 14:55 : update: removing Gucci Mane - Richer Than Errybody (feat. YoungBoy Never Broke Again & DaBaby).mp3
+Jun 02 14:55 : update: removing G Herbo - PTSD.mp3
+Jun 02 14:55 : update: removing Future - Life Is Good.mp3
+Jun 02 14:55 : update: removing Fredo Bang - Get Even.mp3
+Jun 02 14:55 : update: removing Flipp Dinero - Leave Me Alone.mp3
+Jun 02 14:55 : update: removing Lil Baby, 42 Dugg - Grace.mp3
+Jun 02 14:55 : update: removing Lil Baby - Woah.mp3
+Jun 02 14:55 : update: removing Lil Baby - Sum 2 Prove.mp3
+Jun 02 14:55 : update: removing Lil Baby - Social Distancing.mp3
+Jun 02 14:55 : update: removing Lil Baby - Freestyle.mp3
+Jun 02 14:55 : update: removing Lil Baby - Forever.mp3
+Jun 02 14:55 : update: removing Lil Baby - Emotionally Scarred.mp3
+Jun 02 14:55 : update: removing Lil Baby - Close Friends.mp3
+Jun 02 14:55 : update: removing Justin Bieber - Intentions.mp3
+Jun 02 14:55 : update: removing Justin Bieber - Forever.mp3
+Jun 02 14:55 : update: removing Juice WRLD - Robbery.mp3
+Jun 02 14:55 : update: removing Juice WRLD - Lucid Dreams.mp3
+Jun 02 14:55 : update: removing Juice WRLD - Bandit ft. NBA Youngboy (Dir. by @_ColeBennett_).mp3
+Jun 02 14:55 : update: removing Juice WRLD - All Girls Are The Same.mp3
+Jun 02 14:55 : update: removing Judika - Jikalau Kau Cinta.mp3
+Jun 02 14:55 : update: removing Migos - Need It.mp3
+Jun 02 14:55 : update: removing Migos - Bad & Boujee feat Lil Uzi Vert.mp3
+Jun 02 14:55 : update: removing Megan Thee Stallion - Savage (Remix) (ft. Beyoncé).mp3
+Jun 02 14:55 : update: removing M Huncho - Indulge.mp3
+Jun 02 14:55 : update: removing Little Mix feat. Jason Derulo - Secret Love Song.mp3
+Jun 02 14:55 : update: removing Lil Yachty, DaBaby, Drake - Oprah's Bank Account.mp3
+Jun 02 14:55 : update: removing Lil Tjay, Fivio Foreign, Pop Smoke - Zoo York.mp3
+Jun 02 14:55 : update: removing Lil Tjay - Brothers (Remix).mp3
+Jun 02 14:55 : update: removing Lil Tecca - Did It Again.mp3
+Jun 02 14:55 : update: removing Lil Skies - Fidget.mp3
+Jun 02 14:55 : update: removing Lil Moose - Noticed.mp3
+Jun 02 14:55 : update: removing Lil Durk - Viral Moment.mp3
+Jun 02 14:55 : update: removing Lil Durk - 3 Headed Goat.mp3
+Jun 02 14:55 : update: removing Lil Baby, Gunna - Drip Too Hard.mp3
+Jun 02 14:55 : update: removing Lil Baby, 42 Dugg - We Paid.mp3
+Jun 02 14:55 : update: removing NBA Meechy Baby, Youngboy Never Broke Again - Talk My Shit (feat. YoungBoy Never Broke Again).mp3
+Jun 02 14:55 : update: removing NA - YNW Melly 'Dangerously In Love (772 Love Pt. 2)' (Official Audio).mp3
+Jun 02 14:55 : update: removing NA - YBxSlimeBeliefxFinalVid.mp3
+Jun 02 14:55 : update: removing NA - NBA Youngboy   Bring 'Em Out.mp3
+Jun 02 14:55 : update: removing NA - NA.mp3
+Jun 02 14:55 : update: removing NA - mimi manan lv final.mp3
+Jun 02 14:55 : update: removing NA - KAMU YANG KUTUNGGU.mp3
+Jun 02 14:55 : update: removing Mustard, Roddy Ricch - Ballin’.mp3
+Jun 02 14:55 : update: removing Mustard, Migos - Pure Water.mp3
+Jun 02 14:55 : update: removing Moneybagg Yo, Megan Thee Stallion - All Dat.mp3
+Jun 02 14:55 : update: removing Moneybagg Yo, Blac Youngsta - 1 2 3.mp3
+Jun 02 14:55 : update: removing Moneybagg Yo - Me Vs Me.mp3
+Jun 02 14:55 : update: removing Migos - Taco Tuesday.mp3
+Jun 02 14:55 : update: removing Polo G - Be Something.mp3
+Jun 02 14:55 : update: removing Plies, DaBaby - Boss Friends (feat. DaBaby).mp3
+Jun 02 14:55 : update: removing OMB Peezy - Big Homie.mp3
+Jun 02 14:55 : update: removing Offset - Clout.mp3
+Jun 02 14:55 : update: removing NoCap - Blind Nights.mp3
+Jun 02 14:55 : update: removing NLE Choppa - Walk Em Down (feat. Roddy Ricch).mp3
+Jun 02 14:55 : update: removing NLE Choppa - Shotta Flow 3.mp3
+Jun 02 14:55 : update: removing NLE Choppa - Shotta Flow 2.mp3
+Jun 02 14:55 : update: removing NLE Choppa - Shotta Flow (feat. Blueface) [Remix].mp3
+Jun 02 14:55 : update: removing NLE Choppa - Famous Hoes.mp3
+Jun 02 14:55 : update: removing Nipsey Hussle - Racks in the Middle (feat. Roddy Ricch and Hit-Boy).mp3
+Jun 02 14:55 : update: removing NBA YoungBoy - Kick Yo Door.mp3
+Jun 02 14:55 : update: removing Quando Rondo - Scarred From Love.mp3
+Jun 02 14:55 : update: removing Quando Rondo - Imperfect Flower.mp3
+Jun 02 14:55 : update: removing Pop Smoke - Welcome To The Party.mp3
+Jun 02 14:55 : update: removing Polo G, Stunna 4 Vegas, NLE Choppa - Go Stupid.mp3
+Jun 02 14:55 : update: removing Polo G - Pop Out.mp3
+Jun 02 14:55 : update: removing Polo G - Flex.mp3
+Jun 02 14:55 : update: removing Polo G - Finer Things.mp3
+Jun 02 14:55 : update: removing Polo G - Effortless.mp3
+Jun 02 14:55 : update: removing Polo G - DND.mp3
+Jun 02 14:55 : update: removing Rod Wave - Dark Clouds.mp3
+Jun 02 14:55 : update: removing Rod Wave - Cuban Links (feat. Kevin Gates).mp3
+Jun 02 14:55 : update: removing Rocketfuel Network - Zizan Razak - Kau Takkan Tahu [Official Music Video].mp3
+Jun 02 14:55 : update: removing Rich The Kid, YoungBoy Never Broke Again - Money Talk.mp3
+Jun 02 14:55 : update: removing Rich Dunk - Highschool.mp3
+Jun 02 14:55 : update: removing Rich Brian - Glow Like Dat.mp3
+Jun 02 14:55 : update: removing Red Velvet 레드벨벳 - Red Velvet 레드벨벳 'Psycho' MV.mp3
+Jun 02 14:55 : update: removing Rod Wave - The Last Sad Song.mp3
+Jun 02 14:55 : update: removing Rod Wave - The Greatest.mp3
+Jun 02 14:55 : update: removing Rod Wave - Popular Loner.mp3
+Jun 02 14:55 : update: removing Rod Wave - Heart On Ice.mp3
+Jun 02 14:55 : update: removing Rod Wave - Green Light.mp3
+Jun 02 14:55 : update: removing Roddy Ricch - Every Season.mp3
+Jun 02 14:55 : update: removing RODDY RICCH - DOWN BELOW.mp3
+Jun 02 14:55 : update: removing Roddy Ricch - Die Young.mp3
+Jun 02 14:55 : update: removing Rod Wave - Thief In The Night.mp3
+Jun 02 14:55 : update: removing Roddy Ricch - Tip Toe (feat. A Boogie Wit da Hoodie).mp3
+Jun 02 14:55 : update: removing Roddy Ricch - High Fashion (feat. Mustard).mp3
+Jun 02 14:55 : update: removing Travis Scott - SICKO MODE.mp3
+Jun 02 14:55 : update: removing Yella Beezy, Quavo & Gucci Mane - Bacc At It Again.mp3
+Jun 02 14:55 : update: removing YG, DaBaby - Stop Snitchin (Remix).mp3
+Jun 02 14:55 : update: removing Yo Gotti, Lil Baby - Put a Date On It.mp3
+Jun 02 14:55 : update: removing Young Dolph - Sunshine.mp3
+Jun 02 14:55 : update: removing Young Thug - The London (feat. J. Cole & Travis Scott).mp3
+Jun 02 14:55 : update: removing Young Thug, Gunna - Hot (feat. Gunna).mp3
+Jun 02 14:55 : update: removing BLACKPINK - 휘파람(Whistle).mp3
+Jun 02 14:55 : update: removing BLACKPINK - 마지막처럼(As If It's Your Last).mp3
+Jun 02 14:55 : update: removing BLACKPINK - 뚜두뚜두(DDU-DU DDU-DU).mp3
+Jun 02 14:55 : update: removing BLACKPINK - Kill This Love.mp3
+Jun 02 16:27 : avahi: Client Disconnected, will reconnect shortly
+Jun 02 21:53 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jun 02 21:53 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jun 03 01:58 : avahi: Client Disconnected, will reconnect shortly
+Jun 03 11:44 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jun 03 11:44 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jun 04 11:32 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jun 04 11:32 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jun 05 02:00 : avahi: Client Disconnected, will reconnect shortly
+Jun 05 11:53 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jun 05 11:53 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jun 06 00:10 : avahi: Client Disconnected, will reconnect shortly
+Jun 06 11:04 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jun 06 11:04 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jun 06 16:39 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jun 06 16:39 : avahi: Service 'Music Player @ terra-laptop' successfully established.
