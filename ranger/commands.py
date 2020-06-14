@@ -94,6 +94,31 @@ class fzf_select(Command):
                 self.fm.select_file(fzf_file)
 
 
+
+class fzf_z(Command):
+    """
+    :fzf_z
+
+    jump around using z history and fzf
+
+    """
+    def execute(self):
+        import subprocess
+        import os.path
+
+        command = "z | awk {print $1} | fzf +m"
+
+
+        fzf = self.fm.execute_command(command, universal_newlines=True, stdout=subprocess.PIPE)
+        stdout, stderr = fzf.communicate()
+        if fzf.returncode == 0:
+            fzf_file = os.path.abspath(stdout.rstrip('\n'))
+            if os.path.isdir(fzf_file):
+                self.fm.cd(fzf_file)
+            else:
+                self.fm.select_file(fzf_file)
+
+
 class cd(Command):
     """:cd [-r] <dirname>
 

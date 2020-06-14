@@ -1,14 +1,3 @@
-search .config
-linemode
-linemode sizemtime
-linemode mtime
-linemode filename
-filter plcl
-grep casting
-mark
-mark plc
-unmark
-mark ^em110$
 mark ^plc$
 run
 mkdir nanatsu-no-taizai
@@ -41,10 +30,21 @@ z Downloads
 cd
 find .giti
 find 
-
 d
 open_with 
-rename 
 rename distribution_board.jpeg
 rename tnb-meter.jpeg
+rename IO-name.png
+
+cd /home/terra/Pictures/
+rename 
+rename IO-addons.png
+rename IO-addons-table.png
+rename IO-addons-repitition.png
+rename IO-receipt.png
+cd /home/terra/Documents/system33/latex/csc_assg/
+rename IO-package.png
+mkdir latex-doc
+call fzf_z
+fzf_z
 delete

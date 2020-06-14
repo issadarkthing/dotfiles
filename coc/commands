@@ -1,0 +1,5 @@
+editor.action.organizeImport
+document.jumpToNextSymbol
+clangd.symbolInfo
+document.renameCurrentWord
+clangd.install

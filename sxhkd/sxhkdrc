@@ -76,7 +76,7 @@ super + minus
 
 
 # downloads music
-super + m
+super + M
 	~/Documents/scripts/dmd.sh
 
 #
@@ -136,6 +136,11 @@ super + {_,shift + }c
 # focus the next/previous desktop in the current monitor
 super + bracket{left,right}
 	bspc desktop -f {prev,next}.local; \
+	~/Documents/scripts/hide_if_fullscreen.sh
+
+# scroll through occupied workspace
+super + Tab
+	bspc desktop -f next.occupied; \
 	~/Documents/scripts/hide_if_fullscreen.sh
 
 # focus the last desktop

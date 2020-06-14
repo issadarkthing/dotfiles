@@ -3,10 +3,10 @@ root:
   autoclip: false
   autoprint: false
   autoimport: true
-  autosync: true
+  autosync: false
   check_recipient_hash: false
   cliptimeout: 45
-  concurrency: 1
+  concurrency: 4
   editrecipients: false
   exportkeys: true
   nocolor: false
