@@ -25,9 +25,6 @@ Plug 'scrooloose/nerdcommenter'
 " color highlight
 Plug 'chrisbra/colorizer', { 'on': 'ColorHighlight' }
 
-" nice vim startup
-Plug 'mhinz/vim-startify'
-
 " colorscheme
 Plug 'whatyouhide/vim-gotham'
 
@@ -74,6 +71,9 @@ Plug 'lervag/vimtex'
 
 " grammar check as well
 Plug 'dpelle/vim-LanguageTool'
+
+" auto save
+Plug '907th/vim-auto-save'
 
 call plug#end()
 
@@ -137,9 +137,9 @@ augroup personal_preference
 	autocmd StdinReadPre * let s:std_in=1
 	autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | exe 'cd '.argv()[0] | endif
 
+	" open vimwiki when no file specified
+	autocmd VimEnter * if argc() == 0 | execute 'VimwikiIndex' | endif
 
-	" compile latex
-	autocmd BufRead,BufNewFile *.tex nnoremap <buffer> <leader>c :!pdflatex %<cr>
 augroup END
 
 
@@ -150,21 +150,6 @@ set wildmode=longest:full,full
 " semicolon macro
 let @s="A;jk"
 
-
-" startify ascii art
-let g:ascii_vim_text = [
-			\"	██╗   ██╗██╗███╗   ███╗",
-			\"	██║   ██║██║████╗ ████║",
-			\"	██║   ██║██║██╔████╔██║",
-			\"	╚██╗ ██╔╝██║██║╚██╔╝██║",
-			\"	 ╚████╔╝ ██║██║ ╚═╝ ██║",
-			\"	  ╚═══╝  ╚═╝╚═╝     ╚═╝",
-	  \]
-
-
-
-let g:startify_custom_header =
-	  \ 'startify#pad(g:ascii_vim_text + startify#fortune#boxed())'
 
 
 " rename file inside vim
@@ -474,9 +459,41 @@ nmap <leader>gmn <Plug>(grammarous-move-to-next-error)
 let g:languagetool_jar = '/home/terra/Documents/repos/languagetool/languagetool-standalone/target/LanguageTool-5.0-SNAPSHOT/LanguageTool-5.0-SNAPSHOT/languagetool-commandline.jar'
 let g:languagetool_lang = 'en-GB'
 
-"Enable all categories
+" Enable all categories
 let g:languagetool_enable_categories = 'PUNCTUATION,TYPOGRAPHY,CASING,COLLOCATIONS,CONFUSED_WORDS,CREATIVE_WRITING,GRAMMAR,MISC,MISUSED_TERMS_EU_PUBLICATIONS,NONSTANDARD_PHRASES,PLAIN_ENGLISH,TYPOS,REDUNDANCY,SEMANTICS,TEXT_ANALYSIS,STYLE,GENDER_NEUTRALITY'
 
-"Enable all special rules that cannot be enabled via category
+" Enable all special rules that cannot be enabled via category
 let g:languagetool_enable_rules = 'AND_ALSO,ARE_ABLE_TO,ARTICLE_MISSING,AS_FAR_AS_X_IS_CONCERNED,BEST_EVER,BLEND_TOGETHER,BRIEF_MOMENT,CAN_NOT,CANT_HELP_BUT,COMMA_WHICH,EG_NO_COMMA,ELLIPSIS,EXACT_SAME,HONEST_TRUTH,HOPEFULLY,IE_NO_COMMA,IN_ORDER_TO,I_VE_A,NEGATE_MEANING,PASSIVE_VOICE,PLAN_ENGLISH,REASON_WHY,SENT_START_NUM,SERIAL_COMMA_OFF,SERIAL_COMMA_ON,SMARTPHONE,THREE_NN,TIRED_INTENSIFIERS,ULESLESS_THAT,WIKIPEDIA,WORLD_AROUND_IT'
 
+
+nnoremap <a-Left> :vert resize +5<cr>
+nnoremap <a-Right> :vert resize -5<cr>
+nnoremap <a-Up> :resize -5<cr>
+nnoremap <a-Down> :resize +5<cr>
+
+let g:tex_flavor = 'latex'
+let g:vimtex_quickfix_open_on_warning = 0
+
+
+let g:vimwiki_hl_headers = 1
+let g:vimwiki_hl_cb_checked = 1
+
+" change vim wiki heading colors
+highlight VimwikiHeader1 ctermfg=3
+highlight VimwikiHeader2 ctermfg=2
+highlight VimwikiHeader3 ctermfg=1
+highlight VimwikiHeader4 ctermfg=6
+highlight VimwikiHeader5 ctermfg=28
+highlight VimwikiHeader6 ctermfg=130
+
+" enable AutoSave on Vim startup
+let g:auto_save = 1  
+
+" do not display the auto-save notification
+let g:auto_save_silent = 1  
+
+" makes formatted block prettier
+let g:vimwiki_conceal_pre = 1
+
+" time out on mapping after three seconds, time out on key codes after a tenth of a second
+set timeout timeoutlen=3000 ttimeoutlen=100

@@ -85,7 +85,7 @@ class fzf_select(Command):
             command="find -L . \( -path '*/\.*' -o -fstype 'dev' -o -fstype 'proc' \) -prune \
             -o -print 2> /dev/null | sed 1d | cut -b3- | fzf +m"
         fzf = self.fm.execute_command(command, universal_newlines=True, stdout=subprocess.PIPE)
-        stdout, stderr = fzf.communicate()
+        stdout, _ = fzf.communicate()
         if fzf.returncode == 0:
             fzf_file = os.path.abspath(stdout.rstrip('\n'))
             if os.path.isdir(fzf_file):
@@ -106,7 +106,7 @@ class fzf_z(Command):
         import subprocess
         import os.path
 
-        command = "z | awk {print $1} | fzf +m"
+        command = "awk -F'|' '{print $1}' ~/.z | fzf +m --preview='ls {}'"
 
 
         fzf = self.fm.execute_command(command, universal_newlines=True, stdout=subprocess.PIPE)
@@ -117,6 +117,8 @@ class fzf_z(Command):
                 self.fm.cd(fzf_file)
             else:
                 self.fm.select_file(fzf_file)
+        else:
+            print(stderr)
 
 
 class cd(Command):

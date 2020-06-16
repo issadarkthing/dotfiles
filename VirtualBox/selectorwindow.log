@@ -1,39 +1,56 @@
-00:00:01.575333 VirtualBox GUI VM Selector Window 6.1.4 r136177 linux.amd64 (Feb 18 2020 18:15:40) release log
-00:00:01.575334 Log opened 2020-04-08T04:27:12.475602000Z
-00:00:01.575335 Build Type: release
-00:00:01.575338 OS Product: Linux
-00:00:01.575339 OS Release: 5.3.0-42-generic
-00:00:01.575339 OS Version: #34-Ubuntu SMP Fri Feb 28 05:49:40 UTC 2020
-00:00:01.575359 DMI Product Name: HP Laptop 15-da1xxx
-00:00:01.575363 DMI Product Version: Type1ProductConfigId
-00:00:01.575369 Firmware type: UEFI
-00:00:01.575978 Secure Boot: Enabled
-00:00:01.576031 Host RAM: 7847MB (7.6GB) total, 5006MB (4.8GB) available
-00:00:01.576036 Executable: /usr/lib/virtualbox/VirtualBox
-00:00:01.576036 Process ID: 6053
-00:00:01.576036 Package type: LINUX_64BITS_UBUNTU_19_10
-00:00:01.576068 Qt version: 5.12.4
-00:00:01.732385 GUI: UIMediumEnumerator: Medium-enumeration started...
-00:00:02.692312 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x27 x 1920x1053
-00:00:02.830654 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:00:07.996576 2D support test succeeded
-00:06:16.935010 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:06:17.155488 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:06:26.091559 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:06:28.171657 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:06:28.243016 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:06:32.810203 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:06:34.872563 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:06:34.937487 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:07:40.919627 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:07:43.131226 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:07:43.136944 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:10:18.161629 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:10:37.866075 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:10:38.133149 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:10:40.252789 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:10:40.313693 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:10:45.926293 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:10:49.305728 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:10:49.313200 GUI: UIMediumEnumerator: Medium-enumeration finished!
-00:49:45.007967 GUI: UICommon::sltHandleCommitDataRequest: Emergency shutdown initiated
+00:00:02.821423 VirtualBox GUI VM Selector Window 6.1.10 r138449 linux.amd64 (Jun  4 2020 17:51:01) release log
+00:00:02.821424 Log opened 2020-06-15T13:27:03.116292000Z
+00:00:02.821425 Build Type: release
+00:00:02.821429 OS Product: Linux
+00:00:02.821429 OS Release: 5.3.0-42-generic
+00:00:02.821430 OS Version: #34-Ubuntu SMP Fri Feb 28 05:49:40 UTC 2020
+00:00:02.821498 DMI Product Name: HP Laptop 15-da1xxx
+00:00:02.821504 DMI Product Version: Type1ProductConfigId
+00:00:02.821510 Firmware type: UEFI
+00:00:02.822059 Secure Boot: Enabled
+00:00:02.822110 Host RAM: 7847MB (7.6GB) total, 4699MB (4.5GB) available
+00:00:02.822120 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:02.822120 Process ID: 28848
+00:00:02.822120 Package type: LINUX_64BITS_UBUNTU_19_10
+00:00:02.822147 Qt version: 5.12.4
+00:00:03.599806 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:05.215078 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 1113x25 x 801x605
+00:00:05.335851 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:05.446549 refreshCertificates/#1: InMem.Cert.TbsCertificate.T3.Extensions.papItems[#].ExtnValue.NameConstraints.T0.PermittedSubtrees.papItems[#]: Unexpected sequence type/flags: 0x2/0x80 (expected 0x10/0x20)
+00:00:05.447583 refreshCertificates/#3: Found 1/126 SSL certs we/you trust (previously 1/127).
+00:00:57.358274 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:05:04.053538 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:51.010535 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:51.299301 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:53.533860 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:06:53.545758 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:10:57.131548 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:10:57.200190 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:10:59.855974 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:10:59.964583 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:12:23.673625 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:12:25.415523 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:12:29.456313 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:19:19.539049 GUI: UIMediumEnumerator: Medium with key={{4ce6f8bf-7682-4108-8b5b-e36603ad5913}} created
+00:19:19.981557 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:20:55.389165 GUI: UIMediumEnumerator: Medium with key={{c422df01-f19b-49dd-8afc-8c150af739b8}} created
+00:20:55.518306 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:21:34.373215 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:21:34.559101 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:21:51.327205 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:22:41.463890 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:22:41.496590 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:24:31.135757 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:24:31.361654 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:24:45.801825 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:28:29.007303 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:28:57.052998 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:30:43.940124 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:37:21.403755 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:42:02.981999 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:42:28.407402 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:42:48.238602 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:44:29.470883 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:44:59.698859 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:47:57.631991 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:48:12.578749 GUI: UIMediumEnumerator: Medium-enumeration finished!
