@@ -121,6 +121,12 @@ class fzf_z(Command):
             print(stderr)
 
 
+class copy_to_clipboard(Command):
+    """
+    copy image to clipboard
+    """
+
+
 class cd(Command):
     """:cd [-r] <dirname>
 
