@@ -1,0 +1,80 @@
+16:24:24 INFO ranger version: ranger 1.9.3
+16:24:24 INFO Python version: 3.7.5 (default, Apr 19 2020, 20:18:17) [GCC 9.2.1 20191008]
+16:24:24 INFO Locale: en_US.UTF-8
+16:24:24 INFO Process ID: 26795
+16:24:38 ERRO Notification: unsupported operand type(s) for /: 'str' and 'str'
+16:24:38 ERRO unsupported operand type(s) for /: 'str' and 'str'
+Traceback (most recent call last):
+  File "/home/terra/.local/lib/python3.7/site-packages/ranger/core/actions.py", line 271, in execute_console
+    cmd.execute()
+  File "/home/terra/.config/ranger/commands.py", line 134, in execute
+    filetype = self.get_filetype()
+  File "/home/terra/.config/ranger/commands.py", line 153, in get_filetype
+    command = f"file --mime-type {file} | awk '{{split($2, a, "/"); print a[2]}}'"
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+16:26:45 INFO ranger version: ranger 1.9.3
+16:26:45 INFO Python version: 3.7.5 (default, Apr 19 2020, 20:18:17) [GCC 9.2.1 20191008]
+16:26:45 INFO Locale: en_US.UTF-8
+16:26:45 INFO Process ID: 27250
+16:27:05 ERRO Notification: 'NoneType' object has no attribute 'communicate'
+16:27:05 ERRO 'NoneType' object has no attribute 'communicate'
+Traceback (most recent call last):
+  File "/home/terra/.local/lib/python3.7/site-packages/ranger/core/actions.py", line 271, in execute_console
+    cmd.execute()
+  File "/home/terra/.config/ranger/commands.py", line 134, in execute
+    filetype = self.get_filetype()
+  File "/home/terra/.config/ranger/commands.py", line 158, in get_filetype
+    stdout, stderr = cmd.communicate()
+AttributeError: 'NoneType' object has no attribute 'communicate'
+16:36:59 INFO ranger version: ranger 1.9.3
+16:36:59 INFO Python version: 3.7.5 (default, Apr 19 2020, 20:18:17) [GCC 9.2.1 20191008]
+16:36:59 INFO Locale: en_US.UTF-8
+16:36:59 INFO Process ID: 28869
+16:37:12 ERRO Notification: 'Popen' object has no attribute 'run'
+16:37:12 ERRO 'Popen' object has no attribute 'run'
+Traceback (most recent call last):
+  File "/home/terra/.local/lib/python3.7/site-packages/ranger/core/actions.py", line 271, in execute_console
+    cmd.execute()
+  File "/home/terra/.config/ranger/commands.py", line 134, in execute
+    filetype = self.get_filetype()
+  File "/home/terra/.config/ranger/commands.py", line 158, in get_filetype
+    stdout, stderr = cmd.run()
+AttributeError: 'Popen' object has no attribute 'run'
+16:38:27 INFO ranger version: ranger 1.9.3
+16:38:27 INFO Python version: 3.7.5 (default, Apr 19 2020, 20:18:17) [GCC 9.2.1 20191008]
+16:38:27 INFO Locale: en_US.UTF-8
+16:38:27 INFO Process ID: 29205
+16:38:31 ERRO Notification: 'NoneType' object has no attribute 'rstrip'
+16:38:31 ERRO 'NoneType' object has no attribute 'rstrip'
+Traceback (most recent call last):
+  File "/home/terra/.local/lib/python3.7/site-packages/ranger/core/actions.py", line 271, in execute_console
+    cmd.execute()
+  File "/home/terra/.config/ranger/commands.py", line 115, in execute
+    fzf_file = os.path.abspath(stdout.rstrip('\n'))
+AttributeError: 'NoneType' object has no attribute 'rstrip'
+16:38:36 ERRO Notification: 'NoneType' object has no attribute 'rstrip'
+16:38:36 ERRO 'NoneType' object has no attribute 'rstrip'
+Traceback (most recent call last):
+  File "/home/terra/.local/lib/python3.7/site-packages/ranger/core/actions.py", line 271, in execute_console
+    cmd.execute()
+  File "/home/terra/.config/ranger/commands.py", line 115, in execute
+    fzf_file = os.path.abspath(stdout.rstrip('\n'))
+AttributeError: 'NoneType' object has no attribute 'rstrip'
+16:39:48 INFO ranger version: ranger 1.9.3
+16:39:48 INFO Python version: 3.7.5 (default, Apr 19 2020, 20:18:17) [GCC 9.2.1 20191008]
+16:39:48 INFO Locale: en_US.UTF-8
+16:39:48 INFO Process ID: 29499
+16:40:01 ERRO Notification: 'Popen' object has no attribute 'run'
+16:40:01 ERRO 'Popen' object has no attribute 'run'
+Traceback (most recent call last):
+  File "/home/terra/.local/lib/python3.7/site-packages/ranger/core/actions.py", line 271, in execute_console
+    cmd.execute()
+  File "/home/terra/.config/ranger/commands.py", line 134, in execute
+    filetype = self.get_filetype()
+  File "/home/terra/.config/ranger/commands.py", line 156, in get_filetype
+    stdout, stderr = cmd.run()
+AttributeError: 'Popen' object has no attribute 'run'
+17:20:05 INFO ranger version: ranger 1.9.3
+17:20:05 INFO Python version: 3.7.5 (default, Apr 19 2020, 20:18:17) [GCC 9.2.1 20191008]
+17:20:05 INFO Locale: en_US.UTF-8
+17:20:05 INFO Process ID: 3352

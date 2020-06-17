@@ -15,7 +15,8 @@ super + d
 
 # make sxhkd reload its configuration files:
 super + Escape
-	pkill -USR1 -x sxhkd
+	pkill -USR1 -x sxhkd & \
+	notify-send "Reloaded" "sxhkd has been reloaded"
 
 
 # access bookmark
@@ -126,8 +127,8 @@ super + {_,shift + }{h,j,k,l}
 	bspc node -{f,s} {west,south,north,east}
 
 # focus the node for the given path jump
-super + {p,b,comma,period}
-	bspc node -f @{parent,brother,first,second}
+# super + {p,b,comma,period}
+#	bspc node -f @{parent,brother,first,second}
 
 # focus the next/previous node in the current desktop
 super + {_,shift + }c
@@ -163,6 +164,11 @@ super + {1-9,0}
 
 super + shift + {1-9,0}
 	bspc node -d '^{1-9,10}'
+
+
+# focus the next/previous node in the same window
+super + {comma,period}
+	bspc node -f {next,prev}.local
 
 #
 # preselect

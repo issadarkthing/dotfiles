@@ -1,8 +1,3 @@
-search lib
-search transmission
-linemode dir_size
-my_edit vim
-my_edit commands.py
 reload
 reload_cwd 
 open_with sxiv
@@ -48,3 +43,8 @@ rename extrusion_process.jpeg
 rename compression.jpeg
 rename biawdawdq
 rename 
+copy_to_clipboard 
+copy_to_clipboard
+shell xclip -sel clip -t image/png  %s
+shell  %s
+shell xclip -sel c -t image/png %s

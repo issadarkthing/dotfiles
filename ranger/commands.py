@@ -109,7 +109,7 @@ class fzf_z(Command):
         command = "awk -F'|' '{print $1}' ~/.z | fzf +m --preview='ls {}'"
 
 
-        fzf = self.fm.execute_command(command, universal_newlines=True, stdout=subprocess.PIPE)
+        fzf = self.fm.execute_command(command, universal_newlines=True,stdout=subprocess.PIPE)
         stdout, stderr = fzf.communicate()
         if fzf.returncode == 0:
             fzf_file = os.path.abspath(stdout.rstrip('\n'))
@@ -125,6 +125,40 @@ class copy_to_clipboard(Command):
     """
     copy image to clipboard
     """
+
+
+    def execute(self):
+        import subprocess
+        file = self.fm.thisfile.path
+
+        filetype = self.get_filetype()
+
+        command = f"xclip -selection clipboard -t image/{filetype} -i {file}"
+
+        xclip = self.fm.execute_command(command, universal_newlines=True)
+
+        _, stderr = xclip.run()
+
+        if xclip.returncode == 0:
+            self.fm.notify("Copied to clipboard")
+        else:
+            self.fm.notify(stderr, bad=True)
+
+
+    def get_filetype(self):
+        import subprocess
+        file = self.fm.thisfile.path
+
+        command = f"file --mime-type {file} | awk '{{split($2, a, \"/\"); print a[2]}}'"
+
+        cmd = self.fm.execute_command(command, universal_newlines=True)
+
+        stdout, stderr = cmd.run()
+
+        if cmd.returncode == 0:
+            return str(stdout)
+        else:
+            self.fm.notify(stderr, bad=True)
 
 
 class cd(Command):
