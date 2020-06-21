@@ -1,1 +1,1 @@
-{"net":{"http_server_properties":{"servers":[],"version":5},"network_qualities":{"CAISB21haGFtYXMYgICAgPj/////AQ==":"3G"}}}
+{"net":{"http_server_properties":{"servers":[{"https://accounts.google.com":{"supports_spdy":true}},{"https://accounts.youtube.com":{"supports_spdy":true}},{"https://ssl.gstatic.com":{"supports_spdy":true}},{"https://fonts.gstatic.com":{"supports_spdy":true}},{"https://mail.google.com":{"supports_spdy":true}}],"version":5},"network_qualities":{"CAISB21haGFtYXMYgICAgPj/////AQ==":"3G","CAISE1RoZSBCbGFjayBEZWF0aCAyLjQYgICAgPj/////AQ==":"4G"}}}

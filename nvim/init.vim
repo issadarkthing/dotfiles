@@ -390,6 +390,10 @@ set updatetime=300
 nmap <silent> [g <Plug>(coc-diagnostic-prev)
 nmap <silent> ]g <Plug>(coc-diagnostic-next)
 
+" navigate trough quickfix list
+nnoremap <silent> ]] :cnext<cr>
+nnoremap <silent> [[ :cprev<cr>
+
 " GoTo code navigation.
 nmap <silent> <leader>gd <Plug>(coc-definition)
 nmap <silent> <leader>gy <Plug>(coc-type-definition)
@@ -408,7 +412,7 @@ function! s:show_documentation()
 endfunction
 
 " Highlight the symbol and its references when holding the cursor.
-autocmd CursorHold * silent call CocActionAsync('highlight')
+"autocmd CursorHold * silent call CocActionAsync('highlight')
 
 " Symbol renaming.
 nmap <leader>yr <Plug>(coc-rename)

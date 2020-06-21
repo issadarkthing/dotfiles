@@ -7,7 +7,7 @@
   "showMessageBadgeWhenMuted": true,
   "enableSpellchecking": false,
   "spellcheckerLanguage": "en-us",
-  "darkMode": false,
+  "darkMode": true,
   "locale": "en-US",
   "fallbackLocale": "en-US",
   "beta": false,
