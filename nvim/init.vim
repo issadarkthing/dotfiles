@@ -75,6 +75,9 @@ Plug 'dpelle/vim-LanguageTool'
 " auto save
 Plug '907th/vim-auto-save'
 
+" nvim on browser
+Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+
 call plug#end()
 
 
