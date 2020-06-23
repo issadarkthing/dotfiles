@@ -75,9 +75,6 @@ Plug 'dpelle/vim-LanguageTool'
 " auto save
 Plug '907th/vim-auto-save'
 
-" nvim on browser
-Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
-
 call plug#end()
 
 
@@ -494,13 +491,14 @@ highlight VimwikiHeader5 ctermfg=28
 highlight VimwikiHeader6 ctermfg=130
 
 " enable AutoSave on Vim startup
-let g:auto_save = 1  
+let g:auto_save = 1
 
 " do not display the auto-save notification
-let g:auto_save_silent = 1  
+let g:auto_save_silent = 1
 
 " makes formatted block prettier
 let g:vimwiki_conceal_pre = 1
 
 " time out on mapping after three seconds, time out on key codes after a tenth of a second
 set timeout timeoutlen=3000 ttimeoutlen=100
+
