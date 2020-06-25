@@ -1197,3 +1197,5 @@ Jun 23 09:49 : avahi: Service 'Music Player @ terra-laptop' successfully establi
 Jun 24 00:19 : avahi: Client Disconnected, will reconnect shortly
 Jun 24 08:50 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Jun 24 08:50 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jun 25 08:48 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jun 25 08:49 : avahi: Service 'Music Player @ terra-laptop' successfully established.
