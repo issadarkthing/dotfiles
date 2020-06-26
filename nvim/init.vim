@@ -20,7 +20,7 @@ Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'jiangmiao/auto-pairs'
 
 " comment
-Plug 'scrooloose/nerdcommenter'
+Plug 'tpope/vim-commentary'
 
 " color highlight
 Plug 'chrisbra/colorizer', { 'on': 'ColorHighlight' }
@@ -74,6 +74,12 @@ Plug 'dpelle/vim-LanguageTool'
 
 " auto save
 Plug '907th/vim-auto-save'
+
+" go debugger
+Plug 'sebdah/vim-delve'
+
+" replace a existing text from the register
+Plug 'inkarkat/vim-ReplaceWithRegister' 
 
 call plug#end()
 
