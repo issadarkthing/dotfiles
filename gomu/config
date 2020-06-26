@@ -1,2 +1,4 @@
 confirm_on_exit: true
 music_dir: ~/Documents/system33/golang/gomu/music
+confirm_bulk_add: true
+popup_timeout: 10
