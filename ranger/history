@@ -1,7 +1,4 @@
-reload
-reload_cwd 
 open_with sxiv
-rename front-cover.pdf
 open_with mws
 open_with m
 search rmws
@@ -48,3 +45,6 @@ copy_to_clipboard
 shell xclip -sel clip -t image/png  %s
 shell  %s
 shell xclip -sel c -t image/png %s
+rename chapter5.pdf
+rename discussion.pdf
+rename front-cover.pdf
