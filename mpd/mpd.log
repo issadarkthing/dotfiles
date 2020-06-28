@@ -1204,3 +1204,42 @@ Jun 26 09:36 : avahi: Service 'Music Player @ terra-laptop' successfully establi
 Jun 27 00:46 : avahi: Client Disconnected, will reconnect shortly
 Jun 27 10:39 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Jun 27 10:39 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jun 28 00:57 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jun 28 00:57 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jun 28 01:52 : avahi: Client Disconnected, will reconnect shortly
+Jun 28 11:19 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jun 28 11:19 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jun 28 13:26 : update: added rap/YNW Melly - 223 (feat. 9lokknine).mp3
+Jun 28 13:26 : update: added rap/Eminem - Godzilla.mp3
+Jun 28 13:26 : update: added rap/Lil Mosey - Blueberry Faygo.mp3
+Jun 28 13:26 : update: added rap/YNW Melly - Mixed Personalities (ft. Kanye West).mp3
+Jun 28 13:26 : update: added rap/YNW Melly - Mama Cry.mp3
+Jun 28 13:26 : update: added rap/Rich Brian - Chaos.mp3
+Jun 28 13:26 : update: added rap/Powfu - death bed (coffee for your head).mp3
+Jun 28 13:26 : update: added rap/Y2K, bbno$ - Lalala (Official Video)-N2Y2vQ-1m7M.mp3
+Jun 28 13:26 : update: added rap/Chief Keef-Love Sosa.mp3
+Jun 28 13:26 : update: added rap/Drake - Toosie Slide.mp3
+Jun 28 13:26 : update: added rap/Lil Baby, Moneybagg Yo - No Sucker.mp3
+Jun 28 13:26 : update: added rap/Lil Skies - Creeping (feat. Rich the Kid).mp3
+Jun 28 13:26 : update: added rap/Tyga - Taste.mp3
+Jun 28 13:26 : update: added rap/Travis Scott - goosebumps.mp3
+Jun 28 13:26 : update: added rap/88rising, Joji, Rich Brian - Midsummer Madness.mp3
+Jun 28 13:26 : update: added rap/Quality Control, Lil Baby, DaBaby - Baby.mp3
+Jun 28 13:26 : update: added rap/Pop Smoke - Dior.mp3
+Jun 28 13:26 : update: added rap/Juice WRLD - Righteous.mp3
+Jun 28 13:26 : update: added rap/YNW Melly - Suicidal.mp3
+Jun 28 13:26 : update: added rap/Roddy Ricch - The Box.mp3
+Jun 28 13:26 : update: added rap/Rich the Kid - Plug Walk.mp3
+Jun 28 13:26 : update: added rap/88rising, Rich Brian - History.mp3
+Jun 28 13:26 : update: added rap/Ski Mask the Slump God-Catch Me Outside.mp3
+Jun 28 13:26 : update: added rap/DripReport - Skechers (Lyrics).mp3
+Jun 28 13:26 : update: added rap/Travis Scott - HIGHEST IN THE ROOM.mp3
+Jun 28 13:26 : update: added rap/Lil Tecca - Ransom.mp3
+Jun 28 13:26 : update: added rap/6ix9ine - GOOBA.mp3
+Jun 28 13:26 : update: added rap/DaBaby - JUMP.mp3
+Jun 28 13:26 : update: added rap/Trippie Redd - The Grinch.mp3
+Jun 28 13:26 : update: added rap/Doja Cat - Say So (Original Version).mp3
+Jun 28 13:28 : update: added rap/NA - NA.mp3
+Jun 28 13:31 : update: removing rap/NA - NA.mp3
+Jun 28 13:31 : update: added rap/NLE Choppa - Shotta Flow 5.mp3
+Jun 28 13:34 : update: added rap/The Kid LAROI, Juice WRLD - GO (Official Video).mp3
