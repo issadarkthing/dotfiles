@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -149,6 +149,7 @@ func InitPlaylist() *Playlist {
+ 				"Are you sure to delete this audio file?", func(_ int, buttonName string) {
+ 
+ 					if buttonName == "no" {
++						pages.RemovePage("confirmation-popup")
+ 						return
+ 					}
+ 

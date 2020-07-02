@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -260,6 +260,7 @@ func populate(root *tview.TreeNode, rootPath string) {
+ 
+ 		child := tview.NewTreeNode(file.Name())
+ 		root.AddChild(child)
++
+ 		if !file.IsDir() {
+ 
+ 			filetype, err := GetFileContentType(f)

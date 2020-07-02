@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -98,6 +98,7 @@ func InitPlaylist() *Playlist {
+ 			if name != "mkdir-popup" {
+ 				CreatePlaylistPopup()
+ 			}
++
+ 		case 'D':
+ 
+ 			var selectedDir *AudioFile

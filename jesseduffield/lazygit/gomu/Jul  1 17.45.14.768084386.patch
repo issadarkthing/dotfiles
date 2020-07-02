@@ -1,0 +1,7 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -388,3 +388,4 @@ func (p *Playlist) Refresh() {
+ func (p *Playlist) AddSongToPlaylist(audioPath string, selPlaylist *tview.TreeNode) error {
+ 
+ 	f, err := os.Open(audioPath)
++

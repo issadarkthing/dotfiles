@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -150,6 +150,7 @@ func InitPlaylist() *Playlist {
+ 
+ 					if buttonName == "no" {
+ 						pages.RemovePage("confirmation-popup")
++						app.SetFocus(prevPanel.(tview.Primitive))
+ 						return
+ 					}
+ 

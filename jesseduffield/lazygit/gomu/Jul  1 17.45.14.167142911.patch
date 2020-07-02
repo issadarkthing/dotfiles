@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -311,7 +311,6 @@ func populate(root *tview.TreeNode, rootPath string) {
+ }
+ 
+ // add to queue and update queue panel
+-func (playlist *Playlist) addToQueue(audioFile *AudioFile) {
+ 
+ 	if audioFile.IsAudioFile {
+ 

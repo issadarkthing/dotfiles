@@ -1,0 +1,7 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -387,3 +387,4 @@ func (p *Playlist) Refresh() {
+ // adds child while setting reference to audio file
+ func (p *Playlist) AddSongToPlaylist(audioPath string, selPlaylist *tview.TreeNode) error {
+ 
++	f, err := os.Open(audioPath)

@@ -1,0 +1,7 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -395,3 +395,4 @@ func (p *Playlist) AddSongToPlaylist(audioPath string, selPlaylist *tview.TreeNo
+ 
+ 	defer f.Close()
+ 
++	node := tview.NewTreeNode(path.Base(audioPath))

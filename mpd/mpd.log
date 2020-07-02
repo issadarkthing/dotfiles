@@ -1243,3 +1243,99 @@ Jun 28 13:28 : update: added rap/NA - NA.mp3
 Jun 28 13:31 : update: removing rap/NA - NA.mp3
 Jun 28 13:31 : update: added rap/NLE Choppa - Shotta Flow 5.mp3
 Jun 28 13:34 : update: added rap/The Kid LAROI, Juice WRLD - GO (Official Video).mp3
+Jun 28 21:36 : update: added rap/Doja Cat - Like That (Official Video) ft. Gucci Mane.mp3
+Jun 28 21:40 : update: added rock/Red Hot Chili Peppers - Californication [Official Music Video].mp3
+Jun 28 21:40 : update: added rock/Red Hot Chili Peppers - Californication [Official Music Video].webm
+Jun 28 21:40 : update: removing rock/Red Hot Chili Peppers - Californication [Official Music Video].webm
+Jun 28 21:40 : update: updating rock/Red Hot Chili Peppers - Californication [Official Music Video].mp3
+Jun 28 21:40 : update: added rock/System Of A Down - Toxicity (Official Video).mp3
+Jun 29 01:43 : avahi: Client Disconnected, will reconnect shortly
+Jul 01 16:02 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 01 16:02 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jul 01 16:59 : exception: Failed to register /home/terra/Music/kpop: inotify_add_watch() has failed: Permission denied
+Jul 01 17:38 : update: removing 6ix9ine - GOOBA.mp3
+Jul 01 17:38 : update: removing YNW Melly - Suicidal.mp3
+Jul 01 17:38 : update: removing YNW Melly - Mixed Personalities (ft. Kanye West).mp3
+Jul 01 17:38 : update: removing YNW Melly - Mama Cry.mp3
+Jul 01 17:38 : update: removing YNW Melly - 223 (feat. 9lokknine).mp3
+Jul 01 17:38 : update: removing Y2K, bbno$ - Lalala (Official Video)-N2Y2vQ-1m7M.mp3
+Jul 01 17:38 : update: removing Tyga - Taste.mp3
+Jul 01 17:38 : update: removing Trippie Redd - The Grinch.mp3
+Jul 01 17:38 : update: removing Travis Scott - HIGHEST IN THE ROOM.mp3
+Jul 01 17:38 : update: removing Travis Scott - goosebumps.mp3
+Jul 01 17:38 : update: removing Ski Mask the Slump God-Catch Me Outside.mp3
+Jul 01 17:38 : update: removing Roddy Ricch - The Box.mp3
+Jul 01 17:38 : update: removing Rich the Kid - Plug Walk.mp3
+Jul 01 17:38 : update: removing Rich Brian - Chaos.mp3
+Jul 01 17:38 : update: removing Quality Control, Lil Baby, DaBaby - Baby.mp3
+Jul 01 17:38 : update: removing Powfu - death bed (coffee for your head).mp3
+Jul 01 17:38 : update: removing Pop Smoke - Dior.mp3
+Jul 01 17:38 : update: removing Lil Tecca - Ransom.mp3
+Jul 01 17:38 : update: removing Lil Skies - Creeping (feat. Rich the Kid).mp3
+Jul 01 17:38 : update: removing Lil Mosey - Blueberry Faygo.mp3
+Jul 01 17:38 : update: removing Lil Baby, Moneybagg Yo - No Sucker.mp3
+Jul 01 17:38 : update: removing Juice WRLD - Righteous.mp3
+Jul 01 17:38 : update: removing Eminem - Godzilla.mp3
+Jul 01 17:38 : update: removing DripReport - Skechers (Lyrics).mp3
+Jul 01 17:38 : update: removing Drake - Toosie Slide.mp3
+Jul 01 17:38 : update: removing Doja Cat - Say So (Original Version).mp3
+Jul 01 17:38 : update: removing DaBaby - JUMP.mp3
+Jul 01 17:38 : update: removing Chief Keef-Love Sosa.mp3
+Jul 01 17:38 : update: removing 88rising, Rich Brian - History.mp3
+Jul 01 17:38 : update: removing 88rising, Joji, Rich Brian - Midsummer Madness.mp3
+Jul 01 17:39 : exception: Failed to register /home/terra/Music/rap/test: inotify_add_watch() has failed: Permission denied
+Jul 01 21:01 : exception: Failed to register /home/terra/Music/rap/raprock: inotify_add_watch() has failed: Permission denied
+Jul 01 21:18 : update: added raprock/POP SMOKE - FOREIGNER ft. A Boogie Wit Da Hoodie (Official Lyric Video).mp3
+Jul 01 21:26 : update: removing raprock/POP SMOKE - FOREIGNER ft. A Boogie Wit Da Hoodie (Official Lyric Video).mp3
+Jul 01 21:26 : exception: Failed to register /home/terra/Music/rap/rap-rock: inotify_add_watch() has failed: Permission denied
+Jul 01 21:26 : update: added rap-rock/POP SMOKE - FOREIGNER ft. A Boogie Wit Da Hoodie (Official Lyric Video).mp3
+Jul 01 21:34 : update: removing rap-rock/POP SMOKE - FOREIGNER ft. A Boogie Wit Da Hoodie (Official Lyric Video).mp3
+Jul 01 21:35 : exception: Failed to register /home/terra/Music/rap/rap-rock: inotify_add_watch() has failed: Permission denied
+Jul 01 21:35 : exception: Failed to register /home/terra/Music/rap/rap-rock: inotify_add_watch() has failed: Permission denied
+Jul 01 21:36 : update: added rap-rock/EVERGLOW (에버글로우) - Adios MV.mp3
+Jul 01 21:37 : update: removing rap-rock/EVERGLOW (에버글로우) - Adios MV.mp3
+Jul 01 21:43 : exception: Failed to register /home/terra/Music/rap/pop-rock: inotify_add_watch() has failed: Permission denied
+Jul 01 21:44 : update: added pop-rock/EVERGLOW (에버글로우) - Adios MV.mp3
+Jul 01 21:45 : update: removing pop-rock/EVERGLOW (에버글로우) - Adios MV.mp3
+Jul 02 10:57 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 02 10:57 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jul 02 11:28 : exception: Failed to register /home/terra/Music/rap/pop-rock: inotify_add_watch() has failed: Permission denied
+Jul 02 11:29 : exception: Failed to register /home/terra/Music/rap/pop-rock: inotify_add_watch() has failed: Permission denied
+Jul 02 11:29 : update: added pop-rock/Doja Cat - Like That (Official Video) ft. Gucci Mane.mp3
+Jul 02 11:38 : inotify: music directory was removed - cannot continue to watch it
+Jul 02 11:38 : update: removing rock/System Of A Down - Toxicity (Official Video).mp3
+Jul 02 11:38 : update: removing rock/Red Hot Chili Peppers - Californication [Official Music Video].mp3
+Jul 02 11:38 : update: removing pop-rock/Doja Cat - Like That (Official Video) ft. Gucci Mane.mp3
+Jul 02 11:38 : update: removing rap/YNW Melly - Suicidal.mp3
+Jul 02 11:38 : update: removing rap/YNW Melly - Mixed Personalities (ft. Kanye West).mp3
+Jul 02 11:38 : update: removing rap/YNW Melly - Mama Cry.mp3
+Jul 02 11:38 : update: removing rap/YNW Melly - 223 (feat. 9lokknine).mp3
+Jul 02 11:38 : update: removing rap/Y2K, bbno$ - Lalala (Official Video)-N2Y2vQ-1m7M.mp3
+Jul 02 11:38 : update: removing rap/Tyga - Taste.mp3
+Jul 02 11:38 : update: removing rap/Trippie Redd - The Grinch.mp3
+Jul 02 11:38 : update: removing rap/Travis Scott - HIGHEST IN THE ROOM.mp3
+Jul 02 11:38 : update: removing rap/Travis Scott - goosebumps.mp3
+Jul 02 11:38 : update: removing rap/The Kid LAROI, Juice WRLD - GO (Official Video).mp3
+Jul 02 11:38 : update: removing rap/Ski Mask the Slump God-Catch Me Outside.mp3
+Jul 02 11:38 : update: removing rap/Roddy Ricch - The Box.mp3
+Jul 02 11:38 : update: removing rap/Rich the Kid - Plug Walk.mp3
+Jul 02 11:38 : update: removing rap/Rich Brian - Chaos.mp3
+Jul 02 11:38 : update: removing rap/Quality Control, Lil Baby, DaBaby - Baby.mp3
+Jul 02 11:38 : update: removing rap/Powfu - death bed (coffee for your head).mp3
+Jul 02 11:38 : update: removing rap/Pop Smoke - Dior.mp3
+Jul 02 11:38 : update: removing rap/NLE Choppa - Shotta Flow 5.mp3
+Jul 02 11:38 : update: removing rap/Lil Tecca - Ransom.mp3
+Jul 02 11:38 : update: removing rap/Lil Skies - Creeping (feat. Rich the Kid).mp3
+Jul 02 11:38 : update: removing rap/Lil Mosey - Blueberry Faygo.mp3
+Jul 02 11:38 : update: removing rap/Lil Baby, Moneybagg Yo - No Sucker.mp3
+Jul 02 11:38 : update: removing rap/Juice WRLD - Righteous.mp3
+Jul 02 11:38 : update: removing rap/Eminem - Godzilla.mp3
+Jul 02 11:38 : update: removing rap/DripReport - Skechers (Lyrics).mp3
+Jul 02 11:38 : update: removing rap/Drake - Toosie Slide.mp3
+Jul 02 11:38 : update: removing rap/Doja Cat - Say So (Original Version).mp3
+Jul 02 11:38 : update: removing rap/Doja Cat - Like That (Official Video) ft. Gucci Mane.mp3
+Jul 02 11:38 : update: removing rap/DaBaby - JUMP.mp3
+Jul 02 11:38 : update: removing rap/Chief Keef-Love Sosa.mp3
+Jul 02 11:38 : update: removing rap/88rising, Rich Brian - History.mp3
+Jul 02 11:38 : update: removing rap/88rising, Joji, Rich Brian - Midsummer Madness.mp3
+Jul 02 11:38 : update: removing rap/6ix9ine - GOOBA.mp3

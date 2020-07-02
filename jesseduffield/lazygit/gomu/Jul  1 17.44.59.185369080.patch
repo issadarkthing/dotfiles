@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -229,6 +229,7 @@ func InitPlaylist() *Playlist {
+ 
+ 				})
+ 
++
+ 		}
+ 
+ 		return e

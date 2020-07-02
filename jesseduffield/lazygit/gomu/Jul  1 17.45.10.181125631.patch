@@ -1,0 +1,23 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -277,19 +277,20 @@ func populate(root *tview.TreeNode, rootPath string) {
+ 			audioLength, err := GetLength(path)
+ 
+ 			if err != nil {
++				log(err.Error())
+ 
+ 		audioFile := &AudioFile{
+ 			Name:        file.Name(),
+ 			Path:        path,
+ 			IsAudioFile: true,
+ 			Parent:      root,
+ 		}
+ 
+ 		child.SetReference(audioFile)
+ 
+ 		if file.IsDir() {
+ 			audioFile.IsAudioFile = false
+ 			populate(child, path)
+ 		}
+ 
+ 	}

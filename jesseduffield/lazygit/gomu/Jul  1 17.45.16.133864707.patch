@@ -1,0 +1,7 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -422,3 +422,4 @@ func (p *Playlist) AddSongToPlaylist(audioPath string, selPlaylist *tview.TreeNo
+ // creates a directory under selected node, returns error if playlist exists
+ func (p *Playlist) CreatePlaylist(name string) error {
+ 
++	selectedNode := p.GetCurrentNode()

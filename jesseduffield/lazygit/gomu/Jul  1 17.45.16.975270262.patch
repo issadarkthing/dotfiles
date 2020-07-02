@@ -1,0 +1,7 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -443,3 +443,4 @@ func (p *Playlist) CreatePlaylist(name string) error {
+ 	p.Refresh()
+ 
+ 	return nil
++

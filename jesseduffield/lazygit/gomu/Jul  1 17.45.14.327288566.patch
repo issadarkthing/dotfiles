@@ -1,0 +1,11 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -358,8 +358,7 @@ func (p *Playlist) addAllToQueue(root *tview.TreeNode) {
+ 
+ }
+ 
+-
+ func (playlist *Playlist) Refresh() {
+ 
+ 	root := playlist.GetRoot()
+ 

@@ -1,0 +1,7 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -423,3 +423,4 @@ func (p *Playlist) AddSongToPlaylist(audioPath string, selPlaylist *tview.TreeNo
+ func (p *Playlist) CreatePlaylist(name string) error {
+ 
+ 	selectedNode := p.GetCurrentNode()
++

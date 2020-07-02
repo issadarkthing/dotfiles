@@ -1,0 +1,7 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -383,3 +383,4 @@ func (p *Playlist) Refresh() {
+ 	})
+ 
+ }
++
