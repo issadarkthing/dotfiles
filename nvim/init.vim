@@ -81,6 +81,7 @@ Plug 'sebdah/vim-delve'
 " replace a existing text from the register
 Plug 'inkarkat/vim-ReplaceWithRegister' 
 
+
 call plug#end()
 
 
