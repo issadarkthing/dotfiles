@@ -509,3 +509,5 @@ let g:vimwiki_conceal_pre = 1
 " time out on mapping after three seconds, time out on key codes after a tenth of a second
 set timeout timeoutlen=3000 ttimeoutlen=100
 
+" set current highlited on the correct window
+nnoremap <c-w>v <c-w>v<c-w>h

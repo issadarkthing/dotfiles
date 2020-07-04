@@ -1,4 +1,4 @@
 confirm_on_exit: true
 music_dir: ~/Music
 confirm_bulk_add: true
-popup_timeout: 5
+popup_timeout: 5s

@@ -36,3 +36,4 @@ set recolor-keephue             "false"
 
 set selection-clipboard clipboard
 set smooth-scroll true
+set guioptions none
