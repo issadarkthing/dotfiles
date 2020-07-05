@@ -64,7 +64,7 @@ Plug 'machakann/vim-swap'
 Plug 'rhysd/vim-grammarous'
 
 " code completion
-Plug 'neoclide/coc.nvim', { 'branch': 'release' }
+Plug 'neoclide/coc.nvim', { 'branch': 'release', 'on': [] }
 
 " vim latex
 Plug 'lervag/vimtex'
