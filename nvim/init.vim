@@ -17,7 +17,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 
 " insert, or delete brackets, parens, quotes in pair
-Plug 'jiangmiao/auto-pairs'
+Plug 'jiangmiao/auto-pairs', { 'on': [] }
 
 " comment
 Plug 'tpope/vim-commentary'
