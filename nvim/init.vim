@@ -17,7 +17,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 
 " insert, or delete brackets, parens, quotes in pair
-Plug 'jiangmiao/auto-pairs', { 'on': [] }
+Plug 'jiangmiao/auto-pairs'
 
 " comment
 Plug 'tpope/vim-commentary'
@@ -26,7 +26,7 @@ Plug 'tpope/vim-commentary'
 Plug 'chrisbra/colorizer', { 'on': 'ColorHighlight' }
 
 " colorscheme
-Plug 'whatyouhide/vim-gotham'
+Plug 'whatyouhide/vim-gotham', { 'on': [] }
 
 " Vim sugar for the UNIX shell commands that need it the most
 " example: :Delete, :Move, :Rename, :Mkdir etc
