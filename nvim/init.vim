@@ -26,7 +26,7 @@ Plug 'tpope/vim-commentary'
 Plug 'chrisbra/colorizer', { 'on': 'ColorHighlight' }
 
 " colorscheme
-Plug 'whatyouhide/vim-gotham', { 'on': [] }
+Plug 'whatyouhide/vim-gotham'
 
 " Vim sugar for the UNIX shell commands that need it the most
 " example: :Delete, :Move, :Rename, :Mkdir etc
