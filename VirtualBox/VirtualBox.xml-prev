@@ -25,7 +25,13 @@
       <MachineEntry uuid="{e5bd3cc8-fc1f-4550-81ea-82e536dbd41b}" src="/home/terra/VirtualBox VMs/TempleOS/TempleOS.vbox"/>
       <MachineEntry uuid="{e1455e86-781f-45b0-b600-0d87aebdafb0}" src="/home/terra/VirtualBox VMs/Manjaro/Manjaro.vbox"/>
       <MachineEntry uuid="{082b3772-1e96-4e18-b90c-5bc06baa75ec}" src="/home/terra/VirtualBox VMs/windows10/windows10.vbox"/>
+      <MachineEntry uuid="{ac4381cf-f43f-406f-ad92-0204bea4965f}" src="/home/terra/VirtualBox VMs/macos/macos.vbox"/>
     </MachineRegistry>
+    <MediaRegistry>
+      <HardDisks>
+        <HardDisk uuid="{162e33d8-fa97-436f-8732-a709ada6446e}" location="/home/terra/VirtualBox VMs/macos/macos.vdi" format="VDI" type="Normal"/>
+      </HardDisks>
+    </MediaRegistry>
     <NetserviceRegistry>
       <DHCPServers>
         <DHCPServer networkName="HostInterfaceNetworking-vboxnet0" IPAddress="192.168.56.100" networkMask="255.255.255.0" lowerIP="192.168.56.101" upperIP="192.168.56.254" enabled="1"/>
