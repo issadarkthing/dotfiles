@@ -1345,3 +1345,25 @@ Jul 04 09:38 : exception: RTIOThread could not get realtime scheduling, continui
 Jul 04 09:38 : avahi: Service 'Music Player @ terra-laptop' successfully established.
 Jul 05 09:16 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Jul 05 09:16 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jul 06 10:29 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 06 10:29 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jul 06 11:01 : update: added rap/Tyga - Taste (Official Video) ft. Offset.mp3
+Jul 06 11:01 : update: added rap/Lil Baby, Moneybagg Yo - No Sucker (Official Video).mp3
+Jul 06 11:01 : update: added rap/Lil Loaded - Out My Body (Official Video).mp3
+Jul 06 11:01 : update: added rap/NLE Choppa - Shotta Flow 5 (Dir. by @_ColeBennett_).mp3
+Jul 06 11:01 : update: added rap/Lil Baby - Woah (Official Music Video).mp3
+Jul 06 11:01 : update: added rap/Tyga - SWISH (Official Music Video).mp3
+Jul 06 11:01 : update: added rap/Juice WRLD - Righteous (Official Video).mp3
+Jul 06 11:01 : update: added rap/DaBaby – JUMP FT NBA YOUNGBOY [AUDIO].mp3
+Jul 06 11:01 : update: added rap/POP SMOKE - FOREIGNER ft. A Boogie Wit Da Hoodie (Official Lyric Video).mp3
+Jul 06 11:01 : update: added rap/Lil Mosey - Blueberry Faygo (Lyrics).mp3
+Jul 06 11:01 : update: added rap/NLE Choppa - Walk Em Down feat. Roddy Ricch (Official Music Video).mp3
+Jul 06 11:01 : update: added rap/Pop Smoke - Dior (Official Audio).mp3
+Jul 06 11:01 : update: added rap/YNW Melly - 223s ft. 9lokknine [Official Audio].mp3
+Jul 06 11:01 : update: added rap/Ski Mask The Slump God - Catch Me Outside (Dir. by @_ColeBennett_).mp3
+Jul 06 11:01 : update: added rap/Lil Baby x 42 Dugg - We Paid (Official Video).mp3
+Jul 06 11:01 : update: added rap/TROLLZ - 6ix9ine & Nicki Minaj  (Official Music Video).mp3
+Jul 06 11:01 : update: added rap/Doja Cat - Like That (Official Video) ft. Gucci Mane.mp3
+Jul 06 11:01 : update: added rap/Marshmello & Halsey - Be Kind (Official Music Video).mp3
+Jul 06 11:01 : update: removing rap/Marshmello & Halsey - Be Kind (Official Music Video).mp3
+Jul 06 11:11 : update: added pop/Marshmello & Halsey - Be Kind (Official Music Video).mp3

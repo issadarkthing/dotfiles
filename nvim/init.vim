@@ -328,6 +328,8 @@ highlight PmenuSbar ctermbg=darkblue
 highlight PmenuThumb ctermbg=lightblue
 highlight SignColumn ctermbg=black
 highlight WildMenu ctermbg=lightblue ctermfg=black
+highlight airline_tabmod ctermbg=4 ctermfg=white
+
 
 
 " opens help window vertically
@@ -511,3 +513,5 @@ set timeout timeoutlen=3000 ttimeoutlen=100
 
 " set current highlited on the correct window
 nnoremap <c-w>v <c-w>v<c-w>h
+
+
