@@ -6,7 +6,7 @@ sxhkd &
 
 bspc monitor -d I II III IV V VI VII VIII IX X
 
-feh --bg-scale ~/Pictures/abandoned/airplane.jpg &
+feh --bg-scale ~/Pictures/Wallpapers/bigsword.jpg &
 compton &
 
 # polybar

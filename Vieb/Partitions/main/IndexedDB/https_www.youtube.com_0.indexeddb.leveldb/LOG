@@ -1,5 +1,13 @@
-2020/05/31-00:34:16.506 673b Reusing MANIFEST /home/terra/.config/Vieb/Partitions/main/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/05/31-00:35:00.856 6a52 Level-0 table #5: started
-2020/05/31-00:35:00.936 6a52 Level-0 table #5: 2802 bytes OK
-2020/05/31-00:35:00.970 6a52 Delete type=0 #3
-2020/05/31-00:35:00.970 6a52 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/07/07-19:14:58.027 32cb Reusing MANIFEST /home/terra/.config/Vieb/Partitions/main/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/07-19:15:29.940 3373 Level-0 table #9: started
+2020/07/07-19:15:30.049 3373 Level-0 table #9: 2064 bytes OK
+2020/07/07-19:15:30.083 3373 Delete type=0 #7
+2020/07/07-19:15:30.083 3373 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/07/07-19:15:30.083 3373 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x16\x00a\x00p\x00p\x00l\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00_\x00s\x00e\x00r\x00v\x00e\x00r\x00_\x00k\x00e\x00y' @ 229 : 1
+2020/07/07-19:15:30.083 3373 Compacting 1@1 + 1@2 files
+2020/07/07-19:15:30.105 3373 Generated table #10@1: 33 keys, 1098 bytes
+2020/07/07-19:15:30.105 3373 Compacted 1@1 + 1@2 files => 1098 bytes
+2020/07/07-19:15:30.139 3373 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/07/07-19:15:30.139 3373 Delete type=2 #5
+2020/07/07-19:15:30.139 3373 Delete type=2 #9
+2020/07/07-19:15:30.139 3373 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x16\x00a\x00p\x00p\x00l\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00_\x00s\x00e\x00r\x00v\x00e\x00r\x00_\x00k\x00e\x00y' @ 229 : 1 .. (end); will stop at (end)
