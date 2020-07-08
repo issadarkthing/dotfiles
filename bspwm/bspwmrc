@@ -12,6 +12,9 @@ compton &
 # polybar
 ~/.config/polybar/launch.sh &
 
+# window switcher
+~/Documents/scripts/wswr_run.sh &
+
 bspc config border_width         3
 bspc config window_gap           10
 

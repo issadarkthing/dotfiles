@@ -141,8 +141,7 @@ super + bracket{left,right}
 
 # scroll through occupied workspace
 super + Tab
-	bspc desktop -f next.occupied; \
-	~/Documents/scripts/hide_if_fullscreen.sh
+	~/Documents/scripts/wswr.sh
 
 # focus the last desktop
 alt + Tab
