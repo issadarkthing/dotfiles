@@ -2,6 +2,7 @@
 # wm independent hotkeys
 #
 
+
 # terminal emulator
 super + Return
 	kitty
@@ -139,9 +140,13 @@ super + bracket{left,right}
 	bspc desktop -f {prev,next}.local; \
 	~/Documents/scripts/hide_if_fullscreen.sh
 
-# scroll through occupied workspace
+# toggle wswr
 super + Tab
-	~/Documents/scripts/wswr.sh
+	~/Documents/scripts/wswr.sh -t
+
+# update current workspace in wswr
+super + shift + Tab
+	~/Documents/scripts/wswr.sh -u
 
 # focus the last desktop
 alt + Tab
