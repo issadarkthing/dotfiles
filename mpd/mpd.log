@@ -1399,3 +1399,4 @@ Jul 08 21:25 : exception: RTIOThread could not get realtime scheduling, continui
 Jul 08 21:25 : avahi: Service 'Music Player @ terra-laptop' successfully established.
 Jul 09 09:15 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Jul 09 09:15 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jul 09 14:26 : update: added rap/NAV & Gunna - Turks (LYRICS) ft.Travis Scott.mp3
