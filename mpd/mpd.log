@@ -1407,3 +1407,9 @@ Jul 09 14:32 : update: added rap/POP SMOKE - WELCOME TO THE PARTY.mp3
 Jul 09 14:32 : update: added rap/OUT WEST.mp3
 Jul 09 14:34 : update: added rap/6IX9INE - YAYA (Official Lyric Video).mp3
 Jul 09 14:35 : update: added rap/POP SMOKE - INVINCIBLE (Official Lyric Video).mp3
+Jul 10 00:01 : avahi: Client Disconnected, will reconnect shortly
+Jul 10 10:08 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 10 10:08 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jul 10 10:13 : avahi: Client Disconnected, will reconnect shortly
+Jul 10 10:16 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 10 10:16 : avahi: Service 'Music Player @ terra-laptop' successfully established.

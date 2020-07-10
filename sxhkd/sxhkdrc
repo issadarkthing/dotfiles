@@ -148,6 +148,10 @@ super + Tab
 super + shift + Tab
 	~/Documents/scripts/wswr.sh -u
 
+# full update workspaces
+super + e
+	~/Documents/scripts/wswr.sh -U
+
 # focus the last desktop
 alt + Tab
 	bspc desktop -f last; \
