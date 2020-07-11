@@ -1,0 +1,11 @@
+--- a/player.go
++++ b/player.go
+@@ -141,7 +141,8 @@ next:
+ 			gomu.PlayingBar.Stop()
+ 
+ 			nextSong, err := gomu.Queue.Dequeue()
++			gomu.App.Draw()
+ 			}
+ 			break next
+ 
+ 		case <-time.After(time.Second):

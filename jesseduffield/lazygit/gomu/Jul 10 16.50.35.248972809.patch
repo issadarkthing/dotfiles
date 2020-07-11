@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -184,6 +184,7 @@ func NewPlaylist() *Playlist {
+ 
+ 			if audioFile.IsAudioFile {
+ 				gomu.Queue.Enqueue(audioFile)
++				currNode.SetExpanded(true)
+ 
+ 		case 'h':
+ 

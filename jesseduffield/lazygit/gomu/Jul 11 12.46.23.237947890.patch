@@ -1,0 +1,15 @@
+--- a/player.go
++++ b/player.go
+@@ -32,12 +32,11 @@ type Player struct {
+ 	currentSong *AudioFile
+ }
+ 
+-func (p *Player) Run() {
+ 
+ 	p.isSkipped = make(chan bool, 1)
+ 	first, err := gomu.Queue.Dequeue()
+ 	// ensuring the list is updated
+ 	gomu.App.Draw()
+ 
+ func (p *Player) Run(currSong *AudioFile) {
+ 

@@ -1,0 +1,11 @@
+--- a/player.go
++++ b/player.go
+@@ -140,8 +140,7 @@ next:
+ 			p.format = nil
+ 			gomu.PlayingBar.Stop()
+ 
+-				go p.Run()
+ 			}
+ 			break next
+ 
+ 		case <-time.After(time.Second):

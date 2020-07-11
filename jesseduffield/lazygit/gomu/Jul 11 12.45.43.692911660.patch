@@ -1,0 +1,10 @@
+--- a/player.go
++++ b/player.go
+@@ -147,6 +147,7 @@ next:
+ 				break next
+ 			}
+ 
++			go p.Run(nextSong)
+ 			break next
+ 
+ 		case <-time.After(time.Second):

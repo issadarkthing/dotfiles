@@ -1,0 +1,12 @@
+--- a/player.go
++++ b/player.go
+@@ -32,9 +32,8 @@ type Player struct {
+ 	currentSong *AudioFile
+ }
+ 
+ 
+-	// ensuring the list is updated
+ 	gomu.App.Draw()
+ 
+ func (p *Player) Run(currSong *AudioFile) {
+ 

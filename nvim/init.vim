@@ -81,6 +81,9 @@ Plug 'sebdah/vim-delve'
 " replace a existing text from the register
 Plug 'inkarkat/vim-ReplaceWithRegister' 
 
+" auto reload if file has been modified from external
+" as if you insert :e! manually
+Plug 'djoshea/vim-autoread'
 
 call plug#end()
 

@@ -1,0 +1,10 @@
+--- a/player.go
++++ b/player.go
+@@ -146,6 +146,7 @@ next:
+ 			if err != nil {
+ 				break next
+ 			}
++
+ 			break next
+ 
+ 		case <-time.After(time.Second):

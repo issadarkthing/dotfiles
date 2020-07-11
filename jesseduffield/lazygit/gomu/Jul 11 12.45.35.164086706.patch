@@ -1,0 +1,10 @@
+--- a/player.go
++++ b/player.go
+@@ -84,7 +84,6 @@ func (p *Player) Run(currSong *AudioFile) {
+ 
+ 	p.currentSong = currSong
+ 
+-	popupMessage := fmt.Sprintf("%s\n\n[ %s ]", first.Name, fmtDuration(p.length))
+ 
+ 	timedPopup(" Current Song ", popupMessage, getPopupTimeout())
+ 
