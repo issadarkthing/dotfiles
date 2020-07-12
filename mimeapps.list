@@ -19,6 +19,7 @@ application/octet-stream=org.gnome.FontManager.desktop;
 application/pdf=org.pwmt.zathura-pdf-poppler.desktop;
 
 [Default Applications]
+inode/directory=ranger.desktop
 x-scheme-handler/tg=telegramdesktop.desktop
 x-scheme-handler/http=firefox.desktop
 x-scheme-handler/https=firefox.desktop
