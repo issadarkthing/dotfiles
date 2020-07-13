@@ -1,4 +1,3 @@
-rename [Seto_Otaku]_Princess_Lover!_-_06_[Blu-ray][1920x1080_H264_FLAC][DBA31AB7].mkv
 open_with zaread
 q
 [<0;24;16m[<64;33;19M[<64;33;19M[<64;33;19M[<65;33;19M[<65;33;19M[<65;33;19M[<65;33;19M[<64;33;19M[<64;33;19M[<64;33;19M[<64;33;19M[<65;33;19M[<65;33;19M[<65;33;19M[<65;33;19M[<65;33;19M
@@ -46,5 +45,6 @@ rename graph
 rename graph.jpg
 rename graph.pdf
 mkdir wswr
-delete
 rename references
+delete
+rename audio_test.mp3

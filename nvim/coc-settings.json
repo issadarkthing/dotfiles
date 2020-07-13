@@ -1,12 +1,4 @@
 {
-	"languageserver": {
-		"go": {
-			"command": "gopls",
-			"module": "",
-			"filetypes": ["go"]
-		}
-	},
-
 	"go.disable": {
 		"workspaceFolders": false
 	}
