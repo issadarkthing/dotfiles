@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -362,6 +362,7 @@ func (p *Playlist) FuzzySearch() {
+ 
+ 			io.WriteString(c, path)
+ 			return err
++		})
+ // Refresh the playlist and read the whole root music dir
+ func (p *Playlist) Refresh() {
+ 

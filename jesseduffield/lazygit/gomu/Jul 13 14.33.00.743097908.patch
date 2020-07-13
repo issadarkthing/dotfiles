@@ -1,0 +1,11 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -594,7 +594,8 @@ func Ytdl(url string, selPlaylist *tview.TreeNode) (error, chan error) {
+ 		gomu.App.Draw()
+ 
+ 		e <- nil
++
+ 	}()
+ 
+ }
+ 

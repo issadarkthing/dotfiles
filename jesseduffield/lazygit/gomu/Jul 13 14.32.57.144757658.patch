@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -524,7 +524,6 @@ func Ytdl(url string, selPlaylist *tview.TreeNode) (error, chan error) {
+ 
+ 	if err != nil {
+ 		timedPopup(" Error ", "youtube-dl is not in your $PATH", getPopupTimeout(), 0, 0)
+-		return
+ 	}
+ 
+ 	dir := viper.GetString("music_dir")

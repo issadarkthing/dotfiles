@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -350,6 +350,7 @@ func (p *Playlist) FuzzySearch() {
+ 		timedPopup(" Error ", "FZF not found in your $PATH", getPopupTimeout(), 0, 0)
+ 		appLog(err)
+ 		return
++	}
+ // Refresh the playlist and read the whole root music dir
+ func (p *Playlist) Refresh() {
+ 

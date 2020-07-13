@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -341,6 +341,7 @@ func (p *Playlist) AddAllToQueue(root *tview.TreeNode) {
+ 
+ }
+ 
++// Triggers fzf to find in current directory
+ // Refresh the playlist and read the whole root music dir
+ func (p *Playlist) Refresh() {
+ 

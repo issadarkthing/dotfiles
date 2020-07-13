@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -563,6 +563,7 @@ func Ytdl(url string, selPlaylist *tview.TreeNode) (error, chan error) {
+ 		if err != nil {
+ 			timedPopup(" Error ", "Error running youtube-dl", getPopupTimeout(), 0, 0)
+ 			appLog(err)
++			e <- err
+ 			return
+ 		}
+ 

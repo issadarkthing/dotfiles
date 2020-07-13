@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -381,6 +381,7 @@ func (p *Playlist) Refresh() {
+ 	root.Walk(func(node, parent *tview.TreeNode) bool {
+ 
+ 		// to preserve previously highlighted node
++		if node.GetText() == prevFileName {
+ 			p.SetHighlight(node)
+ 			return false
+ 		}

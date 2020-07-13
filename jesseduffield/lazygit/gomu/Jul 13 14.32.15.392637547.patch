@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -353,6 +353,7 @@ func (p *Playlist) FuzzySearch() {
+ 	}
+ 
+ 	rootPath := p.GetRoot().GetReference().(*AudioFile).Path
++
+ // Refresh the playlist and read the whole root music dir
+ func (p *Playlist) Refresh() {
+ 
