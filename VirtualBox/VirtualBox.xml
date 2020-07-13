@@ -12,9 +12,9 @@
       <ExtraDataItem name="GUI/GroupDefinitions/" value="n=GLOBAL,m=e5bd3cc8-fc1f-4550-81ea-82e536dbd41b,m=e1455e86-781f-45b0-b600-0d87aebdafb0,m=082b3772-1e96-4e18-b90c-5bc06baa75ec,m=5d6bfce2-ba7b-44ae-b87a-51c76f9c0450"/>
       <ExtraDataItem name="GUI/LastItemSelected" value="m=Manjaro"/>
       <ExtraDataItem name="GUI/LastWindowPosition" value="13,38,1894,1029,max"/>
-      <ExtraDataItem name="GUI/RecentFolderCD" value="/home/terra/Downloads"/>
+      <ExtraDataItem name="GUI/RecentFolderCD" value="/home/terra/Torrents"/>
       <ExtraDataItem name="GUI/RecentFolderHD" value="/home/terra/Downloads"/>
-      <ExtraDataItem name="GUI/RecentListCD" value="/home/terra/Downloads/macOS HighSierra 10.13.iso,/home/terra/Downloads/Win10_2004_EnglishInternational_x64.iso,/home/terra/Torrents/manjaro-xfce-19.0.2-200311-linux54.iso,/home/terra/Downloads/TempleOS.ISO,/home/terra/torrents/manjaro-xfce-19.0.2-200311-linux54.iso"/>
+      <ExtraDataItem name="GUI/RecentListCD" value="/home/terra/Torrents/archlinux-2020.07.01-x86_64.iso,/home/terra/Downloads/macOS HighSierra 10.13.iso,/home/terra/Downloads/Win10_2004_EnglishInternational_x64.iso,/home/terra/Torrents/manjaro-xfce-19.0.2-200311-linux54.iso,/home/terra/Downloads/TempleOS.ISO"/>
       <ExtraDataItem name="GUI/RecentListHD" value="/home/terra/Downloads/macOS High Sierra 10.13 by Geekrar.vmdk"/>
       <ExtraDataItem name="GUI/SplitterSizes" value="626,1267"/>
       <ExtraDataItem name="GUI/SuppressMessages" value="confirmGoingFullscreen,confirmInputCapture,confirmPowerOffMachine,remindAboutMouseIntegration,remindAboutAutoCapture,confirmGoingScale"/>
@@ -28,6 +28,7 @@
       <MachineEntry uuid="{e1455e86-781f-45b0-b600-0d87aebdafb0}" src="/home/terra/VirtualBox VMs/Manjaro/Manjaro.vbox"/>
       <MachineEntry uuid="{082b3772-1e96-4e18-b90c-5bc06baa75ec}" src="/home/terra/VirtualBox VMs/windows10/windows10.vbox"/>
       <MachineEntry uuid="{5d6bfce2-ba7b-44ae-b87a-51c76f9c0450}" src="/home/terra/VirtualBox VMs/MacOS/MacOS.vbox"/>
+      <MachineEntry uuid="{65c65b91-b9f3-488c-b1ae-f61f2436c45d}" src="/home/terra/VirtualBox VMs/Arch OS/Arch OS.vbox"/>
     </MachineRegistry>
     <NetserviceRegistry>
       <DHCPServers>

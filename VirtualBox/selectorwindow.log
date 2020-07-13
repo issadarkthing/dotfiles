@@ -16,3 +16,9 @@
 00:00:02.926653 GUI: UIMediumEnumerator: Medium-enumeration started...
 00:00:05.679585 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 10x35 x 1091x1029
 00:00:05.848004 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:43.126206 GUI: UIMediumEnumerator: Medium with key={{4dacbf5a-25e4-4929-9df9-3d7de9475466}} created
+00:01:48.318036 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:26.695252 GUI: UIMediumEnumerator: Medium with key={{9633d23e-928b-4705-b6bd-7b2822015bd9}} created
+00:02:27.985392 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:35.986616 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:35.994292 GUI: UIMediumEnumerator: Medium-enumeration finished!
