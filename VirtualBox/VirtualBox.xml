@@ -9,8 +9,8 @@
   <Global>
     <ExtraData>
       <ExtraDataItem name="GUI/Details/Elements" value="general,system,preview,display,storage,audio,network,usb,sharedFolders,description"/>
-      <ExtraDataItem name="GUI/GroupDefinitions/" value="n=GLOBAL,m=e5bd3cc8-fc1f-4550-81ea-82e536dbd41b,m=e1455e86-781f-45b0-b600-0d87aebdafb0,m=082b3772-1e96-4e18-b90c-5bc06baa75ec,m=5d6bfce2-ba7b-44ae-b87a-51c76f9c0450"/>
-      <ExtraDataItem name="GUI/LastItemSelected" value="m=Manjaro"/>
+      <ExtraDataItem name="GUI/GroupDefinitions/" value="n=GLOBAL,m=e5bd3cc8-fc1f-4550-81ea-82e536dbd41b,m=e1455e86-781f-45b0-b600-0d87aebdafb0,m=082b3772-1e96-4e18-b90c-5bc06baa75ec,m=5d6bfce2-ba7b-44ae-b87a-51c76f9c0450,m=65c65b91-b9f3-488c-b1ae-f61f2436c45d"/>
+      <ExtraDataItem name="GUI/LastItemSelected" value="m=Arch OS"/>
       <ExtraDataItem name="GUI/LastWindowPosition" value="13,38,1894,1029,max"/>
       <ExtraDataItem name="GUI/RecentFolderCD" value="/home/terra/Torrents"/>
       <ExtraDataItem name="GUI/RecentFolderHD" value="/home/terra/Downloads"/>
@@ -20,8 +20,8 @@
       <ExtraDataItem name="GUI/SuppressMessages" value="confirmGoingFullscreen,confirmInputCapture,confirmPowerOffMachine,remindAboutMouseIntegration,remindAboutAutoCapture,confirmGoingScale"/>
       <ExtraDataItem name="GUI/Toolbar" value="false"/>
       <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Details"/>
-      <ExtraDataItem name="GUI/UpdateCheckCount" value="8"/>
-      <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2020-07-14, stable, 6.1.10"/>
+      <ExtraDataItem name="GUI/UpdateCheckCount" value="9"/>
+      <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2020-07-15, stable, 6.1.10"/>
     </ExtraData>
     <MachineRegistry>
       <MachineEntry uuid="{e5bd3cc8-fc1f-4550-81ea-82e536dbd41b}" src="/home/terra/VirtualBox VMs/TempleOS/TempleOS.vbox"/>

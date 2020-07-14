@@ -1421,3 +1421,6 @@ Jul 12 09:34 : avahi: Service 'Music Player @ terra-laptop' successfully establi
 Jul 12 16:31 : update: added rap/Juice WRLD ft. Marshmello - Come & Go (Official Audio).mp3
 Jul 13 10:44 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Jul 13 10:44 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jul 13 20:32 : update: added rap/Polo G - Pop Out ft. Lil Tjay (Lyrics).mp3
+Jul 14 10:53 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 14 10:53 : avahi: Service 'Music Player @ terra-laptop' successfully established.
