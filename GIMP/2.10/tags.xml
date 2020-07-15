@@ -775,13 +775,31 @@
   <resource identifier="Abyssinica SIL" checksum="(null)">
   </resource>
 
+  <resource identifier="all-the-icons" checksum="(null)">
+  </resource>
+
+  <resource identifier="Andale Mono" checksum="(null)">
+  </resource>
+
   <resource identifier="Ani" checksum="(null)">
   </resource>
 
   <resource identifier="AnjaliOldLipi" checksum="(null)">
   </resource>
 
-  <resource identifier="AvantGarde LT Medium, Medium" checksum="(null)">
+  <resource identifier="Arial" checksum="(null)">
+  </resource>
+
+  <resource identifier="Arial Black," checksum="(null)">
+  </resource>
+
+  <resource identifier="Arial Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Arial Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Arial Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Bitstream Charter" checksum="(null)">
@@ -871,13 +889,13 @@
   <resource identifier="cmsy10" checksum="(null)">
   </resource>
 
-  <resource identifier="Comfortaa" checksum="(null)">
+  <resource identifier="Comic Sans MS" checksum="(null)">
   </resource>
 
-  <resource identifier="Comfortaa Bold" checksum="(null)">
+  <resource identifier="Comic Sans MS Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="Comfortaa Light" checksum="(null)">
+  <resource identifier="Courier" checksum="(null)">
   </resource>
 
   <resource identifier="Courier 10 Pitch" checksum="(null)">
@@ -890,6 +908,27 @@
   </resource>
 
   <resource identifier="Courier 10 Pitch Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Courier Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Courier Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Courier Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Courier New" checksum="(null)">
+  </resource>
+
+  <resource identifier="Courier New Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Courier New Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Courier New Italic" checksum="(null)">
   </resource>
 
   <resource identifier="DejaVu Math TeX Gyre" checksum="(null)">
@@ -973,19 +1012,16 @@
   <resource identifier="eufm10" checksum="(null)">
   </resource>
 
-  <resource identifier="Fantasque Sans Mono" checksum="(null)">
+  <resource identifier="Feather" checksum="(null)">
   </resource>
 
-  <resource identifier="feather" checksum="(null)">
+  <resource identifier="file-icons" checksum="(null)">
   </resource>
 
   <resource identifier="FiraMono Nerd Font" checksum="(null)">
   </resource>
 
   <resource identifier="FontAwesome" checksum="(null)">
-  </resource>
-
-  <resource identifier="Font Awesome 5 Brands" checksum="(null)">
   </resource>
 
   <resource identifier="FreeMono" checksum="(null)">
@@ -1039,7 +1075,25 @@
   <resource identifier="Garuda Oblique" checksum="(null)">
   </resource>
 
-  <resource identifier="GE Inspira" checksum="(null)">
+  <resource identifier="Georgia" checksum="(null)">
+  </resource>
+
+  <resource identifier="Georgia Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Georgia Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Georgia Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="GFS Baskerville" checksum="(null)">
+  </resource>
+
+  <resource identifier="GFS Porson" checksum="(null)">
+  </resource>
+
+  <resource identifier="github-octicons" checksum="(null)">
   </resource>
 
   <resource identifier="Gubbi" checksum="(null)">
@@ -1057,16 +1111,7 @@
   <resource identifier="Hack Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="Hurmit Nerd Font Mono Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Hurmit Nerd Font Mono Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="Hurmit Nerd Font Mono Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="icomoon-feather" checksum="(null)">
+  <resource identifier="Impact Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="Iosevka" checksum="(null)">
@@ -1076,114 +1121,15 @@
   </resource>
 
   <resource identifier="Iosevka" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Bold Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Bold Italic Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Bold Oblique" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Bold Oblique Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Heavy" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Heavy Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Heavy Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Heavy Italic Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Heavy Oblique" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Heavy Oblique Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Italic Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Light Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Light Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Light Italic Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Light Oblique" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Light Oblique Expanded" checksum="(null)">
   </resource>
 
   <resource identifier="Iosevka Medium" checksum="(null)">
   </resource>
 
-  <resource identifier="Iosevka Medium Expanded" checksum="(null)">
+  <resource identifier="Iosevka Medium" checksum="(null)">
   </resource>
 
-  <resource identifier="Iosevka Medium Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Medium Italic Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Medium Oblique" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Medium Oblique Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Oblique" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Oblique Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Semi-Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Semi-Bold Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Semi-Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Semi-Bold Italic Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Semi-Bold Oblique" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Semi-Bold Oblique Expanded" checksum="(null)">
+  <resource identifier="Iosevka Medium" checksum="(null)">
   </resource>
 
   <resource identifier="Iosevka Term" checksum="(null)">
@@ -1195,58 +1141,13 @@
   <resource identifier="Iosevka Term" checksum="(null)">
   </resource>
 
-  <resource identifier="Iosevka Thin" checksum="(null)">
+  <resource identifier="Iosevka Term Medium" checksum="(null)">
   </resource>
 
-  <resource identifier="Iosevka Thin Expanded" checksum="(null)">
+  <resource identifier="Iosevka Term Medium" checksum="(null)">
   </resource>
 
-  <resource identifier="Iosevka Thin Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Thin Italic Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Thin Oblique" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Thin Oblique Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Ultra-Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Ultra-Bold Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Ultra-Bold Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Ultra-Bold Italic Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Ultra-Bold Oblique" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Ultra-Bold Oblique Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Ultra-Light" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Ultra-Light Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Ultra-Light Italic" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Ultra-Light Italic Expanded" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Ultra-Light Oblique" checksum="(null)">
-  </resource>
-
-  <resource identifier="Iosevka Ultra-Light Oblique Expanded" checksum="(null)">
+  <resource identifier="Iosevka Term Medium" checksum="(null)">
   </resource>
 
   <resource identifier="Jamrul Medium Semi-Expanded" checksum="(null)">
@@ -1729,6 +1630,9 @@
   <resource identifier="Manjari Thin" checksum="(null)">
   </resource>
 
+  <resource identifier="Material Icons" checksum="(null)">
+  </resource>
+
   <resource identifier="Meera" checksum="(null)">
   </resource>
 
@@ -1745,9 +1649,6 @@
   </resource>
 
   <resource identifier="Mitra Mono" checksum="(null)">
-  </resource>
-
-  <resource identifier="Monaco" checksum="(null)">
   </resource>
 
   <resource identifier="Monospace" checksum="(null)">
@@ -9673,6 +9574,18 @@
   <resource identifier="Purisa Oblique" checksum="(null)">
   </resource>
 
+  <resource identifier="Quicksand" checksum="(null)">
+  </resource>
+
+  <resource identifier="Quicksand Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Quicksand Light, Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Quicksand Medium, Medium" checksum="(null)">
+  </resource>
+
   <resource identifier="Rachana" checksum="(null)">
   </resource>
 
@@ -9698,9 +9611,6 @@
   </resource>
 
   <resource identifier="Rekha Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="Roboto Mono for Powerline" checksum="(null)">
   </resource>
 
   <resource identifier="rsfs10 Italic" checksum="(null)">
@@ -9778,7 +9688,133 @@
   <resource identifier="Suruma Medium" checksum="(null)">
   </resource>
 
+  <resource identifier="TeX Gyre Adventor" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Adventor Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Adventor Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Adventor Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Bonum" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Bonum Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Bonum Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Bonum Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Bonum Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Chorus Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Cursor" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Cursor Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Cursor Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Cursor Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre DejaVu Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Heros" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Heros Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Heros Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Heros Cn Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Heros Cn Bold Italic Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Heros Cn Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Heros Cn Italic Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Heros Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Pagella Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Schola" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Schola Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Schola Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Schola Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Schola Math" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="TeX Gyre Termes Math" checksum="(null)">
+  </resource>
+
   <resource identifier="Tibetan Machine Uni" checksum="(null)">
+  </resource>
+
+  <resource identifier="Times New Roman," checksum="(null)">
+  </resource>
+
+  <resource identifier="Times New Roman, Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Times New Roman, Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Times New Roman, Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Tlwg Mono" checksum="(null)">
@@ -9829,7 +9865,16 @@
   <resource identifier="Tlwg Typo Oblique" checksum="(null)">
   </resource>
 
-  <resource identifier="Ubuntu" checksum="(null)">
+  <resource identifier="Trebuchet MS" checksum="(null)">
+  </resource>
+
+  <resource identifier="Trebuchet MS Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Trebuchet MS Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Trebuchet MS Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Ubuntu" checksum="(null)">
@@ -9934,7 +9979,31 @@
   <resource identifier="URW Palladio L Medium" checksum="(null)">
   </resource>
 
+  <resource identifier="Utopia" checksum="(null)">
+  </resource>
+
+  <resource identifier="Utopia Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Utopia Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Utopia Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="Vemana2000" checksum="(null)">
+  </resource>
+
+  <resource identifier="Verdana" checksum="(null)">
+  </resource>
+
+  <resource identifier="Verdana Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Verdana Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Verdana Italic" checksum="(null)">
   </resource>
 
   <resource identifier="VL Gothic" checksum="(null)">
@@ -9956,6 +10025,12 @@
   </resource>
 
   <resource identifier="wasy10" checksum="(null)">
+  </resource>
+
+  <resource identifier="Weather Icons" checksum="(null)">
+  </resource>
+
+  <resource identifier="Webdings" checksum="(null)">
   </resource>
 
   <resource identifier="Yrsa" checksum="(null)">
