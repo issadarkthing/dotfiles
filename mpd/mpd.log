@@ -1424,3 +1424,25 @@ Jul 13 10:44 : avahi: Service 'Music Player @ terra-laptop' successfully establi
 Jul 13 20:32 : update: added rap/Polo G - Pop Out ft. Lil Tjay (Lyrics).mp3
 Jul 14 10:53 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Jul 14 10:53 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jul 14 15:13 : avahi: Client Disconnected, will reconnect shortly
+Jul 14 15:16 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 14 15:16 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jul 14 15:28 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 14 15:28 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jul 14 15:40 : avahi: Client Disconnected, will reconnect shortly
+Jul 14 15:49 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 14 15:49 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jul 14 15:49 : avahi: Client Disconnected, will reconnect shortly
+Jul 14 16:24 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 14 16:24 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jul 14 16:50 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 14 16:50 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jul 14 23:33 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 14 23:33 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jul 15 00:03 : avahi: Client Disconnected, will reconnect shortly
+Jul 15 00:34 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 00:34 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jul 15 11:18 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 11:18 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jul 15 11:53 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 15 11:53 : avahi: Service 'Music Player @ terra-laptop' successfully established.
