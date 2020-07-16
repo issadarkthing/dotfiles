@@ -39,9 +39,6 @@ Plug 'junegunn/fzf.vim'
 " nerdtree icons
 Plug 'ryanoasis/vim-devicons', { 'on': 'NERDTreeToggle' }
 
-" Rooter changes the working directory to the project root when you open a file or directory.
-Plug 'airblade/vim-rooter'
-
 " highlight unique character in every word
 Plug 'unblevable/quick-scope'
 

@@ -1,4 +1,3 @@
-
 #!/bin/bash
 # getProgressString <TOTAL ITEMS> <FILLED LOOK> <NOT FILLED LOOK> <STATUS> <DELIMETER>
 # For instance:
