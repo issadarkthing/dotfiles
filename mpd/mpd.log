@@ -1455,3 +1455,16 @@ Jul 15 23:28 : exception: RTIOThread could not get realtime scheduling, continui
 Jul 15 23:28 : avahi: Service 'Music Player @ terra-laptop' successfully established.
 Jul 16 10:28 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Jul 16 10:28 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jul 16 15:00 : update: added rap/POP SMOKE - GOT IT ON ME (OFFICIAL VIDEO).mp3
+Jul 16 15:01 : update: added rap/Juice WRLD with Marshmello ft. Polo G & The Kid Laroi - Hate The Other Side (Official Visualizer).mp3
+Jul 16 21:16 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 16 21:16 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jul 16 21:30 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 16 21:30 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jul 16 21:55 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 16 21:55 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jul 16 21:55 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 16 21:55 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jul 17 00:08 : avahi: Client Disconnected, will reconnect shortly
+Jul 17 09:50 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 17 09:50 : avahi: Service 'Music Player @ terra-laptop' successfully established.

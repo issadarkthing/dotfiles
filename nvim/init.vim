@@ -273,17 +273,9 @@ nnoremap <silent> <expr> $ ScreenMovement("$")
 
 
 
-" fzf finder respects gitignore if found
-function! OpenFile()
-	if FindRootDirectory() == ''
-		exec ':Files'
-	else
-		exec ':GFiles'
-	endif
-endfunction
 
-noremap <leader>f :call OpenFile()<cr>
-nnoremap <leader>F :Files<cr>
+noremap <leader>f :Files<cr>
+nnoremap <leader>F :GFiles<cr>
 
 " cursorline
 "set cursorline

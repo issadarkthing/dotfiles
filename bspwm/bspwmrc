@@ -12,6 +12,7 @@ compton &
 # polybar
 ~/.config/polybar/launch.sh &
 
+
 # window switcher
 # ~/Documents/scripts/wswr.sh -r &
 

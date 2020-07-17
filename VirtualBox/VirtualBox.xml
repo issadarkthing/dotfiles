@@ -11,17 +11,17 @@
       <ExtraDataItem name="GUI/Details/Elements" value="general,system,preview,display,storage,audio,network,usb,sharedFolders,description"/>
       <ExtraDataItem name="GUI/GroupDefinitions/" value="n=GLOBAL,m=e5bd3cc8-fc1f-4550-81ea-82e536dbd41b,m=e1455e86-781f-45b0-b600-0d87aebdafb0,m=082b3772-1e96-4e18-b90c-5bc06baa75ec,m=5d6bfce2-ba7b-44ae-b87a-51c76f9c0450,m=65c65b91-b9f3-488c-b1ae-f61f2436c45d"/>
       <ExtraDataItem name="GUI/LastItemSelected" value="m=Arch OS"/>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="13,38,1894,1029,max"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="0,64,1920,1016,max"/>
       <ExtraDataItem name="GUI/RecentFolderCD" value="/home/terra/Torrents"/>
       <ExtraDataItem name="GUI/RecentFolderHD" value="/home/terra/Downloads"/>
       <ExtraDataItem name="GUI/RecentListCD" value="/home/terra/Torrents/archlinux-2020.07.01-x86_64.iso,/home/terra/Downloads/macOS HighSierra 10.13.iso,/home/terra/Downloads/Win10_2004_EnglishInternational_x64.iso,/home/terra/Torrents/manjaro-xfce-19.0.2-200311-linux54.iso,/home/terra/Downloads/TempleOS.ISO"/>
       <ExtraDataItem name="GUI/RecentListHD" value="/home/terra/Downloads/macOS High Sierra 10.13 by Geekrar.vmdk"/>
-      <ExtraDataItem name="GUI/SplitterSizes" value="626,1267"/>
+      <ExtraDataItem name="GUI/SplitterSizes" value="635,1284"/>
       <ExtraDataItem name="GUI/SuppressMessages" value="confirmGoingFullscreen,confirmInputCapture,confirmPowerOffMachine,remindAboutMouseIntegration,remindAboutAutoCapture,confirmGoingScale"/>
       <ExtraDataItem name="GUI/Toolbar" value="false"/>
       <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Details"/>
-      <ExtraDataItem name="GUI/UpdateCheckCount" value="9"/>
-      <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2020-07-15, stable, 6.1.10"/>
+      <ExtraDataItem name="GUI/UpdateCheckCount" value="10"/>
+      <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2020-07-17, stable, 6.1.12"/>
     </ExtraData>
     <MachineRegistry>
       <MachineEntry uuid="{e5bd3cc8-fc1f-4550-81ea-82e536dbd41b}" src="/home/terra/VirtualBox VMs/TempleOS/TempleOS.vbox"/>
