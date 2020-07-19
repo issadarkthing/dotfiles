@@ -1,0 +1,286 @@
+file:///home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/stash.ts {"mtime":1594010769823,"ctime":1594010769823,"size":9332,"etag":"35bnaandh9m1","orphaned":false}
+import Discord from 'discord.js'
+import {assets} from '../../local/assets.js'
+import {Emblem} from '../../local/items.js'
+import {rpgDb, Player} from '../../models/rpgSchema.js'
+import {Arguments, Database, error, remover, getPlayer} from '../../src/utils';
+import {marketDb} from '../../models/marketSchema.js'
+import mongoose from "mongoose"
+import {PlayerStats} from '../../src/PlayerStats.js'
+
+
+export default {
+	name: 'stash',
+	description: "Place where your items will be",
+	aliases: ['st'],
+	async execute({msg, args}: Arguments) {
+
+
+
+		if (args.length > 1) return rpgDb.findOne({userID: msg.author.id}, async (err, res: Player) => {
+
+			if (err) return console.log(err)
+			if (!res) return msg.channel.send("You haven't created a character yet");
+
+			const playerStats = new PlayerStats(res)
+			if (res.items.length === 0) return msg.channel.send(`${res.name}'s stash is empty.`);
+
+			const allItemsObject = playerStats.getItems()
+			const uniqueItemsIndex = [...new Set(allItemsObject.map(el => el.index))];
+
+
+
+			const itemMap = new Map<string, string>();
+
+
+
+			uniqueItemsIndex.forEach((el, index) => itemMap.set(index + 1 + "", el));  // Map { index => itemIndex }
+
+			/*----------FOURTH CASE: SELLING THE ITEM-------------- */
+			if (args[2] === "sell" && itemMap.has(args[1])) return await sellItem(marketDb, res, args, itemMap);
+
+			/* ---------FIRST CASE: USING THE ITEM------------ */
+			if (args[2] === "use" && itemMap.has(args[1])) return await use(res, args, itemMap);
+
+			/*----------SECOND CASE: SELECTING THE ITEM--------- */
+			if (args[1] && itemMap.has(args[1])) {
+				const selectedIndex = itemMap.get(args[1]);
+				if (!selectedIndex) return msg.channel.send("Item does not exists")
+				const selectedItem = allItemsObject.find(el => el.index === selectedIndex);
+				if (!selectedItem) return msg.channel.send("Item does not exists")
+
+				const embed = new Discord.MessageEmbed()
+					.setColor(assets.rogueColor)
+					.addField(selectedItem.name, `${selectedItem.description} \nUnit: ${countItems(res.items, args, itemMap)}`)
+					.setThumbnail(selectedItem.image)
+					.addField("=============", `To sell this item in blackmarket use ?stash ${args[1]} sell`)
+					.setFooter(`To use this item, write this command \`?stash ${args[1]} use\``)
+				return msg.channel.send(embed);
+			}
+
+		}).catch(err => console.log(err))
+
+
+
+
+		/*---------------THIRD CASE: DISPLAYING ALL ITEMS---------------- */
+		const listOfItems = await checkItems(msg.author);
+		return msg.channel.send(listOfItems);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		/*---------------------FUNCTIONS----------------------------- */
+		async function checkItems(_user: Discord.User) {
+			const user = await getPlayer(_user.id)
+			if (!user) return error.no_user;
+			if (user.items.length === 0) return `${user.name}'s stash is empty.`
+
+			const playerStats = new PlayerStats(user)
+
+			const allItemsObject = playerStats.getItems()
+			const uniqueItems = [...new Set(allItemsObject.map(el => el.name))].map((e, i) => `${i + 1}. ${e}`);
+
+			const embed = new Discord.RichEmbed()
+				.setColor(assets.rogueColor)
+				.addField('Items', uniqueItems.join('\n'))
+				.setFooter("If you want to check the first item, use ?stash 1")
+				.setThumbnail(assets.stash)
+
+			return embed;
+		}
+
+		async function use(res: Player, args: string[], itemMap: Map<string, string>) {
+
+			const selectedIndex = itemMap.get(args[1]);
+
+			if (!selectedIndex) return msg.channel.send("Item does not exists")
+
+			const playerStats = new PlayerStats(res)
+			const allItemsObject = playerStats.getItems()
+			const selectedItem = allItemsObject.find(el => el.index === selectedIndex);
+
+			if (selectedItem!.name === "Rename potion") {
+
+				const filter = (m: Discord.Message) => m.author.id === msg.author.id;
+				await msg.channel.send("Please give a new name for your character.")
+
+				msg.channel.awaitMessages(filter, {max: 1, time: 30000, errors: ['time']})
+					.then(collected => {
+						const itemIndex = res.items.indexOf(selectedIndex);
+						res.items.splice(itemIndex, 1)
+						res.name = collected.first().content
+						msg.channel.send(`Your character's name has been changed to ${res.name}`)
+						res.save()
+					})
+					.catch(() => {
+						msg.channel.send("You seem like you need more time to think")
+
+					})
+
+
+			} else if (selectedItem!.name === "Class Reversal") {
+
+				const filter = (m: Discord.Message) => m.author.id == msg.author.id && m.content === 'yes'
+
+				await msg.channel.send("Are you sure to continue this action? You will lose all your skills if you proceed. Reply with 'yes' without quotation mark.")
+
+				await msg.channel
+					.awaitMessages(filter, {max: 1, time: 30000, errors: ['time']})
+					.then(collected => {
+
+						if (collected.first().content !== "yes")
+							return 
+
+						const itemIndex = res.items.indexOf(selectedIndex);
+						res.items.splice(itemIndex, 1)
+						res.class = "none"
+						res.skills = []
+						const allSkillsStat = playerStats.getSkills().reduce((acc, skill) => {
+
+							return {
+								attack: acc.attack + skill.attack,
+								health: acc.health + skill.health,
+								defense: acc.defense + skill.defense
+							}
+						}, {attack: 0, health: 0, defense: 0})
+
+						res.attack -= allSkillsStat.attack
+						res.defense -= allSkillsStat.defense
+						res.health -= allSkillsStat.health
+						res.save()
+						msg.channel.send(`${res.name} is no longer belong to any classes now.`)
+
+					})
+					.catch(() => {
+						msg.channel.send("It seems you need more time to think")
+					})
+
+
+
+
+
+
+			} else if (selectedItem!.type === "orb") {
+
+				return msg.channel.send("Use `?talent` command to consume orbs.")
+
+			} else {
+
+
+				const itemIndex = res.items.indexOf(selectedIndex);
+				res.items.splice(itemIndex, 1)
+				let lvlUpTxt;
+				const attb = Math.floor(Math.random() * (selectedItem! as Emblem).max) + (selectedItem! as Emblem).min;
+				if (selectedItem!.type === 'attack') {
+					res.attack = res.attack + attb
+					lvlUpTxt = `${res.name} has gained +${attb} attack`
+				} else if (selectedItem!.type === 'health') {
+					res.health = res.health + attb
+					lvlUpTxt = `${res.name} has gained +${attb} health`
+				} else if (selectedItem!.type === 'defense') {
+					res.defense = res.defense + attb
+					lvlUpTxt = `${res.name} has gained +${attb} defense`
+				}
+				res.save()
+				msg.channel.send(lvlUpTxt)
+
+			}
+		}
+
+
+
+		function countItems(items: string[], args: string[], itemMap: Map<string, string>) {
+			const selectedIndex = itemMap.get(args[1]);
+			return items.reduce((acc, val) => val === selectedIndex ? acc + 1 : acc, 0);
+		}
+
+
+		async function sellItem(marketDb: Database, res: Player, args: string[], itemMap: Map<string, string>) {
+
+			const playerStats = new PlayerStats(res);
+			const selectedIndex = itemMap.get(args[1]);
+			const allItemsObject = playerStats.getItems()
+			const selectedItem = allItemsObject.find(el => el.index === selectedIndex);
+
+			const filter = (m: Discord.Message) => m.author.id == msg.author.id;
+			await msg.channel.send("Please specify the selling price for this item:");
+
+			const price = await msg.channel.awaitMessages(filter, {time: 30000, max: 1, errors: ['time']})
+				.catch(() => "Timeout");
+
+			if (typeof price === "string") return msg.channel.send("It seems like you need more time to think.");
+
+			if (!price.first()) return msg.channel.send("Invalid input")
+
+			const priceContent = parseInt(price.first().content)
+
+
+
+			if (isNaN(priceContent) || priceContent < 1) return msg.reply("Please provide valid price.");
+
+			await msg.channel.send("How many unit you want to sell?");
+
+			const unit = await msg.channel.awaitMessages(filter, {time: 30000, max: 1, errors: ['time']})
+				.catch(() => "Timeout");
+
+			if (typeof unit === "string") return msg.channel.send("It seems like you need more time to think.");
+
+			if (!unit.first()) return msg.channel.send("Invalid input")
+
+			const unitContent = parseInt(unit.first().content)
+
+
+			if (isNaN(unitContent) || unitContent < 0) return msg.reply("Please provide valid number");
+
+			const itemsUnitInStash = countItems(res.items, args, itemMap);
+			const unitInt = unitContent;
+			const priceInt = priceContent;
+
+			if (itemsUnitInStash < unitInt) return msg.channel.send("Insufficient item");
+			if (unitInt === 0) return msg.channel.send("Operation cancelled.");
+
+
+
+			await marketDb.findOne({user: false}, (err: Error) => {
+				if (err) return console.log(err);
+				const upSchema = new marketDb({
+					_id: mongoose.Types.ObjectId(),
+					name: selectedItem!.name,
+					price: priceInt,
+					initialUnit: unitInt,
+					unit: unitInt,
+					sold: false,
+					owner: res.name,
+					ownerID: msg.author.id,
+					date: new Date(),
+					itemID: selectedItem!.itemID
+				})
+				upSchema.save()
+			})
+
+			const updatedItems = remover(selectedItem!.index, unitInt, res.items);
+
+			res.items = updatedItems;
+
+			const item = unitInt > 1 ? "items" : "item";
+
+			msg.channel.send(`The ${item} successfully placed in Black Market. Use \`?blackmarket\` or \`?bm\` to check the black market.`)
+			res.save()
+			return
+		}
+
+
+
+	}
+}

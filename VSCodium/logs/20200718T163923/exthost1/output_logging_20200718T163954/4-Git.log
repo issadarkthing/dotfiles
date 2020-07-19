@@ -1,0 +1,17 @@
+Looking for git in: git
+Using git 2.20.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/terra/Documents/system33/typescript/ChaosRPG
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse discord.js_12
+> git rev-parse --symbolic-full-name discord.js_12@{u}
+fatal: no upstream configured for branch 'discord.js_12'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :main/commands/rpg/stash.ts
+> git ls-files --stage -- /home/terra/Documents/system33/typescript/ChaosRPG/main/commands/rpg/stash.ts
+> git cat-file -s 846a51e4303d86b0e0726d3c4975a5a4b6171c8e

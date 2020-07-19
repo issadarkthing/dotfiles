@@ -1,0 +1,3 @@
+[2020-07-18 16:39:28.197] [sharedprocess] [info] main {"machineId":"888df80706dc51b04c9968810ca8ceb3dd387ea01412fc3f4915ed6f2005c9a7","windowId":2}
+[2020-07-18 16:39:28.227] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/terra/.config/VSCodium/User/snippets'
+[2020-07-18 16:40:08.210] [sharedprocess] [info] Starting to clean up unused language packs.
