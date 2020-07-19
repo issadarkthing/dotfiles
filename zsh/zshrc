@@ -1,0 +1,314 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+source ~/.zprofile
+
+
+# colors
+
+BLACK="\u001b[30m"
+RED="\u001b[31m"
+GREEN="\u001b[32m"
+YELLOW="\u001b[33m"
+BLUE="\u001b[34m"
+MAGENta="\u001b[35m"
+CYAN="\u001b[36m"
+WHITE="\u001b[37m"
+RESET="\u001b[0m"
+
+# If you come from bash you might have to change your $PATH.
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# Path to your oh-my-zsh installation.
+export ZSH="/home/terra/.oh-my-zsh"
+
+
+
+
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
+# Set list of themes to pick from when loading at random
+# Setting this variable when ZSH_THEME=random will cause zsh to load
+# a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
+# If set to an empty array, this variable will have no effect.
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+
+# Uncomment the following line to use case-sensitive completion.
+# CASE_SENSITIVE="true"
+
+# Uncomment the following line to use hyphen-insensitive completion.
+# Case-sensitive completion must be off. _ and - will be interchangeable.
+# HYPHEN_INSENSITIVE="true"
+
+# Uncomment the following line to disable bi-weekly auto-update checks.
+# DISABLE_AUTO_UPDATE="true"
+
+# Uncomment the following line to automatically update without prompting.
+# DISABLE_UPDATE_PROMPT="true"
+
+# Uncomment the following line to change how often to auto-update (in days).
+# export UPDATE_ZSH_DAYS=13
+
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS=true
+
+# Uncomment the following line to disable colors in ls.
+# DISABLE_LS_COLORS="true"
+
+# Uncomment the following line to disable auto-setting terminal title.
+# DISABLE_AUTO_TITLE="true"
+
+# Uncomment the following line to enable command auto-correction.
+ENABLE_CORRECTION="false"
+
+# Uncomment the following line to display red dots whilst waiting for completion.
+# COMPLETION_WAITING_DOTS="true"
+
+# Uncomment the following line if you want to disable marking untracked files
+# under VCS as dirty. This makes repository status check for large repositories
+# much, much faster.
+# DISABLE_UNTRACKED_FILES_DIRTY="true"
+
+# Uncomment the following line if you want to change the command execution time
+# stamp shown in the history command output.
+# You can set one of the optional three formats:
+# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# or set a custom format using the strftime function format specifications,
+# see 'man strftime' for details.
+# HIST_STAMPS="mm/dd/yyyy"
+
+# Would you like to use another custom folder than $ZSH/custom?
+# ZSH_CUSTOM=/path/to/new-custom-folder
+
+# Which plugins would you like to load?
+# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting z)
+
+source $ZSH/oh-my-zsh.sh
+
+# User configuration
+
+# export MANPATH="/usr/local/man:$MANPATH"
+
+# You may need to manually set your language environment
+# export LANG=en_US.UTF-8
+
+# Preferred editor for local and remote sessions
+ if [[ -n $SSH_CONNECTION ]]; then
+	 export EDITOR='nvim'
+ else
+	 export EDITOR='nvim'
+ fi
+
+
+# Compilation flags
+# export ARCHFLAGS="-arch x86_64"
+
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+#
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+
+# ===================SOURCES=====================
+
+# go lfcd
+source ~/.config/lf/lfcd.sh
+
+export SCRIPTS=~/Documents/scripts
+
+# trash-cli alternative
+source $SCRIPTS/trash.sh
+
+
+h=$(date +%H)
+
+if [ $h -lt 12 ]; then
+  echo -e "${BLUE}Good morning terra!${NC}"
+elif [ $h -lt 18 ]; then
+  echo -e "${GREEN}Good afternoon terra!${NC}"
+else
+  echo -e "${YELLOW}Good evening terra!${NC}"
+fi
+
+# add todo item
+todo() {
+
+	[ -z "$1" ] && echo "[1-9] summary"
+	[ "$1" = "-show" ] && cat ~/.local/share/calcurse/todo
+	[ -n "$1" ] && [ "$1" != "-show" ] && echo "$@" >> ~/.local/share/calcurse/todo
+}
+
+rga-fzf() {
+	RG_PREFIX="rga --files-with-matches"
+	local file
+	file="$(
+		FZF_DEFAULT_COMMAND="$RG_PREFIX '$1'" \
+			fzf --sort --preview="[[ ! -z {} ]] && rga --pretty --context 5 {q} {}" \
+				--preview-window="70%:wrap"
+	)" &&
+	echo "opening $file" &&
+	xdg-open "$file"
+}
+
+# short guide of command
+cs() {
+	curl "cheat.sh/$1"
+}
+
+# makedir and cd into
+mcdir() {
+
+	# stay in the current directory
+	[[ $1 = "-s" ]] && shift && mkdir "$@" && exit;
+
+	# default behaviour
+	mkdir -p -- "$1" && cd -P -- "$1"
+}
+
+
+# change background temporary
+chbg() {
+	feh --bg-scale "$1"
+}
+
+# save file history
+nvim_hist() {
+
+	for i in "$@"; do
+
+		[[ -f $i ]] && echo "$(pwd)/$i" >> ~/.local/share/nvim/history
+
+	done
+
+	nvim "$@"
+}
+
+# open file based on history
+zf() {
+	# if argument given, use that as query
+	if [[ -n $1 ]]; then 
+		local dest=$(cat ~/.local/share/nvim/history | fzf --preview='cat {}' -q $1)
+	else
+		local dest=$(cat ~/.local/share/nvim/history | fzf --preview='cat {}')
+	fi
+
+	if [[ -n $dest ]]; then
+		cd $(dirname $dest) && nvim $(basename $dest)
+	fi
+
+}
+
+# change directory using fzf
+zp() {
+
+	# sort flags
+	# -g = enables sort by floating point
+	# -r = reverse
+	# -k = column to sort
+
+	# if argument given, use that as query
+	if [[ -n $1 ]]; then 
+		local zpath=$(z | sort -grk 1 | fzf --tiebreak=index --preview="echo {} | awk '{print \$2}' | xargs ls" -q $1)
+	else
+		local zpath=$(z | sort -grk 1 | fzf --tiebreak=index --preview="echo {} | awk '{print \$2}' | xargs ls")
+	fi
+
+	# cd into path if not empty string
+	# otherwise zsh will cd into home dir if empty string
+	[[ -n $zpath ]] && cd $(awk '{print $2}' <<< $zpath)
+}
+
+
+# ripgrep with fzf integration
+rgf() {
+	rg "$1" | fzf
+}
+
+# set vim mode
+set -o vi
+zstyle ':completion:*' menu select
+zmodload zsh/complist
+bindkey '\e[A' history-beginning-search-backward
+bindkey '\e[B' history-beginning-search-forward
+
+# use the vi navigation keys in menu completion
+bindkey -M menuselect 'h' vi-backward-char
+bindkey -M menuselect 'k' vi-up-line-or-history
+bindkey -M menuselect 'l' vi-forward-char
+bindkey -M menuselect 'j' vi-down-line-or-history
+bindkey "^?" backward-delete-char
+
+# to enable wildcard negation
+setopt extended_glob
+
+# ============== ZPLUG ==================
+
+source ~/.zplug/init.zsh
+
+# auto pair in terminal
+zplug "hlissner/zsh-autopair", defer:2
+
+# Install plugins if there are plugins that have not been installed
+if ! zplug check --verbose; then
+	zplug install
+fi
+
+# Then, source plugins and add commands to $PATH
+zplug load
+
+# ============== ALIASES ================
+
+alias battery="upower -i /org/freedesktop/UPower/devices/battery_BAT1 | grep --color=never -E \"state|to\ full|to\ empty|percentage\""
+
+eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+
+alias arma="node ~/Documents/system33/typescript/armav2/dist/index.js"
+alias neofetch="neofetch --ascii ~/Pictures/ascii/arma.txt --memory_display bar --bar_char '/' '-'"
+alias ls="lsd"
+alias zathura="zathura --fork"
+
+# prevent accidental typo
+alias chmod="chmod --preserve-root"
+alias chown="chown --preserve-root"
+
+alias bookmark=$SCRIPTS/bookmark/bookmark.sh
+alias define=$SCRIPTS/node-scripts/define/define.js
+alias rgr="ranger"
+alias trc="transmission-remote-cli -c transmission:transmission@localhost:9091"
+alias vm="vim ~/.vimrc"
+alias nvm="nvim ~/.config/nvim/init.vim"
+alias zs="nvim ~/.zshrc"
+alias python="python3"
+alias gpg2="gpg"
+alias ytdl="youtube-dl"
+alias cf="cfiles"
+alias lz="lazygit"
+alias nc="ncmpcpp"
+alias zr="zaread"
+alias zt="zathura --fork"
+alias nvim="nvim_hist"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export DENO_INSTALL="/home/terra/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+export PATH=~/.emacs.d/bin:$PATH
