@@ -52,10 +52,10 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to automatically update without prompting.
-# DISABLE_UPDATE_PROMPT="true"
+DISABLE_UPDATE_PROMPT="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
+export UPDATE_ZSH_DAYS=13
 
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS=true
@@ -220,21 +220,27 @@ zf() {
 # change directory using fzf
 zp() {
 
+	local preview_command='ls $(awk "{print \$2}" <<< {})'
+
 	# sort flags
 	# -g = enables sort by floating point
 	# -r = reverse
 	# -k = column to sort
 
+	# list and sort path according to highest value and ends prioritize end match
+	local custom_path="z | sort -grk 1 | fzf --tiebreak='index' --preview='$preview_command'"
+
+
 	# if argument given, use that as query
 	if [[ -n $1 ]]; then 
-		local zpath=$(z | sort -grk 1 | fzf --tiebreak=index --preview="echo {} | awk '{print \$2}' | xargs ls" -q $1)
+		local zpath=$(eval "$custom_path" -q $1)
 	else
-		local zpath=$(z | sort -grk 1 | fzf --tiebreak=index --preview="echo {} | awk '{print \$2}' | xargs ls")
+		local zpath=$(eval "$custom_path")
 	fi
 
 	# cd into path if not empty string
 	# otherwise zsh will cd into home dir if empty string
-	[[ -n $zpath ]] && cd $(awk '{print $2}' <<< $zpath)
+	[[ -n $zpath ]] && cd $(awk '{print $2}' <<< "$zpath")
 }
 
 
@@ -266,6 +272,7 @@ source ~/.zplug/init.zsh
 
 # auto pair in terminal
 zplug "hlissner/zsh-autopair", defer:2
+zplug "andrewferrier/fzf-z"
 
 # Install plugins if there are plugins that have not been installed
 if ! zplug check --verbose; then
