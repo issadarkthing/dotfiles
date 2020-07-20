@@ -244,3 +244,9 @@ class Dragon(Command):
     Drag on drop functionality
     """
 
+    def execute(self):
+        import subprocess
+        file = self.fm.thisfile.path
+
+        command = f"dragon -x {file}"
+
