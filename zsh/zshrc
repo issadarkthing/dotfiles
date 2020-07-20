@@ -220,7 +220,7 @@ zf() {
 # change directory using fzf
 zp() {
 
-	local preview_command='lsd $(awk "{print \$2}" <<< {})'
+	local preview_command='ls $(awk "{print \$2}" <<< {})'
 
 	# sort flags
 	# -g = enables sort by floating point
@@ -229,8 +229,7 @@ zp() {
 
 	# list and sort path according to highest value and ends prioritize end match
 	local custom_path="z | sort -grk 1 | \
-		fzf --ansi --tiebreak='index' \
-		--preview='$preview_command' --preview-window=right:30%"
+		fzf --tiebreak='index' --preview='$preview_command' --preview-window=right:30%"
 
 
 	# if argument given, use that as query
