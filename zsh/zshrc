@@ -228,7 +228,8 @@ zp() {
 	# -k = column to sort
 
 	# list and sort path according to highest value and ends prioritize end match
-	local custom_path="z | sort -grk 1 | fzf --tiebreak='index' --preview='$preview_command'"
+	local custom_path="z | sort -grk 1 | \
+		fzf --tiebreak='index' --preview='$preview_command'"
 
 
 	# if argument given, use that as query
