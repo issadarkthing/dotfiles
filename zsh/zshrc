@@ -229,7 +229,7 @@ zp() {
 
 	# list and sort path according to highest value and ends prioritize end match
 	local custom_path="z | sort -grk 1 | \
-		fzf --tiebreak='index' --preview='$preview_command'"
+		fzf --tiebreak='index' --preview='$preview_command' --preview-window=right:30%"
 
 
 	# if argument given, use that as query
