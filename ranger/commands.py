@@ -250,3 +250,7 @@ class Dragon(Command):
 
         command = f"dragon -x {file}"
 
+        dragon = self.fm.execute_command(command, universal_newlines=True)
+
+        _, stderr = xclip.run()
+
