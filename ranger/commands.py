@@ -5,6 +5,7 @@
 # commands when upgrading ranger.
 
 # You always need to import ranger.api.commands here to get the Command class:
+from ranger.api.commands import Command
 import ranger.api
 import ranger.core.linemode
 
