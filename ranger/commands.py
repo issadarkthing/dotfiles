@@ -238,3 +238,6 @@ class cd(Command):
             # manually type in the slash to advance into that directory
             return (self.start(1) + join(rel_dirname, dirname) for dirname in dirnames)
 
+
+class Dragon(Command):
+
