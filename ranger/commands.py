@@ -240,4 +240,7 @@ class cd(Command):
 
 
 class Dragon(Command):
+    """
+    Drag on to move item from filesystem
+    """
 
