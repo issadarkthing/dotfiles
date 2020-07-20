@@ -252,5 +252,10 @@ class Dragon(Command):
 
         dragon = self.fm.execute_command(command, universal_newlines=True)
 
-        _, stderr = xclip.run()
+        _, stderr = dragon.run()
+
+        if dragon.returncode == 0:
+            self.fm.notify("File transfered")
+        else:
+            self.fm.notify(stderr, bad=True)
 
