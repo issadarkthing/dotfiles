@@ -538,4 +538,4 @@ set timeout timeoutlen=3000 ttimeoutlen=100
 " set current highlited on the correct window
 nnoremap <c-w>v <c-w>v<c-w>h
 
-
+set colorcolumn=80

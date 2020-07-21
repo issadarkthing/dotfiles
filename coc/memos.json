@@ -587,11 +587,10 @@
           "sysPrefix": "/usr",
           "fileHash": "4aa154b9a7cbca6b19c0dffd91f3cbe16da6bf71508a2e0685d0853fbea89ea4415450a7b6005a374ec75955f69a5a8cb511cc7a66f5bc48ae44163fe7adca2d",
           "type": "Unknown",
-          "displayName": "Python 3.7.5 64-bit",
-          "__store": true
+          "displayName": "Python 3.7.5 64-bit"
         }
       },
-      "expiry": 1595312919976
+      "expiry": 1595343405036
     },
     "/usr/bin/python.interpreter.Details.v7": {
       "data": {
