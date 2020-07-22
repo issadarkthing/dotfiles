@@ -1,4 +1,3 @@
-[<0;24;16m[<64;33;19M[<64;33;19M[<64;33;19M[<65;33;19M[<65;33;19M[<65;33;19M[<65;33;19M[<64;33;19M[<64;33;19M[<64;33;19M[<64;33;19M[<65;33;19M[<65;33;19M[<65;33;19M[<65;33;19M[<65;33;19M
 search *.deb
 search *.lua
 search
@@ -46,5 +45,6 @@ mkdir wswr
 rename references
 rename audio_test.mp3
 open_with sxiv
-delete
 mkdir iso
+delete
+mkdir bin
