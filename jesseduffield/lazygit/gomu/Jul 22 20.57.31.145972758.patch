@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -24,6 +24,7 @@ type AudioFile struct {
+ 	Path        string
+ 	IsAudioFile bool
+ 	Length      time.Duration
++	Node        *tview.TreeNode
+ 	Parent      *tview.TreeNode
+ }
+ 

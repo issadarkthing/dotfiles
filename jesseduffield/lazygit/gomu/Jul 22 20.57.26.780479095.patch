@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -6,6 +6,7 @@ import (
+ 	"bytes"
+ 	"fmt"
+ 	"io/ioutil"
++	"log"
+ 	"os"
+ 	"os/exec"
+ 	"path"

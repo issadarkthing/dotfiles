@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -633,6 +633,7 @@ func FzfFind(input []string) (string, error) {
+ 
+ 	f := strings.TrimSpace(out.String())
+ 
++	return f, nil
+ // download audio from youtube audio and adds the song to the selected playlist
+ func Ytdl(url string, selPlaylist *tview.TreeNode) error {
+ 

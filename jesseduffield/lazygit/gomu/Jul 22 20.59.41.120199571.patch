@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -460,7 +460,6 @@ func (p *Playlist) AddSongToPlaylist(
+ 
+ }
+ 
+-// Gets all audio files from music root directory
+ func (p *Playlist) GetAudioFiles() []*AudioFile {
+ 
+ 	root := p.GetRoot()

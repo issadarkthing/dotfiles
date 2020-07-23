@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -55,7 +55,6 @@ func NewPlaylist() *Playlist {
+ 
+ 	if err != nil {
+ 		log.Println(tracerr.SprintSource(err))
+-		LogError(err)
+ 	}
+ 
+ 	root := tview.NewTreeNode(path.Base(rootDir)).

@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -610,6 +610,7 @@ func (p *Playlist) FuzzyFind() error {
+ // Takes a list of input and suspends tview
+ // returns empty string if cancelled
+ func FzfFind(input []string) (string, error) {
++
+ // download audio from youtube audio and adds the song to the selected playlist
+ func Ytdl(url string, selPlaylist *tview.TreeNode) error {
+ 

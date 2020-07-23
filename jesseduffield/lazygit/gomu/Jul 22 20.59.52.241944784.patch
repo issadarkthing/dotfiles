@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -568,6 +568,7 @@ func (p *Playlist) FuzzyFind() error {
+ 		rootDir := audioFiles[0].Path + "/"
+ 		// path relative to music directory
+ 		shortPath := strings.TrimPrefix(v.Path, rootDir)
++		paths[shortPath] = v.Node
+ // download audio from youtube audio and adds the song to the selected playlist
+ func Ytdl(url string, selPlaylist *tview.TreeNode) error {
+ 

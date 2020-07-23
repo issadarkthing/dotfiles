@@ -1,0 +1,11 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -54,7 +54,8 @@ func NewPlaylist() *Playlist {
+ 	rootDir, err := filepath.Abs(expandTilde(viper.GetString("music_dir")))
+ 
+ 	if err != nil {
++		log.Println(tracerr.SprintSource(err))
+ 		LogError(err)
+ 	}
+ 
+ 	root := tview.NewTreeNode(path.Base(rootDir)).

@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -561,6 +561,7 @@ func (p *Playlist) FuzzyFind() error {
+ 	var err error
+ 
+ 	audioFiles := p.GetAudioFiles()
++	paths := make(map[string]*tview.TreeNode, len(audioFiles))
+ // download audio from youtube audio and adds the song to the selected playlist
+ func Ytdl(url string, selPlaylist *tview.TreeNode) error {
+ 

@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -201,6 +201,7 @@ func NewPlaylist() *Playlist {
+ 
+ 			err := playlist.FuzzyFind()
+ 			if err != nil {
++				LogError(err)
+ 		}
+ 
+ 		return e

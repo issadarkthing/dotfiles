@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -575,6 +575,7 @@ func (p *Playlist) FuzzyFind() error {
+ 	ok := gomu.App.Suspend(func() {
+ 		res, e := FzfFind(input)
+ 		if e != nil {
++			err = tracerr.Wrap(e)
+ // download audio from youtube audio and adds the song to the selected playlist
+ func Ytdl(url string, selPlaylist *tview.TreeNode) error {
+ 

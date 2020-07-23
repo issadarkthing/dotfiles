@@ -301,9 +301,6 @@ nnoremap <leader>gH :History<cr>
 " treat dash separated words as a word text object"
 set iskeyword+=-
 
-" Stop newline continution of comments
-set formatoptions-=cro
-
 " Horizontal splits will automatically be below
 set splitbelow
 
@@ -392,8 +389,8 @@ nmap <silent> [g <Plug>(coc-diagnostic-prev)
 nmap <silent> ]g <Plug>(coc-diagnostic-next)
 
 " navigate trough quickfix list
-nnoremap <silent> ]] :cnext<cr>
-nnoremap <silent> [[ :cprev<cr>
+nnoremap <silent> ]] :cnext<esc>zz<cr>
+nnoremap <silent> [[ :cprev<esc>zz<cr>
 
 function! GetBufferList()
   redir =>buflist

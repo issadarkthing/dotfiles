@@ -1489,3 +1489,9 @@ Jul 21 10:56 : avahi: Service 'Music Player @ terra-laptop' successfully establi
 Jul 22 00:06 : avahi: Client Disconnected, will reconnect shortly
 Jul 22 11:17 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Jul 22 11:17 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jul 22 17:43 : update: removing rap/Juice WRLD ft. Marshmello - Come & Go (Official Audio).mp3
+Jul 22 20:11 : update: removing rap/Pop Smoke - Dior (Official Audio).mp3
+Jul 22 21:05 : update: removing rap/POP SMOKE - GOT IT ON ME (OFFICIAL VIDEO).mp3
+Jul 22 21:06 : update: added rap/Pop Smoke - Got It On Me (Audio).mp3
+Jul 23 11:22 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 23 11:22 : avahi: Service 'Music Player @ terra-laptop' successfully established.

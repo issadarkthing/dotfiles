@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -67,6 +67,7 @@ func NewPlaylist() *Playlist {
+ 
+ 	rootAudioFile := &AudioFile{
+ 		Name: root.GetText(),
++		Node: root,
+ 		Path: rootDir,
+ 	}
+ 
