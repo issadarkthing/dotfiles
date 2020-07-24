@@ -102,8 +102,8 @@ filetype plugin indent on
 
 
 " colorscheme stuff
-colorscheme gotham
-let g:airline_theme = 'gotham256'
+colorscheme vim-monokai-tasty
+let g:airline_theme = 'monokai_tasty'
 let g:airline_powerline_fonts = 1
 
 " transparent background
