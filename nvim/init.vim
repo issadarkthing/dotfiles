@@ -540,5 +540,5 @@ nnoremap <c-w>v <c-w>v<c-w>h
 
 set colorcolumn=80
 
-
-let g:go_doc_keywordprg_enabled = 1
+" disable vim-go doc
+let g:go_doc_keywordprg_enabled = 0
