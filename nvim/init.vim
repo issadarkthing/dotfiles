@@ -104,8 +104,8 @@ let g:airline_theme = 'gotham256'
 let g:airline_powerline_fonts = 1
 
 " transparent background
-" highlight Normal ctermbg=NONE
-" highlight LineNr ctermfg=grey ctermbg=NONE
+highlight Normal ctermbg=NONE
+highlight LineNr ctermfg=grey ctermbg=NONE
 
 " enable pointed arrow
 let g:airline#extensions#tabline#enabled = 1
