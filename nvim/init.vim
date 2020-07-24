@@ -82,8 +82,7 @@ Plug 'inkarkat/vim-ReplaceWithRegister'
 " as if you insert :e! manually
 Plug 'djoshea/vim-autoread'
 
-" trying out new colorscheme
-Plug 'patstockwell/vim-monokai-tasty'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 call plug#end()
 
