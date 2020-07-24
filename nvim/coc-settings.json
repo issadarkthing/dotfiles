@@ -1,5 +1,6 @@
 {
 	"go.disable": {
 		"workspaceFolders": false
-	}
+	},
+	"javascript.suggestionActions.enabled": false
 }

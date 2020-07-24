@@ -2,4 +2,4 @@ confirm_bulk_add: true
 confirm_on_exit: true
 music_dir: ~/Music
 popup_timeout: 5s
-volume: 35
+volume: 45

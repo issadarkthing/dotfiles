@@ -389,8 +389,8 @@ nmap <silent> [g <Plug>(coc-diagnostic-prev)
 nmap <silent> ]g <Plug>(coc-diagnostic-next)
 
 " navigate trough quickfix list
-nnoremap <silent> ]] :cnext<esc>zz<cr>
-nnoremap <silent> [[ :cprev<esc>zz<cr>
+nnoremap <silent> ]] :cnext<esc>zz
+nnoremap <silent> [[ :cprev<esc>zz
 
 function! GetBufferList()
   redir =>buflist

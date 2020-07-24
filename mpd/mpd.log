@@ -1495,3 +1495,6 @@ Jul 22 21:05 : update: removing rap/POP SMOKE - GOT IT ON ME (OFFICIAL VIDEO).mp
 Jul 22 21:06 : update: added rap/Pop Smoke - Got It On Me (Audio).mp3
 Jul 23 11:22 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Jul 23 11:22 : avahi: Service 'Music Player @ terra-laptop' successfully established.
+Jul 24 00:22 : avahi: Client Disconnected, will reconnect shortly
+Jul 24 11:40 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 24 11:40 : avahi: Service 'Music Player @ terra-laptop' successfully established.
