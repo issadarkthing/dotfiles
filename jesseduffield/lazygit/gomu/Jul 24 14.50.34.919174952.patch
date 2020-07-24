@@ -1,0 +1,12 @@
+--- a/start.go
++++ b/start.go
+@@ -165,9 +165,8 @@ func start(application *tview.Application, args Args) {
+ 				application.Stop()
+ 			}
+ 
+ 
+-
+ 			})
+ 
+ 		case ' ':
+ 			gomu.player.togglePause()

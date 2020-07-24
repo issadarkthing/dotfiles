@@ -1,0 +1,17 @@
+--- a/start.go
++++ b/start.go
+@@ -165,14 +165,13 @@ func start(application *tview.Application, args Args) {
+ 				application.Stop()
+ 			}
+ 
+ 
+-				if err := viper.WriteConfig(); err != nil {
+ 					logError(err)
+ 				}
+ 
+ 				application.Stop()
+ 
+ 			})
+ 
+ 		case ' ':
+ 			gomu.player.togglePause()
