@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -228,7 +228,6 @@ func (p *Playlist) deleteSong(audioFile *AudioFile) (err error) {
+ 
+ 			if buttonName == "no" || buttonName == "" {
+ 				gomu.pages.RemovePage("confirmation-popup")
+-				gomu.app.SetFocus(gomu.prevPanel.(tview.Primitive))
+ 				return
+ 			}
+ 

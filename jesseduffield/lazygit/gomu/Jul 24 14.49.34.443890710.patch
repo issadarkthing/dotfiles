@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -118,7 +118,6 @@ func newPlaylist() *Playlist {
+ 		case 'a':
+ 
+ 			name, _ := gomu.pages.GetFrontPage()
+-
+ 			if name != "mkdir-popup" {
+ 				createPlaylistPopup()
+ 			}
