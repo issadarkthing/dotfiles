@@ -102,7 +102,7 @@ filetype plugin indent on
 
 
 " colorscheme stuff
-colorscheme vim-monokai-tasty
+colorscheme gotham
 let g:airline_theme = 'monokai_tasty'
 let g:airline_powerline_fonts = 1
 
