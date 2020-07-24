@@ -99,7 +99,7 @@ filetype plugin indent on
 
 
 " colorscheme stuff
-colorscheme gotham
+colorscheme gotham256
 let g:airline_theme = 'gotham256'
 let g:airline_powerline_fonts = 1
 
