@@ -82,6 +82,7 @@ Plug 'inkarkat/vim-ReplaceWithRegister'
 " as if you insert :e! manually
 Plug 'djoshea/vim-autoread'
 
+" go plugin
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 call plug#end()
