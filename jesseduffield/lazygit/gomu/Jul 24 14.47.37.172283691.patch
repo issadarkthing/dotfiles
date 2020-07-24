@@ -1,0 +1,21 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -106,17 +106,18 @@ func newPlaylist() *Playlist {
+ 	playlist.SetInputCapture(func(e *tcell.EventKey) *tcell.EventKey {
+ 
+ 		currNode := playlist.GetCurrentNode()
+ 
+ 		audioFile := currNode.GetReference().(*AudioFile)
+ 
+ 		switch e.Rune() {
+ 
+ 		case ' ':
+ 			// Disable default key handler
++			return nil
+ 		case 'a':
+ 
+ 			name, _ := gomu.pages.GetFrontPage()
+ 
+ 			if name != "mkdir-popup" {
+ 				createPlaylistPopup()
+ 			}
