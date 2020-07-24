@@ -1,0 +1,10 @@
+--- a/popup.go
++++ b/popup.go
+@@ -279,7 +279,6 @@ func downloadMusicPopup(selPlaylist *tview.TreeNode) {
+ 	gomu.pages.
+ 		AddPage("download-input-popup", center(inputField, 50, 4), true, true)
+ 
+-	gomu.app.SetFocus(inputField)
+ 
+ }
+ 

@@ -1,0 +1,10 @@
+--- a/popup.go
++++ b/popup.go
+@@ -19,6 +19,7 @@ var (
+ )
+ 
+ // Simple stack data structure
++type Stack struct {
+ // Gets popup timeout from config file
+ func getPopupTimeout() time.Duration {
+ 

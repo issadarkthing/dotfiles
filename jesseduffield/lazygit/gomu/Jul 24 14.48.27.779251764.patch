@@ -1,0 +1,10 @@
+--- a/popup.go
++++ b/popup.go
+@@ -152,6 +152,7 @@ func timedPopup(
+ 		gomu.pages.RemovePage(popupId)
+ 		gomu.app.Draw()
+ 
++		// timed popup shouldn't get focused
+ 	}()
+ }
+ 

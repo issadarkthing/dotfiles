@@ -1,0 +1,10 @@
+--- a/popup.go
++++ b/popup.go
+@@ -33,6 +33,7 @@ func (s *Stack) push(p tview.Primitive) {
+ func (s *Stack) peekTop() tview.Primitive {
+ 
+ 	if len(s.popups)-1 < 0 {
++		return nil
+ // Gets popup timeout from config file
+ func getPopupTimeout() time.Duration {
+ 

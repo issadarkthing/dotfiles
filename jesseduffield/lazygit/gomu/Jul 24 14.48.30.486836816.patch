@@ -1,0 +1,10 @@
+--- a/popup.go
++++ b/popup.go
+@@ -160,6 +160,7 @@ func timedPopup(
+ 			gomu.app.SetFocus(gomu.prevPanel.(tview.Primitive))
+ 		} else {
+ 			gomu.app.SetFocus(topPopup)
++		}
+ 	}()
+ }
+ 

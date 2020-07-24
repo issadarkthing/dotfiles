@@ -1,0 +1,10 @@
+--- a/popup.go
++++ b/popup.go
+@@ -25,6 +25,7 @@ type Stack struct {
+ 
+ // Push popup to the stack and focus
+ func (s *Stack) push(p tview.Primitive) {
++	s.popups = append(s.popups, p)
+ // Gets popup timeout from config file
+ func getPopupTimeout() time.Duration {
+ 

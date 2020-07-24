@@ -1,0 +1,8 @@
+--- a/popup.go
++++ b/popup.go
+@@ -323,4 +323,5 @@ func createPlaylistPopup() {
+ 		AddPage("mkdir-input-popup", center(inputField, 50, 4), true, true)
+ 
+ 	gomu.popups.push(inputField)
++
+ }

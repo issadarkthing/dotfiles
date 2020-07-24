@@ -1,0 +1,10 @@
+--- a/popup.go
++++ b/popup.go
+@@ -153,6 +153,7 @@ func timedPopup(
+ 		gomu.app.Draw()
+ 
+ 		// timed popup shouldn't get focused
++		// this here check if another popup exists and focus that instead of panel
+ 	}()
+ }
+ 

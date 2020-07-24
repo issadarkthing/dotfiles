@@ -1,0 +1,10 @@
+--- a/popup.go
++++ b/popup.go
+@@ -49,6 +49,7 @@ func (s *Stack) pop() tview.Primitive {
+ 	last := s.popups[len(s.popups)-1]
+ 	res := s.popups[:len(s.popups)-1]
+ 	s.popups = res
++
+ // Gets popup timeout from config file
+ func getPopupTimeout() time.Duration {
+ 

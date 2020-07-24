@@ -1,0 +1,10 @@
+--- a/popup.go
++++ b/popup.go
+@@ -56,6 +56,7 @@ func (s *Stack) pop() tview.Primitive {
+ 	} else {
+ 		// focus the panel if no popup left
+ 		gomu.app.SetFocus(gomu.prevPanel.(tview.Primitive))
++	}
+ // Gets popup timeout from config file
+ func getPopupTimeout() time.Duration {
+ 

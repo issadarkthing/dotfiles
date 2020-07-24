@@ -1,0 +1,10 @@
+--- a/popup.go
++++ b/popup.go
+@@ -157,6 +157,7 @@ func timedPopup(
+ 		// if none continue focus panel
+ 		topPopup := gomu.popups.peekTop()
+ 		if topPopup == nil {
++			gomu.app.SetFocus(gomu.prevPanel.(tview.Primitive))
+ 	}()
+ }
+ 
