@@ -542,3 +542,6 @@ set colorcolumn=80
 
 " disable vim-go doc
 let g:go_doc_keywordprg_enabled = 0
+
+" Highlight commonly used library types (`io.Reader`, etc.). >
+let g:go_highlight_extra_types = 0
