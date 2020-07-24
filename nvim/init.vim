@@ -539,3 +539,6 @@ set timeout timeoutlen=3000 ttimeoutlen=100
 nnoremap <c-w>v <c-w>v<c-w>h
 
 set colorcolumn=80
+
+
+let g:go_doc_keywordprg_enabled = 1
