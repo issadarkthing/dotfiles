@@ -1,0 +1,10 @@
+--- a/utils.go
++++ b/utils.go
+@@ -49,6 +49,7 @@ func debugLog(val ...interface{}) {
+ 	log.SetFlags(log.Ldate | log.Ltime | log.Llongfile)
+ 	log.Println(val...)
+ }
++
+ // Wraps error in a formatted way.
+ func wrapError(fnName string, err error) error {
+ 	return fmt.Errorf("%s: \n%e", fnName, err)

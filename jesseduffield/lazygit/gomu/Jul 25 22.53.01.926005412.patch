@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -548,6 +548,7 @@ Download:
+ 
+ 			r, g, b := gomu.accentColor.RGB()
+ 			hexColor := padHex(r, g, b)
++
+ 			p.SetTitle(title)
+ 			gomu.app.Draw()
+ 		}

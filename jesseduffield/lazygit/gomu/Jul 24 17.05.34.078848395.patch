@@ -1,0 +1,13 @@
+--- a/player.go
++++ b/player.go
+@@ -37,10 +37,9 @@ func newPlayer() *Player {
+ 	// Read initial volume from config
+ 	var initVol float64 = (viper.GetFloat64("volume") - 50.0) / 10.0
+ 
+-	} else if initVol < 1 {
+ 		initVol = 0
+ 	}
+ 
+ 	return &Player{volume: initVol}
+ }
+ 

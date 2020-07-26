@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -545,6 +545,7 @@ Download:
+ 				break Download
+ 			}
+ 		case <-time.After(time.Millisecond * 100):
++
+ 			p.SetTitle(title)
+ 			gomu.app.Draw()
+ 		}

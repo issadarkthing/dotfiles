@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -535,6 +535,7 @@ func (p *Playlist) updateTitle() {
+ 	if p.download > 1 {
+ 		return
+ 	}
++
+ 	s := spin.New()
+ 
+ Download:

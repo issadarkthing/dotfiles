@@ -1,0 +1,10 @@
+--- a/player.go
++++ b/player.go
+@@ -35,6 +35,7 @@ type Player struct {
+ 
+ func newPlayer() *Player {
+ 	// Read initial volume from config
++	initVol := absVolume(viper.GetInt("volume"))
+ 
+ 	return &Player{volume: initVol}
+ }

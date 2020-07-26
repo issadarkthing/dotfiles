@@ -1,0 +1,17 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -515,13 +515,14 @@ func (p *Playlist) fuzzyFind() error {
+ 	}
+ 
+ 	var selNode *tview.TreeNode
+ 	selNode = paths[result]
+ 	p.setHighlight(selNode)
+ 
+ 	return nil
+ 
+ }
+ 
++// of the playlist panel when downloading.
+ func (p *Playlist) updateTitle() {
+ 
+ 	if p.download == 0 {

@@ -1,0 +1,10 @@
+--- a/player.go
++++ b/player.go
+@@ -216,7 +216,6 @@ func (p *Player) setVolume(v float64) float64 {
+ 
+ 	defer func() {
+ 		// saves the volume
+-		volume := int(p.volume*10) + 100
+ 		viper.Set("volume", volume)
+ 	}()
+ 

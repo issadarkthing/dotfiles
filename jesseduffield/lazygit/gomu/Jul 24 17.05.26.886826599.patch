@@ -1,0 +1,10 @@
+--- a/player.go
++++ b/player.go
+@@ -43,6 +43,7 @@ func newPlayer() *Player {
+ 	} else if initVol < 1 {
+ 		initVol = 0
+ 	}
++
+ 	return &Player{volume: initVol}
+ }
+ 

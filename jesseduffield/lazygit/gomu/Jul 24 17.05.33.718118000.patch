@@ -1,0 +1,7 @@
+--- a/player.go
++++ b/player.go
+@@ -286,3 +286,4 @@ func volToHuman(volume float64) int {
+ }
+ 
+ // absVolume converts human readable form volume (0 - 100) to float64 volume
++// that is used by the audio library

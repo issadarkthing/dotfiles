@@ -1,0 +1,10 @@
+--- a/utils.go
++++ b/utils.go
+@@ -39,6 +39,7 @@ func debugLog(val ...interface{}) {
+ 	logFile := path.Join(tmpDir, "gomu.log")
+ 	file, e := os.OpenFile(logFile, os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
+ 
++	if e != nil {
+ // Wraps error in a formatted way.
+ func wrapError(fnName string, err error) error {
+ 	return fmt.Errorf("%s: \n%e", fnName, err)

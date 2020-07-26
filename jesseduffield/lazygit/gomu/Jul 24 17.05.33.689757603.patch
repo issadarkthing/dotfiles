@@ -1,0 +1,7 @@
+--- a/player.go
++++ b/player.go
+@@ -285,3 +285,4 @@ func volToHuman(volume float64) int {
+ 	return int(volume*10) + 100
+ }
+ 
++// absVolume converts human readable form volume (0 - 100) to float64 volume

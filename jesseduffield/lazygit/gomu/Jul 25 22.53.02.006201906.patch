@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -550,6 +550,7 @@ Download:
+ 			hexColor := padHex(r, g, b)
+ 
+ 			title := fmt.Sprintf("─ Playlist ──┤ %d downloads [green]%s[#%s] ├",
++				p.download, s.Next(), hexColor)
+ 			p.SetTitle(title)
+ 			gomu.app.Draw()
+ 		}

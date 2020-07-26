@@ -1,0 +1,10 @@
+--- a/playlist.go
++++ b/playlist.go
+@@ -31,6 +31,7 @@ type AudioFile struct {
+ 	parent      *tview.TreeNode
+ }
+ 
++// Playlist struct represents playlist panel
+ type Playlist struct {
+ 	*tview.TreeView
+ 	prevNode     *tview.TreeNode

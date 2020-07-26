@@ -1,0 +1,10 @@
+--- a/player.go
++++ b/player.go
+@@ -39,6 +39,7 @@ func newPlayer() *Player {
+ 
+ 	// making sure user does not give invalid volume
+ 	if initVol > 100 {
++		initVol = 100
+ 	return &Player{volume: initVol}
+ }
+ 

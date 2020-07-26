@@ -193,9 +193,14 @@ chbg() {
 # save file history
 nvim_hist() {
 
+	local NVIM_HISTORY=~/.local/share/nvim/history
+
 	for i in "$@"; do
 
-		[[ -f $i ]] && echo "$(pwd)/$i" >> ~/.local/share/nvim/history
+		# check if file exists
+		# check if valid file
+		[[ -z $(grep -Fx "$i" $NVIM_HISTORY) ]] && [[ -f $i ]] \
+			&& echo "$(pwd)/$i" >> $NVIM_HISTORY
 
 	done
 

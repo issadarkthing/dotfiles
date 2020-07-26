@@ -1,0 +1,7 @@
+--- a/player.go
++++ b/player.go
+@@ -282,3 +282,4 @@ func getLength(audioPath string) (time.Duration, error) {
+ // volToHuman converts float64 volume that is used by audio library to human
+ // readable form (0 - 100)
+ func volToHuman(volume float64) int {
++	return int(volume*10) + 100
