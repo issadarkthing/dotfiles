@@ -1,1 +1,18 @@
-01:02:53.955799 Log continuation - Log started 2020-07-17T08:10:30.774708000Z
+00:00:02.552158 VirtualBox GUI VM Selector Window 6.1.12 r139181 linux.amd64 (Jul 11 2020 09:09:53) release log
+00:00:02.552159 Log opened 2020-07-26T13:27:45.052734000Z
+00:00:02.552160 Build Type: release
+00:00:02.552163 OS Product: Linux
+00:00:02.552163 OS Release: 5.3.0-42-generic
+00:00:02.552164 OS Version: #34-Ubuntu SMP Fri Feb 28 05:49:40 UTC 2020
+00:00:02.552185 DMI Product Name: HP Laptop 15-da1xxx
+00:00:02.552190 DMI Product Version: Type1ProductConfigId
+00:00:02.552196 Firmware type: UEFI
+00:00:02.552703 Secure Boot: Disabled
+00:00:02.552747 Host RAM: 7847MB (7.6GB) total, 4306MB (4.2GB) available
+00:00:02.552752 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:02.552752 Process ID: 27326
+00:00:02.552752 Package type: LINUX_64BITS_UBUNTU_19_10
+00:00:02.552786 Qt version: 5.12.4
+00:00:03.186113 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:04.743445 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 10x35 x 1091x994
+00:00:04.884652 GUI: UIMediumEnumerator: Medium-enumeration finished!

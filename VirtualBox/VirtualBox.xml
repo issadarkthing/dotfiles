@@ -20,8 +20,8 @@
       <ExtraDataItem name="GUI/SuppressMessages" value="confirmGoingFullscreen,confirmInputCapture,confirmPowerOffMachine,remindAboutMouseIntegration,remindAboutAutoCapture,confirmGoingScale"/>
       <ExtraDataItem name="GUI/Toolbar" value="false"/>
       <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Details"/>
-      <ExtraDataItem name="GUI/UpdateCheckCount" value="11"/>
-      <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2020-07-18, stable, 6.1.12"/>
+      <ExtraDataItem name="GUI/UpdateCheckCount" value="12"/>
+      <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2020-07-27, stable, 6.1.12"/>
     </ExtraData>
     <MachineRegistry>
       <MachineEntry uuid="{e5bd3cc8-fc1f-4550-81ea-82e536dbd41b}" src="/home/terra/VirtualBox VMs/TempleOS/TempleOS.vbox"/>

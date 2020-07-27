@@ -76,10 +76,9 @@ super + slash
 super + minus
 	~/Documents/scripts/quickterminal.sh Alacritty
 
-
-# downloads music
-super + M
-	~/Documents/scripts/dmd.sh
+# workspace preview
+# super + Tab
+	# skippy-xd-runner
 
 #
 # bspwm hotkeys
