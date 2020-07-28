@@ -1,5 +1,14 @@
-confirm_bulk_add: true
-confirm_on_exit: true
-music_dir: ~/Music
-popup_timeout: 5s
-volume: 85
+color:
+  accent: '#008B8B'
+  background: none
+  foreground: '#FFFFFF'
+  now_playing_title: '#017702'
+  playlist: '#008B8B'
+  popup: '#0A0F14'
+general:
+  confirm_bulk_add: true
+  confirm_on_exit: true
+  load_prev_queue: true
+  music_dir: ~/Music
+  popup_timeout: 5s
+  volume: 90
