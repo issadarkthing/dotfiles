@@ -31,6 +31,7 @@ bspc rule -a Emacs state=tiled
 bspc rule -a Zathura state=tiled
 bspc rule -a Surf state=tiled
 bspc rule -a Glade-previewer state=floating
+bspc rule -a Demo state=floating
 
 # color
 bspc config normal_border_color  "#74737c"

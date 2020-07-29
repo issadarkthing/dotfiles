@@ -2,11 +2,11 @@
 # wm independent hotkeys
 #
 
-
-# terminal emulator
+# open default terminal
 super + Return
 	kitty
 
+# open urxvt
 super + shift + return
 	urxvt
 
@@ -19,6 +19,9 @@ super + Escape
 	pkill -USR1 -x sxhkd & \
 	notify-send "Reloaded" "sxhkd has been reloaded"
 
+# show sxhkd keybindings
+super + shift + slash
+	~/Documents/scripts/sxkd_help
 
 # access bookmark
 super + u
@@ -88,7 +91,7 @@ super + minus
 super + shift + r
 	bspc wm -r
 
-# close and kill
+# kill window
 super + shift + q
 	bspc node -c
 
@@ -162,13 +165,12 @@ super + {o,i}
 	bspc node {older,newer} -f; \
 	bspc wm -h on
 
-# focus or send to the given desktop
-#super + {_,shift + }{1-9,0}
-#	bspc {desktop -f,node -d} '^{1-9,10}'
+# focus to the given desktop
 super + {1-9,0}
 	bspc desktop -f '^{1-9,10}'; \
 	~/Documents/scripts/hide_if_fullscreen.sh
 
+# send window to the given desktop
 super + shift + {1-9,0}
 	bspc node -d '^{1-9,10}'
 
@@ -176,6 +178,14 @@ super + shift + {1-9,0}
 # focus the next/previous node in the same window
 super + {comma,period}
 	bspc node -f {next,prev}.local
+
+# expand floating window
+super + w : {h,j,k,l} 
+	~/Documents/scripts/float_resize expand {west,south,north,east} 25
+
+# shrink floating window
+super + shift + w : {h,j,k,l} 
+	~/Documents/scripts/float_resize shrink {west,south,north,east} 25
 
 #
 # preselect
