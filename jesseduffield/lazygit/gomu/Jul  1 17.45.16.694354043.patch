@@ -1,7 +1,0 @@
---- a/playlist.go
-+++ b/playlist.go
-@@ -436,3 +436,4 @@ func (p *Playlist) CreatePlaylist(name string) error {
- 
- 	err := os.Mkdir(path.Join(audioFile.Path, name), 555)
- 
-+	if err != nil {

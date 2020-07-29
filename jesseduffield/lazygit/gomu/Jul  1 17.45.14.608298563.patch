@@ -1,7 +1,0 @@
---- a/playlist.go
-+++ b/playlist.go
-@@ -384,3 +384,4 @@ func (p *Playlist) Refresh() {
- 
- }
- 
-+// adds child while setting reference to audio file

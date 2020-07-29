@@ -1,7 +1,0 @@
---- a/playlist.go
-+++ b/playlist.go
-@@ -431,3 +431,4 @@ func (p *Playlist) CreatePlaylist(name string) error {
- 	if parentNode == nil {
- 		parentNode = selectedNode
- 	}
-+

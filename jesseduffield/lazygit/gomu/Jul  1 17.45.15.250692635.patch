@@ -1,7 +1,0 @@
---- a/playlist.go
-+++ b/playlist.go
-@@ -400,3 +400,4 @@ func (p *Playlist) AddSongToPlaylist(audioPath string, selPlaylist *tview.TreeNo
- 	audioLength, err := GetLength(audioPath)
- 
- 	if err != nil {
-+		return err

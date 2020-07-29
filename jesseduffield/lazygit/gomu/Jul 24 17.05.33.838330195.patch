@@ -1,7 +1,0 @@
---- a/player.go
-+++ b/player.go
-@@ -289,3 +289,4 @@ func volToHuman(volume float64) int {
- // that is used by the audio library
- func absVolume(volume int) float64 {
- 	return (float64(volume) - 100) / 10
-+}

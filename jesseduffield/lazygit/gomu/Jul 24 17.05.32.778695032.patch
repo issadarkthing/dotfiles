@@ -1,7 +1,0 @@
---- a/player.go
-+++ b/player.go
-@@ -278,3 +278,4 @@ func getLength(audioPath string) (time.Duration, error) {
- 	defer streamer.Close()
- 	return format.SampleRate.D(streamer.Len()), nil
- }
-+

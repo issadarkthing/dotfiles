@@ -1,8 +1,0 @@
---- a/playlist.go
-+++ b/playlist.go
-@@ -597,4 +597,5 @@ func Ytdl(url string, selPlaylist *tview.TreeNode) (error, chan error) {
- 
- 	}()
- 
-+	return nil, e
- 

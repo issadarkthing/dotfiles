@@ -1,7 +1,0 @@
---- a/playlist.go
-+++ b/playlist.go
-@@ -427,3 +427,4 @@ func (p *Playlist) CreatePlaylist(name string) error {
- 	parentNode := selectedNode.GetReference().(*AudioFile).Parent
- 
- 	// if the current node is the root
-+	// sets the parent to itself

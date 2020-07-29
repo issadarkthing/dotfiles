@@ -1,7 +1,0 @@
---- a/player.go
-+++ b/player.go
-@@ -284,3 +284,4 @@ func getLength(audioPath string) (time.Duration, error) {
- func volToHuman(volume float64) int {
- 	return int(volume*10) + 100
- }
-+

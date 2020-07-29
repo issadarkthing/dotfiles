@@ -1,7 +1,0 @@
---- a/playlist.go
-+++ b/playlist.go
-@@ -433,3 +433,4 @@ func (p *Playlist) CreatePlaylist(name string) error {
- 	}
- 
- 	audioFile := parentNode.GetReference().(*AudioFile)
-+
