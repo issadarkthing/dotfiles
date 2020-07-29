@@ -2,6 +2,9 @@ discord/
 Microsoft/
 fzf/
 dconf/
-mpd
-nvim/autoload/**/*
+mpd/*
+!mpd/mpd.conf
+jesseduffield/lazygit/*
+!jesseduffield/lazygit/config.yml
+nvim/autoload/
 configstore
