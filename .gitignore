@@ -1,3 +1,7 @@
 discord/
 Microsoft/
 fzf/
+dconf/
+mpd
+nvim/autoload/**/*
+configstore
